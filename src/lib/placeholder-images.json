@@ -1,3 +1,46 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-image",
+      "description": "Uma imagem colorida e alegre mostrando os modelos de PEI de forma divertida.",
+      "imageUrl": "https://images.unsplash.com/photo-1752652013528-6e49aa7978ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxlZHVjYXRvciUyMGNoaWxkfGVufDB8fHx8MTc3MjQ5NTYzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "educator child"
+    },
+    {
+      "id": "testimonial-maria",
+      "description": "Avatar para Maria, professora infantil.",
+      "imageUrl": "https://images.unsplash.com/photo-1732612712493-e81f9f9efc6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0ZWFjaGVyJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzcyNDg2MjQ4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "teacher portrait"
+    },
+    {
+      "id": "testimonial-joao",
+      "description": "Avatar para João, professor de educação especial.",
+      "imageUrl": "https://images.unsplash.com/photo-1660795307992-5d91e318efc0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxlZHVjYXRvciUyMHByb2ZpbGV8ZW58MHx8fHwxNzcyNDk1NjMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "educator profile"
+    },
+    {
+      "id": "carousel-1",
+      "description": "Amostra de modelo de PEI 1.",
+      "imageUrl": "https://images.unsplash.com/photo-1560785496-321917f24016?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b3Jrc2hlZXQlMjBraWRzfGVufDB8fHx8MTc3MjQ5NTYzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "worksheet kids"
+    },
+    {
+      "id": "carousel-2",
+      "description": "Amostra de modelo de PEI 2.",
+      "imageUrl": "https://images.unsplash.com/photo-1610484826967-09c5720778c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkaWdpdGFsJTIwbGVhcm5pbmd8ZW58MHx8fHwxNzcyNDk1NjMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "digital learning"
+    },
+    {
+      "id": "carousel-3",
+      "description": "Amostra de modelo de PEI 3.",
+      "imageUrl": "https://images.unsplash.com/photo-1756829007483-414057ed33cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjcmVhdGl2ZSUyMGVkdWNhdGlvbnxlbnwwfHx8fDE3NzI0OTI2NzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "creative education"
+    },
+    {
+      "id": "carousel-4",
+      "description": "Amostra de modelo de PEI 4.",
+      "imageUrl": "https://images.unsplash.com/photo-1661442976608-423aaf1170a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmdW4lMjBhY3Rpdml0aWVzfGVufDB8fHx8MTc3MjQ5NTYzMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fun activities"
+    }
+  ]
 }
