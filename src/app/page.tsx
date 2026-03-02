@@ -104,12 +104,6 @@ export default function Home() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <header className="py-6 px-4 md:px-6 bg-background/80 backdrop-blur-sm sticky top-0 z-40">
-        <div className="container mx-auto flex justify-center">
-          <Logo />
-        </div>
-      </header>
-
       <main className="flex-grow">
         {/* Hero Section */}
         <section className="py-12 md:py-24 lg:py-32">
