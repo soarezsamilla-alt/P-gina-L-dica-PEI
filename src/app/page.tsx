@@ -12,7 +12,6 @@ import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Logo } from "@/components/logo";
-import Chatbot from "@/components/chatbot";
 import {
   BookOpen,
   CheckCircle,
@@ -312,7 +311,6 @@ export default function Home() {
         </div>
       </footer>
       
-      <Chatbot />
     </div>
   );
 }
