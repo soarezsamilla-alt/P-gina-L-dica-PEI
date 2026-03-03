@@ -151,7 +151,7 @@ export default function Home() {
         {/* Bonuses Section */}
         <section className="py-12 md:py-24">
           <div className="container mx-auto px-4">
-            <h3 className="text-3xl md:text-4xl font-bold text-center font-headline mb-12">
+            <h3 className="text-[23px] font-bold text-center font-headline mb-12">
               E tem mais <span className="text-accent">Bônus</span>!
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
