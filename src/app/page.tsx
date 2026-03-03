@@ -17,14 +17,11 @@ import {
   CheckCircle,
   Clock,
   Facebook,
-  Heart,
   Instagram,
   Package,
   PackagePlus,
-  PlayCircle,
   Rocket,
   Sparkles,
-  Star,
   Users,
   Youtube,
 } from "lucide-react";
@@ -68,19 +65,19 @@ const benefits = [
 
 const bonuses = [
   {
-    icon: <Users className="h-8 w-8 text-accent" />,
-    title: "Comunidade Colorida",
-    description: "Participe de um grupo de professores para trocar ideias e materiais didáticos divertidos.",
+    id: "ebook-autismo",
+    title: "E-book: PEI para Autismo",
+    description: "Um guia completo com estratégias e atividades adaptadas.",
   },
   {
-    icon: <PlayCircle className="h-8 w-8 text-accent" />,
-    title: "Guia da Diversão",
-    description: "Como usar os modelos para ensinar de forma criativa e interativa.",
+    id: "ebook-relatorios",
+    title: "E-book: Relatórios para AEE",
+    description: "Modelos e dicas para criar relatórios descritivos eficientes.",
   },
   {
-    icon: <Heart className="h-8 w-8 text-accent" />,
-    title: "Suporte Amigo",
-    description: "Tem dúvidas? Nosso suporte técnico está aqui para ajudar você a brincar de ensinar!",
+    id: "ebook-motoras",
+    title: "E-book: Atividades Motoras",
+    description: "Ideias práticas para desenvolver a coordenação motora.",
   },
 ];
 
@@ -158,19 +155,36 @@ export default function Home() {
         {/* Bonuses Section */}
         <section className="py-12 md:py-24">
           <div className="container mx-auto px-4">
-            <h3 className="text-[23px] font-bold text-center font-headline mb-12">
-              E tem mais <span className="text-accent">Bônus</span>!
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-              {bonuses.map((bonus, index) => (
-                <div key={index} className="flex flex-col items-center text-center p-6 border-2 border-dashed border-accent rounded-2xl">
-                  <div className="bg-accent/10 p-4 rounded-full mb-4">
-                    {bonus.icon}
-                  </div>
-                  <h4 className="text-xl font-bold mb-2">{bonus.title}</h4>
-                  <p className="text-muted-foreground">{bonus.description}</p>
-                </div>
-              ))}
+            <div className="text-center mb-12">
+              <h3 className="text-[23px] font-bold font-headline">
+                E ainda tem <span className="text-accent">3 E-books de Bônus</span>!
+              </h3>
+              <p className="text-muted-foreground mt-2 max-w-2xl mx-auto">
+                Ao adquirir qualquer plano, você recebe acesso instantâneo a estes materiais incríveis para complementar suas aulas.
+              </p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+              {bonuses.map((bonus) => {
+                const bonusImage = findImage(bonus.id);
+                return (
+                  <Card key={bonus.id} className="overflow-hidden flex flex-col text-center shadow-lg transform hover:scale-105 transition-transform duration-300">
+                    <CardContent className="p-0">
+                      <Image
+                        src={bonusImage.imageUrl}
+                        alt={bonusImage.description}
+                        width={400}
+                        height={500}
+                        className="w-full h-auto object-cover aspect-[4/5]"
+                        data-ai-hint={bonusImage.imageHint}
+                      />
+                    </CardContent>
+                    <CardHeader className="flex-grow">
+                      <CardTitle className="text-lg">{bonus.title}</CardTitle>
+                      <CardDescription className="text-sm mt-2">{bonus.description}</CardDescription>
+                    </CardHeader>
+                  </Card>
+                );
+              })}
             </div>
           </div>
         </section>

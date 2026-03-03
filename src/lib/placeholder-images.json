@@ -53,6 +53,24 @@
       "description": "Imagem para o card do Plano Básico.",
       "imageUrl": "https://image2url.com/r2/default/images/1772511738608-ed9c6c38-15df-476d-837d-b4a9a3bcd02d.png",
       "imageHint": "educational tools"
+    },
+    {
+      "id": "ebook-autismo",
+      "description": "Capa do e-book bônus sobre PEI para Autismo",
+      "imageUrl": "https://images.unsplash.com/photo-1621944190310-e3cca1564bd7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxlYm9vayUyMGNvdmVyfGVufDB8fHx8MTc3MjU1MjU5MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ebook cover"
+    },
+    {
+      "id": "ebook-relatorios",
+      "description": "Capa do e-book bônus sobre Relatórios para AEE",
+      "imageUrl": "https://images.unsplash.com/photo-1746221331496-a87689fc8eb9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxyZXBvcnQlMjBkb2N1bWVudHxlbnwwfHx8fDE3NzI1NTI1OTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "report document"
+    },
+    {
+      "id": "ebook-motoras",
+      "description": "Capa do e-book bônus sobre Atividades Motoras",
+      "imageUrl": "https://images.unsplash.com/photo-1501686637-b7aa9c48a882?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjaGlsZCUyMHBsYXlpbmd8ZW58MHx8fHwxNzcyNDU2NjA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child playing"
     }
   ]
 }
