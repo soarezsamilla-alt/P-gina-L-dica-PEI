@@ -275,7 +275,7 @@ export default function Home() {
             </p>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-4xl mx-auto items-end">
               {/* Plano Básico */}
-              <Card className="bg-[#b7e8b0] shadow-lg flex flex-col pt-6 text-black">
+              <Card className="bg-white shadow-lg flex flex-col pt-6 text-black">
                 <CardHeader className="text-center">
                   <Package className="h-10 w-10 text-primary mb-2 mx-auto" />
                   <CardTitle className="font-headline text-2xl">Plano Básico</CardTitle>
