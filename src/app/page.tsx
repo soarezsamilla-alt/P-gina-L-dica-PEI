@@ -73,7 +73,7 @@ const bonuses = [
   },
   {
     id: "ebook-relatorios",
-    title: "E-book: Relatórios para AEE",
+    title: "Plano de Desenvolvimento PDI e PEI",
     description: "Plano de desenvolvimento individual focado na aprendizagen e inclusão de alunos PDI e PEI.",
   },
   {
