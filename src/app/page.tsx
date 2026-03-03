@@ -166,11 +166,14 @@ export default function Home() {
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-sm mx-auto">
-              {bonuses.map((bonus) => {
+              {bonuses.map((bonus, index) => {
                 const bonusImage = findImage(bonus.id);
                 return (
                   <Card key={bonus.id} className="overflow-hidden flex flex-col text-center shadow-lg transform hover:scale-105 transition-transform duration-300">
-                    <CardContent className="p-0">
+                    <CardContent className="p-0 relative">
+                      <div className="absolute top-2 left-2 bg-primary text-primary-foreground text-xs font-bold px-3 py-1.5 rounded-full shadow-lg z-10">
+                        {`Bônus ${index + 1}º`}
+                      </div>
                       <Image
                         src={bonusImage.imageUrl}
                         alt={bonusImage.description}
