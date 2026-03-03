@@ -317,10 +317,10 @@ export default function Home() {
                     <p className="text-sm text-white/80">Pagamento único</p>
                   </div>
                   <ul className="space-y-3 text-sm">
-                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> <span>Tudo do Plano Básico e <span className="font-bold">MUITO</span> mais!</span></li>
-                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> <span><span className="font-bold">3 E-books Bônus</span> (Autismo, Relatórios e Ativ. Motoras) 🎁</span></li>
-                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> <span><span className="font-bold">Combo Ed. Especial</span> com materiais extras</span></li>
-                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> <span>Acesso a <span className="font-bold">futuras atualizações</span></span></li>
+                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#00b020] mr-2 mt-1 flex-shrink-0" /> <span>Tudo do Plano Básico e <span className="font-bold">MUITO</span> mais!</span></li>
+                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#00b020] mr-2 mt-1 flex-shrink-0" /> <span><span className="font-bold">3 E-books Bônus</span> (Autismo, Relatórios e Ativ. Motoras) 🎁</span></li>
+                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#00b020] mr-2 mt-1 flex-shrink-0" /> <span><span className="font-bold">Combo Ed. Especial</span> com materiais extras</span></li>
+                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#00b020] mr-2 mt-1 flex-shrink-0" /> <span>Acesso a <span className="font-bold">futuras atualizações</span></span></li>
                   </ul>
                 </CardContent>
                 <CardFooter>
@@ -361,3 +361,4 @@ export default function Home() {
     
 
     
+
