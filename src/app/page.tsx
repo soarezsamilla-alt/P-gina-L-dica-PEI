@@ -78,7 +78,7 @@ const bonuses = [
   },
   {
     id: "ebook-motoras",
-    title: "E-book: Atividades Motoras",
+    title: "PEI Para Educação Infantil",
     description: "Ideias práticas para desenvolver a coordenação motora.",
   },
 ];
