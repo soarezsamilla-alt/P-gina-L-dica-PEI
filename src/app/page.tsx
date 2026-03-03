@@ -40,27 +40,27 @@ const findImage = (id: string) => {
 
 const benefits = [
   {
-    icon: <Rocket className="h-6 w-6 text-primary" />,
+    icon: <Rocket className="h-5 w-5 text-primary" />,
     title: "Prontidão e Diversão",
     description: "Modelos prontos que podem ser facilmente adaptados para diferentes crianças e situações.",
   },
   {
-    icon: <Sparkles className="h-6 w-6 text-primary" />,
+    icon: <Sparkles className="h-5 w-5 text-primary" />,
     title: "Ensinar de forma lúdica",
     description: "Com ilustrações coloridas e atividades divertidas, ensinar será um momento de aprendizado feliz.",
   },
   {
-    icon: <Clock className="h-6 w-6 text-primary" />,
+    icon: <Clock className="h-5 w-5 text-primary" />,
     title: "Economize tempo para brincar",
     description: "Deixe de lado a elaboração difícil e tenha mais tempo para brincar e ensinar!",
   },
   {
-    icon: <Users className="h-6 w-6 text-primary" />,
+    icon: <Users className="h-5 w-5 text-primary" />,
     title: "Adaptabilidade para Todos",
     description: "Perfeito para atividades em sala de aula ou ensino remoto, adaptável para todos os tipos de alunos.",
   },
   {
-    icon: <BookOpen className="h-6 w-6 text-primary" />,
+    icon: <BookOpen className="h-5 w-5 text-primary" />,
     title: "Suporte Completo para Professores",
     description: "Modelos que vêm com tudo que você precisa, desde relatórios até atividades divertidas!",
   },
@@ -134,13 +134,13 @@ export default function Home() {
             <h3 className="text-[23px] font-bold text-center font-headline mb-12">
               Benefícios <span className="text-primary">Exclusivos</span>
             </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
               {benefits.map((benefit, index) => (
-                <div key={index} className="flex flex-col items-center text-center p-4 bg-background rounded-2xl shadow-lg transform hover:scale-105 transition-transform duration-300">
-                  <div className="bg-primary/10 p-3 rounded-full mb-4">
+                <div key={index} className="flex flex-col items-center text-center p-3 bg-background rounded-2xl shadow-lg transform hover:scale-105 transition-transform duration-300">
+                  <div className="bg-primary/10 p-2 rounded-full mb-3">
                     {benefit.icon}
                   </div>
-                  <h4 className="text-lg font-bold mb-2">{benefit.title}</h4>
+                  <h4 className="text-base font-bold mb-2">{benefit.title}</h4>
                   <p className="text-sm text-muted-foreground">{benefit.description}</p>
                 </div>
               ))}
@@ -174,27 +174,27 @@ export default function Home() {
             <h3 className="text-[23px] font-bold text-center font-headline mb-12">
               O que os <span className="text-primary">professores</span> dizem
             </h3>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-4xl mx-auto">
               {testimonials.map((testimonial, index) => (
                 <Card key={index} className="bg-background shadow-xl border-0">
-                  <CardContent className="p-6">
-                    <div className="flex items-center mb-4">
-                      <Avatar className="h-14 w-14 mr-4">
+                  <CardContent className="p-4">
+                    <div className="flex items-center mb-3">
+                      <Avatar className="h-12 w-12 mr-3">
                         <AvatarImage src={testimonial.avatar.imageUrl} alt={testimonial.name} data-ai-hint={testimonial.avatar.imageHint} />
                         <AvatarFallback>{testimonial.name.charAt(0)}</AvatarFallback>
                       </Avatar>
                       <div>
-                        <p className="font-bold">{testimonial.name}</p>
+                        <p className="font-bold text-base">{testimonial.name}</p>
                         <div className="flex text-primary">
-                          <Star className="h-5 w-5 fill-current" />
-                          <Star className="h-5 w-5 fill-current" />
-                          <Star className="h-5 w-5 fill-current" />
-                          <Star className="h-5 w-5 fill-current" />
-                          <Star className="h-5 w-5 fill-current" />
+                          <Star className="h-4 w-4 fill-current" />
+                          <Star className="h-4 w-4 fill-current" />
+                          <Star className="h-4 w-4 fill-current" />
+                          <Star className="h-4 w-4 fill-current" />
+                          <Star className="h-4 w-4 fill-current" />
                         </div>
                       </div>
                     </div>
-                    <p className="text-muted-foreground italic">"{testimonial.text}"</p>
+                    <p className="text-muted-foreground italic text-sm">"{testimonial.text}"</p>
                   </CardContent>
                 </Card>
               ))}
@@ -213,7 +213,7 @@ export default function Home() {
             </p>
             <Carousel
               opts={{ loop: true }}
-              className="w-full max-w-xs mx-auto"
+              className="w-full max-w-[200px] mx-auto"
             >
               <CarouselContent>
                 {carouselImages.map((img, index) => (
@@ -233,8 +233,8 @@ export default function Home() {
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <CarouselPrevious className="transform hover:scale-110 transition-transform -left-4 md:-left-12" />
-              <CarouselNext className="transform hover:scale-110 transition-transform -right-4 md:-right-12" />
+              <CarouselPrevious className="transform hover:scale-110 transition-transform -left-4 md:-left-12 h-10 w-10 bg-primary text-primary-foreground shadow-lg" />
+              <CarouselNext className="transform hover:scale-110 transition-transform -right-4 md:-right-12 h-10 w-10 bg-primary text-primary-foreground shadow-lg" />
             </Carousel>
           </div>
         </section>
