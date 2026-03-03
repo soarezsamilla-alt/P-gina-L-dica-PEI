@@ -325,7 +325,7 @@ export default function Home() {
                 </CardContent>
                 <CardFooter>
                   <Button size="lg" className="w-full text-lg h-14 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-                    QUERO O PLANO PRO! ✨
+                    ADQUIRIR AGORA!
                   </Button>
                 </CardFooter>
               </Card>
