@@ -107,6 +107,7 @@ const carouselImages = ["carousel-1", "carousel-2", "carousel-3"].map(id => find
 export default function Home() {
   const heroImage = findImage("hero-image");
   const planoProImage = findImage("plano-pro-image");
+  const planoBasicoImage = findImage("plano-basico-image");
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -261,6 +262,14 @@ export default function Home() {
                   <CardDescription>Para começar com tudo!</CardDescription>
                 </CardHeader>
                 <CardContent className="flex-grow">
+                  <Image
+                    src={planoBasicoImage.imageUrl}
+                    alt={planoBasicoImage.description}
+                    width={400}
+                    height={250}
+                    className="w-full object-cover rounded-md mb-4"
+                    data-ai-hint={planoBasicoImage.imageHint}
+                  />
                   <p className="text-4xl font-bold mb-4">R$ 15,90</p>
                   <ul className="space-y-2 text-muted-foreground">
                     <li className="flex items-center"><CheckCircle className="h-5 w-5 text-accent mr-2" /> 47 Modelos de PEI prontos e editáveis</li>
