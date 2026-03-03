@@ -27,6 +27,7 @@ import {
   Users,
   Youtube,
 } from "lucide-react";
+import Chatbot from "@/components/chatbot";
 
 const findImage = (id: string) => {
   const img = PlaceHolderImages.find((img) => img.id === id);
@@ -119,7 +120,7 @@ export default function Home() {
             <p className="mt-4 text-sm text-muted-foreground max-w-2xl mx-auto">
               No arquivo contém 47 modelos, planejados por profissionais da educação. Servem para fundamental I e II. Mas como são editáveis você consegue Adaptar para OUTRAS TURMAS também.
             </p>
-            <div className="mt-12 rounded-xl shadow-2xl overflow-hidden max-w-4xl mx-auto">
+            <div className="mt-12 rounded-xl shadow-2xl overflow-hidden max-w-5xl mx-auto">
               <Image
                 src={heroImage.imageUrl}
                 alt={heroImage.description}
@@ -323,6 +324,15 @@ export default function Home() {
                     <span className="text-5xl font-bold">R$18</span>
                     <span className="text-2xl font-bold">,90</span>
                     <p className="text-sm text-white/80">Pagamento único</p>
+                  </div>
+                  <div className="px-6 mb-4">
+                    <Image
+                      src="https://image2url.com/r2/default/images/1772578007538-e541252d-0988-4cf6-b537-fc15dc1b6eb0.png"
+                      alt="Formas de pagamento"
+                      width={500}
+                      height={95}
+                      className="mx-auto"
+                    />
                   </div>
                   <ul className="space-y-3 text-sm">
                     <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#ffd747] mr-2 mt-1 flex-shrink-0" /> <span>Tudo do Plano Básico e <span className="font-bold">MUITO</span> mais!</span></li>
