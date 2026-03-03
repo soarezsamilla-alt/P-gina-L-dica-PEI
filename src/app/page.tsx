@@ -23,6 +23,7 @@ import {
   PackagePlus,
   Rocket,
   Sparkles,
+  Trophy,
   Users,
   Youtube,
 } from "lucide-react";
@@ -266,64 +267,65 @@ export default function Home() {
         {/* Pricing Section */}
         <section className="py-12 md:py-24 bg-card">
           <div className="container mx-auto px-4">
-            <h3 className="text-3xl md:text-4xl font-bold text-center font-headline mb-12">
-              Escolha seu plano e comece a <span className="text-primary">brincar</span>!
+            <h3 className="text-3xl md:text-4xl font-bold text-center font-headline mb-4">
+              Desbloqueie a <span className="text-primary">Magia do Ensino</span>!
             </h3>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-3xl mx-auto items-stretch">
-              <Card className="bg-background shadow-lg flex flex-col">
-                <CardHeader>
-                  <Package className="h-10 w-10 text-primary mb-2" />
+            <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+              Escolha o plano perfeito para você e transforme a maneira de ensinar e brincar.
+            </p>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-4xl mx-auto items-end">
+              {/* Plano Básico */}
+              <Card className="bg-background shadow-lg flex flex-col pt-6">
+                <CardHeader className="text-center">
+                  <Package className="h-10 w-10 text-primary mb-2 mx-auto" />
                   <CardTitle className="font-headline text-2xl">Plano Básico</CardTitle>
-                  <CardDescription>Para começar com tudo!</CardDescription>
+                  <CardDescription>O essencial para começar a planejar.</CardDescription>
                 </CardHeader>
                 <CardContent className="flex-grow">
-                  <Image
-                    src={planoBasicoImage.imageUrl}
-                    alt={planoBasicoImage.description}
-                    width={400}
-                    height={250}
-                    className="w-full object-cover rounded-md mb-4"
-                    data-ai-hint={planoBasicoImage.imageHint}
-                  />
-                  <p className="text-4xl font-bold mb-4">R$ 15,90</p>
-                  <ul className="space-y-2 text-muted-foreground">
-                    <li className="flex items-center"><CheckCircle className="h-5 w-5 text-accent mr-2" /> 47 Modelos de PEI prontos e editáveis</li>
-                    <li className="flex items-center"><CheckCircle className="h-5 w-5 text-accent mr-2" /> Cores vibrantes e atividades simples</li>
+                  <div className="text-center my-6">
+                    <span className="text-4xl font-bold">R$15</span>
+                    <span className="text-xl font-bold">,90</span>
+                  </div>
+                  <ul className="space-y-3 text-muted-foreground">
+                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-accent mr-2 mt-1 flex-shrink-0" /> <span><span className="font-bold">47 Modelos</span> de PEI prontos e editáveis</span></li>
+                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-accent mr-2 mt-1 flex-shrink-0" /> <span>Acesso aos modelos fundamentais</span></li>
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Button size="lg" className="w-full text-base h-12 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-                    ADQUIRIR AGORA!
+                  <Button variant="outline" size="lg" className="w-full text-base h-12">
+                    Escolher Básico
                   </Button>
                 </CardFooter>
               </Card>
 
-              <Card className="bg-accent text-accent-foreground shadow-2xl flex flex-col border-4 border-accent ring-4 ring-accent/20">
-                <CardHeader>
-                  <PackagePlus className="h-10 w-10 mb-2" />
-                  <CardTitle className="font-headline text-2xl">Plano Pro</CardTitle>
-                  <CardDescription className="text-accent-foreground/80">O pacote completo da diversão!</CardDescription>
+              {/* Plano Pro */}
+              <Card className="bg-background shadow-2xl flex flex-col border-2 border-primary ring-4 ring-primary/20 relative">
+                <div className="absolute top-0 -translate-y-1/2 w-full flex justify-center">
+                    <div className="bg-primary text-primary-foreground px-4 py-1 rounded-full text-sm font-semibold shadow-lg">
+                        MAIS VENDIDO ⭐
+                    </div>
+                </div>
+                <CardHeader className="text-center pt-10">
+                  <Trophy className="h-10 w-10 text-primary mb-2 mx-auto" />
+                  <CardTitle className="font-headline text-3xl">Plano PRO</CardTitle>
+                  <CardDescription>A experiência completa para inovar! 🚀</CardDescription>
                 </CardHeader>
                 <CardContent className="flex-grow">
-                  <Image
-                    src={planoProImage.imageUrl}
-                    alt={planoProImage.description}
-                    width={400}
-                    height={250}
-                    className="w-full object-cover rounded-md mb-4"
-                    data-ai-hint={planoProImage.imageHint}
-                  />
-                  <p className="text-4xl font-bold mb-4">R$ 18,90</p>
-                  <ul className="space-y-2">
-                    <li className="flex items-center"><CheckCircle className="h-5 w-5 mr-2" /> Tudo do Plano Básico</li>
-                    <li className="flex items-center"><CheckCircle className="h-5 w-5 mr-2" /> Bônus extras (PEI Autismo, Relatórios AEE)</li>
-                    <li className="flex items-center"><CheckCircle className="h-5 w-5 mr-2" /> Atividades motoras e muito mais!</li>
-                    <li className="flex items-center"><CheckCircle className="h-5 w-5 mr-2" /> Combo Ed. Especial</li>
+                <div className="text-center my-6">
+                    <span className="text-5xl font-bold">R$18</span>
+                    <span className="text-2xl font-bold">,90</span>
+                    <p className="text-sm text-muted-foreground">Pagamento único</p>
+                  </div>
+                  <ul className="space-y-3">
+                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> <span>Tudo do Plano Básico e <span className="font-bold">MUITO</span> mais!</span></li>
+                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> <span><span className="font-bold">3 E-books Bônus</span> (Autismo, Relatórios e Ativ. Motoras) 🎁</span></li>
+                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> <span><span className="font-bold">Combo Ed. Especial</span> com materiais extras</span></li>
+                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> <span>Acesso a <span className="font-bold">futuras atualizações</span></span></li>
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Button size="lg" variant="secondary" className="w-full text-base h-12 bg-white text-accent hover:bg-white/90 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-                    ADQUIRIR AGORA!
+                  <Button size="lg" className="w-full text-lg h-14 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 animate-pulse">
+                    QUERO O PLANO PRO! ✨
                   </Button>
                 </CardFooter>
               </Card>
