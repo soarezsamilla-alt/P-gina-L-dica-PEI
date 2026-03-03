@@ -213,7 +213,7 @@ export default function Home() {
             </p>
             <Carousel
               opts={{ loop: true }}
-              className="w-full max-w-xl mx-auto"
+              className="w-full max-w-md mx-auto"
             >
               <CarouselContent>
                 {carouselImages.map((img, index) => (
