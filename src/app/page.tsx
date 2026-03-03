@@ -213,7 +213,7 @@ export default function Home() {
         <section className="py-12 md:py-24">
           <div className="container mx-auto px-4">
             <h3 className="text-[23px] font-bold text-center font-headline mb-4">
-              Veja algumas amostras!
+              Veja abaixo algumas amostras!
             </h3>
             <p className="text-center text-sm text-muted-foreground mb-12 max-w-2xl mx-auto">
               Nossos modelos de PEI são feitos para tornar o ensino mais divertido e interativo!
