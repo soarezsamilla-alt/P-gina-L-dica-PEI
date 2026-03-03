@@ -110,7 +110,7 @@ export default function Home() {
             <h2 className="text-[23px] font-bold font-headline tracking-tighter max-w-3xl mx-auto">
               Dê adeus a dificuldade em elaborar seu PEI! Aqui temos modelos <span className="text-primary">PRONTOS E EDITÁVEIS</span>!
             </h2>
-            <p className="mt-4 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="mt-4 text-base text-muted-foreground max-w-2xl mx-auto">
               No arquivo contém 47 modelos, planejados por profissionais da educação. Servem para fundamental I e II. Mas como são editáveis você consegue Adaptar para OUTRAS TURMAS também.
             </p>
             <div className="mt-8 rounded-xl shadow-2xl overflow-hidden max-w-5xl mx-auto">
