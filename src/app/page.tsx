@@ -224,7 +224,7 @@ export default function Home() {
                           alt={img.description}
                           width={600}
                           height={400}
-                          className="w-full aspect-video object-cover"
+                          className="w-full aspect-[4/3] object-cover"
                           data-ai-hint={img.imageHint}
                         />
                       </CardContent>
