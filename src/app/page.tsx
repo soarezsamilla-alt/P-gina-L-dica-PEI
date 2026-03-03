@@ -119,7 +119,7 @@ export default function Home() {
             <p className="mt-4 text-sm text-muted-foreground max-w-2xl mx-auto">
               No arquivo contém 47 modelos, planejados por profissionais da educação. Servem para fundamental I e II. Mas como são editáveis você consegue Adaptar para OUTRAS TURMAS também.
             </p>
-            <div className="mt-12 rounded-xl shadow-2xl overflow-hidden max-w-3xl mx-auto">
+            <div className="mt-12 rounded-xl shadow-2xl overflow-hidden max-w-4xl mx-auto">
               <Image
                 src={heroImage.imageUrl}
                 alt={heroImage.description}
@@ -284,6 +284,15 @@ export default function Home() {
                   <div className="text-center my-6">
                     <span className="text-4xl font-bold">R$15</span>
                     <span className="text-xl font-bold">,90</span>
+                  </div>
+                  <div className="px-6 mb-4">
+                    <Image
+                      src="https://image2url.com/r2/default/images/1772577587419-9b514119-5771-40ab-88e5-952205b5e3e8.png"
+                      alt="Formas de pagamento"
+                      width={500}
+                      height={95}
+                      className="mx-auto"
+                    />
                   </div>
                   <ul className="space-y-3 text-sm">
                     <li className="flex items-start"><CheckCircle className="h-5 w-5 text-accent mr-2 mt-1 flex-shrink-0" /> <span><span className="font-bold">47 Modelos</span> de PEI prontos e editáveis</span></li>
