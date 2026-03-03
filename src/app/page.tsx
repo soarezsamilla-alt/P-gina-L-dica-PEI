@@ -186,24 +186,25 @@ export default function Home() {
             </h3>
             <Carousel
               opts={{
-                align: "start",
                 loop: true,
               }}
-              className="w-full max-w-xl lg:max-w-4xl mx-auto"
+              className="w-full max-w-[200px] mx-auto"
             >
               <CarouselContent>
                 {testimonials.map((testimonial, index) => (
-                  <CarouselItem key={index} className="md:basis-1/2">
-                    <div className="p-1">
-                      <Image
-                        src={testimonial.avatar.imageUrl}
-                        alt={testimonial.name}
-                        width={400}
-                        height={400}
-                        className="w-full aspect-square object-cover rounded-2xl shadow-xl"
-                        data-ai-hint={testimonial.avatar.imageHint}
-                      />
-                    </div>
+                  <CarouselItem key={index}>
+                    <Card className="overflow-hidden">
+                      <CardContent className="p-0">
+                        <Image
+                          src={testimonial.avatar.imageUrl}
+                          alt={testimonial.name}
+                          width={600}
+                          height={400}
+                          className="w-full aspect-[3/4] object-contain"
+                          data-ai-hint={testimonial.avatar.imageHint}
+                        />
+                      </CardContent>
+                    </Card>
                   </CarouselItem>
                 ))}
               </CarouselContent>
