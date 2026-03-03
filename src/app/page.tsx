@@ -220,7 +220,7 @@ export default function Home() {
             </p>
             <Carousel
               opts={{ loop: true }}
-              className="w-full max-w-[200px] mx-auto"
+              className="w-full max-w-sm mx-auto"
             >
               <CarouselContent>
                 {carouselImages.map((img, index) => (
@@ -231,8 +231,8 @@ export default function Home() {
                           src={img.imageUrl}
                           alt={img.description}
                           width={600}
-                          height={400}
-                          className="w-full aspect-[3/4] object-contain"
+                          height={600}
+                          className="w-full aspect-square object-cover"
                           data-ai-hint={img.imageHint}
                         />
                       </CardContent>
