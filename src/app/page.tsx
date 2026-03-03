@@ -28,6 +28,7 @@ import {
   Youtube,
 } from "lucide-react";
 import Chatbot from "@/components/chatbot";
+import Countdown from "@/components/countdown";
 
 const findImage = (id: string) => {
   const img = PlaceHolderImages.find((img) => img.id === id);
@@ -114,6 +115,7 @@ export default function Home() {
         {/* Hero Section */}
         <section className="py-12 md:py-24 lg:py-32">
           <div className="container mx-auto px-4 text-center">
+            <Countdown />
             <h2 className="text-[23px] font-bold font-headline tracking-tighter max-w-3xl mx-auto">
               Dê adeus a dificuldade em elaborar seu PEI! Aqui temos modelos <span className="text-primary">PRONTOS E EDITÁVEIS</span>!
             </h2>
