@@ -177,7 +177,7 @@ export default function Home() {
         <section className="py-12 md:py-24 bg-card">
           <div className="container mx-auto px-4">
             <h3 className="text-[23px] font-bold text-center font-headline mb-12">
-              O que os <span className="text-primary">professores</span> dizem
+              Quem adquire nossos materiais, <span className="text-primary">RECOMENDA!</span>
             </h3>
             <Carousel
               opts={{
