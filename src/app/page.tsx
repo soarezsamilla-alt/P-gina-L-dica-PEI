@@ -293,7 +293,7 @@ export default function Home() {
                 </CardContent>
                 <CardFooter>
                   <Button variant="outline" size="lg" className="w-full text-base h-12">
-                    Escolher Básico
+                    ADQUIRIR AGORA!
                   </Button>
                 </CardFooter>
               </Card>
@@ -357,3 +357,5 @@ export default function Home() {
     </div>
   );
 }
+
+    
