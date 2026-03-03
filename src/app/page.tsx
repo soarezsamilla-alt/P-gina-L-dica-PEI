@@ -292,7 +292,7 @@ export default function Home() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Button variant="outline" size="lg" className="w-full text-base h-12">
+                  <Button size="lg" className="w-full text-base h-12">
                     ADQUIRIR AGORA!
                   </Button>
                 </CardFooter>
@@ -357,8 +357,3 @@ export default function Home() {
     </div>
   );
 }
-
-    
-
-    
-
