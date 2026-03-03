@@ -205,7 +205,7 @@ export default function Home() {
         {/* Samples Carousel Section */}
         <section className="py-12 md:py-24">
           <div className="container mx-auto px-4">
-            <h3 className="text-3xl md:text-4xl font-bold text-center font-headline mb-4">
+            <h3 className="text-[23px] font-bold text-center font-headline mb-4">
               Veja algumas amostras!
             </h3>
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
