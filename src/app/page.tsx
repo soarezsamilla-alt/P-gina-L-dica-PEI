@@ -40,27 +40,27 @@ const findImage = (id: string) => {
 
 const benefits = [
   {
-    icon: <Rocket className="h-8 w-8 text-primary" />,
+    icon: <Rocket className="h-6 w-6 text-primary" />,
     title: "Prontidão e Diversão",
     description: "Modelos prontos que podem ser facilmente adaptados para diferentes crianças e situações.",
   },
   {
-    icon: <Sparkles className="h-8 w-8 text-primary" />,
+    icon: <Sparkles className="h-6 w-6 text-primary" />,
     title: "Ensinar de forma lúdica",
     description: "Com ilustrações coloridas e atividades divertidas, ensinar será um momento de aprendizado feliz.",
   },
   {
-    icon: <Clock className="h-8 w-8 text-primary" />,
+    icon: <Clock className="h-6 w-6 text-primary" />,
     title: "Economize tempo para brincar",
     description: "Deixe de lado a elaboração difícil e tenha mais tempo para brincar e ensinar!",
   },
   {
-    icon: <Users className="h-8 w-8 text-primary" />,
+    icon: <Users className="h-6 w-6 text-primary" />,
     title: "Adaptabilidade para Todos",
     description: "Perfeito para atividades em sala de aula ou ensino remoto, adaptável para todos os tipos de alunos.",
   },
   {
-    icon: <BookOpen className="h-8 w-8 text-primary" />,
+    icon: <BookOpen className="h-6 w-6 text-primary" />,
     title: "Suporte Completo para Professores",
     description: "Modelos que vêm com tudo que você precisa, desde relatórios até atividades divertidas!",
   },
@@ -136,12 +136,12 @@ export default function Home() {
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {benefits.map((benefit, index) => (
-                <div key={index} className="flex flex-col items-center text-center p-6 bg-background rounded-2xl shadow-lg transform hover:scale-105 transition-transform duration-300">
-                  <div className="bg-primary/10 p-4 rounded-full mb-4">
+                <div key={index} className="flex flex-col items-center text-center p-4 bg-background rounded-2xl shadow-lg transform hover:scale-105 transition-transform duration-300">
+                  <div className="bg-primary/10 p-3 rounded-full mb-4">
                     {benefit.icon}
                   </div>
-                  <h4 className="text-xl font-bold mb-2">{benefit.title}</h4>
-                  <p className="text-muted-foreground">{benefit.description}</p>
+                  <h4 className="text-lg font-bold mb-2">{benefit.title}</h4>
+                  <p className="text-sm text-muted-foreground">{benefit.description}</p>
                 </div>
               ))}
             </div>
