@@ -165,7 +165,7 @@ export default function Home() {
                 Ao adquirir Plano Pro, você recebe acesso instantâneo a estes materiais incríveis para complementar suas aulas.
               </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-sm mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-sm mx-auto md:max-w-5xl">
               {bonuses.map((bonus, index) => {
                 const bonusImage = findImage(bonus.id);
                 return (
