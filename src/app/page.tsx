@@ -322,7 +322,7 @@ export default function Home() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Button size="lg" variant="secondary" className="w-full text-lg h-14 bg-white text-accent hover:bg-white/90 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                  <Button size="lg" variant="secondary" className="w-full text-base h-12 bg-white text-accent hover:bg-white/90 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
                     ADQUIRIR AGORA!
                   </Button>
                 </CardFooter>
