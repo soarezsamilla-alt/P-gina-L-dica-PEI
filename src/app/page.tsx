@@ -176,21 +176,21 @@ export default function Home() {
             </h3>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 max-w-3xl mx-auto">
               {testimonials.map((testimonial, index) => (
-                <Card key={index} className="bg-background shadow-xl border-0">
-                  <CardContent className="p-3">
+                <Card key={index} className="bg-background shadow-xl border-0 p-2">
+                  <CardContent className="p-2">
                     <div className="flex items-center mb-2">
-                      <Avatar className="h-10 w-10 mr-2">
+                      <Avatar className="h-8 w-8 mr-2">
                         <AvatarImage src={testimonial.avatar.imageUrl} alt={testimonial.name} data-ai-hint={testimonial.avatar.imageHint} />
                         <AvatarFallback>{testimonial.name.charAt(0)}</AvatarFallback>
                       </Avatar>
                       <div>
-                        <p className="font-bold text-sm">{testimonial.name}</p>
+                        <p className="font-bold text-xs">{testimonial.name}</p>
                         <div className="flex text-primary">
-                          <Star className="h-4 w-4 fill-current" />
-                          <Star className="h-4 w-4 fill-current" />
-                          <Star className="h-4 w-4 fill-current" />
-                          <Star className="h-4 w-4 fill-current" />
-                          <Star className="h-4 w-4 fill-current" />
+                          <Star className="h-3 w-3 fill-current" />
+                          <Star className="h-3 w-3 fill-current" />
+                          <Star className="h-3 w-3 fill-current" />
+                          <Star className="h-3 w-3 fill-current" />
+                          <Star className="h-3 w-3 fill-current" />
                         </div>
                       </div>
                     </div>
@@ -208,7 +208,7 @@ export default function Home() {
             <h3 className="text-[23px] font-bold text-center font-headline mb-4">
               Veja algumas amostras!
             </h3>
-            <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto text-sm">
+            <p className="text-center text-sm text-muted-foreground mb-12 max-w-2xl mx-auto">
               Nossos modelos de PEI são feitos para tornar o ensino mais divertido e interativo!
             </p>
             <Carousel
@@ -296,7 +296,6 @@ export default function Home() {
         <div className="container mx-auto px-4 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
-              <Logo className="text-white" />
               <p className="text-sm text-muted-foreground mt-2">© {new Date().getFullYear()} Página Lúdica PEI. Todos os direitos reservados.</p>
             </div>
             <div className="flex space-x-4 mb-4 md:mb-0">
