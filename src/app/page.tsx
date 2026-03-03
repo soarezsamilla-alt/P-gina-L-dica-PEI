@@ -108,7 +108,7 @@ export default function Home() {
         <section className="py-12 md:py-24 lg:py-32">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl md:text-5xl font-bold font-headline tracking-tighter max-w-3xl mx-auto">
-              47 Modelos de PEI prontos para <span className="text-primary">brincar de ensinar</span>!
+              Dê adeus a dificuldade em elaborar seu PEI! Aqui temos modelos <span className="text-primary">PRONTOS E EDITÁVEIS</span>!
             </h2>
             <p className="mt-4 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
               Editáveis e super fáceis de usar!
