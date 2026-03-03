@@ -119,7 +119,7 @@ export default function Home() {
             <p className="mt-4 text-sm text-muted-foreground max-w-2xl mx-auto">
               No arquivo contém 47 modelos, planejados por profissionais da educação. Servem para fundamental I e II. Mas como são editáveis você consegue Adaptar para OUTRAS TURMAS também.
             </p>
-            <div className="mt-12 rounded-xl shadow-2xl overflow-hidden max-w-lg mx-auto">
+            <div className="mt-12 rounded-xl shadow-2xl overflow-hidden max-w-3xl mx-auto">
               <Image
                 src={heroImage.imageUrl}
                 alt={heroImage.description}
@@ -274,7 +274,7 @@ export default function Home() {
             </p>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-4xl mx-auto items-end">
               {/* Plano Básico */}
-              <Card className="bg-card-basico shadow-lg flex flex-col pt-6 text-foreground">
+              <Card className="bg-[#b7e8b0] shadow-lg flex flex-col pt-6 text-foreground">
                 <CardHeader className="text-center">
                   <Package className="h-10 w-10 text-primary mb-2 mx-auto" />
                   <CardTitle className="font-headline text-2xl">Plano Básico</CardTitle>
@@ -291,7 +291,7 @@ export default function Home() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Button size="lg" className="w-full text-base h-12">
+                  <Button size="lg" className="w-full text-base h-12 bg-[#ff9900] hover:bg-[#ff9900]/90">
                     ADQUIRIR AGORA!
                   </Button>
                 </CardFooter>
@@ -316,10 +316,10 @@ export default function Home() {
                     <p className="text-sm text-white/80">Pagamento único</p>
                   </div>
                   <ul className="space-y-3 text-sm">
-                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#00b020] mr-2 mt-1 flex-shrink-0" /> <span>Tudo do Plano Básico e <span className="font-bold">MUITO</span> mais!</span></li>
-                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#00b020] mr-2 mt-1 flex-shrink-0" /> <span><span className="font-bold">3 E-books Bônus</span> (Autismo, Relatórios e Ativ. Motoras) 🎁</span></li>
-                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#00b020] mr-2 mt-1 flex-shrink-0" /> <span><span className="font-bold">Combo Ed. Especial</span> com materiais extras</span></li>
-                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#00b020] mr-2 mt-1 flex-shrink-0" /> <span>Acesso a <span className="font-bold">futuras atualizações</span></span></li>
+                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#ffd747] mr-2 mt-1 flex-shrink-0" /> <span>Tudo do Plano Básico e <span className="font-bold">MUITO</span> mais!</span></li>
+                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#ffd747] mr-2 mt-1 flex-shrink-0" /> <span><span className="font-bold">3 E-books Bônus</span> (Autismo, Relatórios e Ativ. Motoras) 🎁</span></li>
+                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#ffd747] mr-2 mt-1 flex-shrink-0" /> <span><span className="font-bold">Combo Ed. Especial</span> com materiais extras</span></li>
+                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#ffd747] mr-2 mt-1 flex-shrink-0" /> <span>Acesso a <span className="font-bold">futuras atualizações</span></span></li>
                   </ul>
                 </CardContent>
                 <CardFooter>
