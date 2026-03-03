@@ -299,7 +299,7 @@ export default function Home() {
               </Card>
 
               {/* Plano Pro */}
-              <Card className="bg-background shadow-2xl flex flex-col border-2 border-primary ring-4 ring-primary/20 relative">
+              <Card className="bg-[#60a7f7] shadow-2xl flex flex-col border-2 border-primary ring-4 ring-primary/20 relative">
                 <div className="absolute top-0 -translate-y-1/2 w-full flex justify-center">
                     <div className="bg-primary text-primary-foreground px-4 py-1 rounded-full text-sm font-semibold shadow-lg">
                         MAIS VENDIDO ⭐
