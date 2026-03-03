@@ -106,6 +106,7 @@ const carouselImages = ["carousel-1", "carousel-2", "carousel-3"].map(id => find
 
 export default function Home() {
   const heroImage = findImage("hero-image");
+  const planoProImage = findImage("plano-pro-image");
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -280,6 +281,14 @@ export default function Home() {
                   <CardDescription className="text-primary-foreground/80">O pacote completo da diversão!</CardDescription>
                 </CardHeader>
                 <CardContent className="flex-grow">
+                  <Image
+                    src={planoProImage.imageUrl}
+                    alt={planoProImage.description}
+                    width={400}
+                    height={250}
+                    className="w-full object-cover rounded-md mb-4"
+                    data-ai-hint={planoProImage.imageHint}
+                  />
                   <p className="text-4xl font-bold mb-4">R$ 18,90</p>
                   <ul className="space-y-2">
                     <li className="flex items-center"><CheckCircle className="h-5 w-5 mr-2" /> Tudo do Plano Básico</li>

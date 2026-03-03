@@ -41,6 +41,12 @@
       "description": "Amostra de modelo de PEI 3.",
       "imageUrl": "https://image2url.com/r2/default/images/1772501577171-a4adb8b8-14e1-42a4-bb04-30ee0405dd20.webp",
       "imageHint": "creative education"
+    },
+    {
+      "id": "plano-pro-image",
+      "description": "Imagem para o card do Plano Pro.",
+      "imageUrl": "https://image2url.com/r2/default/images/1772511013074-75238292-4f7a-4802-9d37-633ac7867c11.blob",
+      "imageHint": "learning materials"
     }
   ]
 }
