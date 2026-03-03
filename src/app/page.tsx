@@ -28,6 +28,7 @@ import {
   Users,
   Youtube,
 } from "lucide-react";
+import Chatbot from "@/components/chatbot";
 
 const findImage = (id: string) => {
   const img = PlaceHolderImages.find((img) => img.id === id);
@@ -282,11 +283,11 @@ export default function Home() {
                 </CardFooter>
               </Card>
 
-              <Card className="bg-primary text-primary-foreground shadow-2xl flex flex-col border-4 border-primary ring-4 ring-primary/20">
+              <Card className="bg-accent text-accent-foreground shadow-2xl flex flex-col border-4 border-accent ring-4 ring-accent/20">
                 <CardHeader>
                   <PackagePlus className="h-10 w-10 mb-2" />
                   <CardTitle className="font-headline text-2xl">Plano Pro</CardTitle>
-                  <CardDescription className="text-primary-foreground/80">O pacote completo da diversão!</CardDescription>
+                  <CardDescription className="text-accent-foreground/80">O pacote completo da diversão!</CardDescription>
                 </CardHeader>
                 <CardContent className="flex-grow">
                   <Image
@@ -306,7 +307,7 @@ export default function Home() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Button size="lg" variant="secondary" className="w-full text-lg h-14 bg-white text-primary hover:bg-white/90 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                  <Button size="lg" variant="secondary" className="w-full text-lg h-14 bg-white text-accent hover:bg-white/90 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
                     Criar um Mundo Colorido de Aprendizado!
                   </Button>
                 </CardFooter>
@@ -335,6 +336,7 @@ export default function Home() {
           </div>
         </div>
       </footer>
+      <Chatbot />
     </div>
   );
 }
