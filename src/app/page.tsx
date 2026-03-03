@@ -275,18 +275,18 @@ export default function Home() {
             </p>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-4xl mx-auto items-end">
               {/* Plano Básico */}
-              <Card className="bg-card-basico shadow-lg flex flex-col pt-6">
+              <Card className="bg-card-basico shadow-lg flex flex-col pt-6 text-foreground">
                 <CardHeader className="text-center">
                   <Package className="h-10 w-10 text-primary mb-2 mx-auto" />
                   <CardTitle className="font-headline text-2xl">Plano Básico</CardTitle>
-                  <CardDescription>O essencial para começar a planejar.</CardDescription>
+                  <CardDescription className="text-foreground/90">O essencial para começar a planejar.</CardDescription>
                 </CardHeader>
                 <CardContent className="flex-grow">
                   <div className="text-center my-6">
                     <span className="text-4xl font-bold">R$15</span>
                     <span className="text-xl font-bold">,90</span>
                   </div>
-                  <ul className="space-y-3 text-muted-foreground">
+                  <ul className="space-y-3">
                     <li className="flex items-start"><CheckCircle className="h-5 w-5 text-accent mr-2 mt-1 flex-shrink-0" /> <span><span className="font-bold">47 Modelos</span> de PEI prontos e editáveis</span></li>
                     <li className="flex items-start"><CheckCircle className="h-5 w-5 text-accent mr-2 mt-1 flex-shrink-0" /> <span>Acesso aos modelos fundamentais</span></li>
                   </ul>
