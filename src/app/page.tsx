@@ -174,17 +174,17 @@ export default function Home() {
             <h3 className="text-[23px] font-bold text-center font-headline mb-12">
               O que os <span className="text-primary">professores</span> dizem
             </h3>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 max-w-3xl mx-auto">
               {testimonials.map((testimonial, index) => (
                 <Card key={index} className="bg-background shadow-xl border-0">
-                  <CardContent className="p-4">
-                    <div className="flex items-center mb-3">
-                      <Avatar className="h-12 w-12 mr-3">
+                  <CardContent className="p-3">
+                    <div className="flex items-center mb-2">
+                      <Avatar className="h-10 w-10 mr-2">
                         <AvatarImage src={testimonial.avatar.imageUrl} alt={testimonial.name} data-ai-hint={testimonial.avatar.imageHint} />
                         <AvatarFallback>{testimonial.name.charAt(0)}</AvatarFallback>
                       </Avatar>
                       <div>
-                        <p className="font-bold text-base">{testimonial.name}</p>
+                        <p className="font-bold text-sm">{testimonial.name}</p>
                         <div className="flex text-primary">
                           <Star className="h-4 w-4 fill-current" />
                           <Star className="h-4 w-4 fill-current" />
@@ -194,7 +194,7 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                    <p className="text-muted-foreground italic text-sm">"{testimonial.text}"</p>
+                    <p className="text-muted-foreground italic text-xs">"{testimonial.text}"</p>
                   </CardContent>
                 </Card>
               ))}
