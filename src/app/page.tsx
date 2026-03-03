@@ -188,7 +188,7 @@ export default function Home() {
               opts={{
                 loop: true,
               }}
-              className="w-full max-w-xs mx-auto"
+              className="w-full max-w-sm mx-auto"
             >
               <CarouselContent>
                 {testimonials.map((testimonial, index) => (
