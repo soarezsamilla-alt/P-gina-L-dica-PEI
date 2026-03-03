@@ -120,7 +120,7 @@ export default function Home() {
             <p className="mt-4 text-sm text-muted-foreground max-w-2xl mx-auto">
               No arquivo contém 47 modelos, planejados por profissionais da educação. Servem para fundamental I e II. Mas como são editáveis você consegue Adaptar para OUTRAS TURMAS também.
             </p>
-            <div className="mt-12 rounded-xl shadow-2xl overflow-hidden max-w-7xl mx-auto">
+            <div className="mt-12 rounded-xl shadow-2xl overflow-hidden max-w-4xl mx-auto">
               <Image
                 src={heroImage.imageUrl}
                 alt={heroImage.description}
@@ -309,7 +309,7 @@ export default function Home() {
               </Card>
 
               {/* Plano Pro */}
-              <Card className="bg-gradient-to-br from-blue-300 to-blue-400 shadow-2xl flex flex-col border-2 border-primary ring-4 ring-primary/20 relative text-white">
+              <Card className="bg-white shadow-2xl flex flex-col border-2 border-primary ring-4 ring-primary/20 relative text-black">
                 <div className="absolute top-0 -translate-y-1/2 w-full flex justify-center">
                     <div className="bg-primary text-primary-foreground px-4 py-1 rounded-full text-sm font-semibold shadow-lg">
                         MAIS VENDIDO ⭐
@@ -318,13 +318,13 @@ export default function Home() {
                 <CardHeader className="text-center pt-10">
                   <Trophy className="h-10 w-10 text-primary mb-2 mx-auto" />
                   <CardTitle className="font-headline text-3xl">Plano PRO</CardTitle>
-                  <CardDescription className="text-white/90">A experiência completa para inovar! 🚀</CardDescription>
+                  <CardDescription className="text-black/90">A experiência completa para inovar! 🚀</CardDescription>
                 </CardHeader>
                 <CardContent className="flex-grow">
                 <div className="text-center my-6">
                     <span className="text-5xl font-bold">R$18</span>
                     <span className="text-2xl font-bold">,90</span>
-                    <p className="text-sm text-white/80">Pagamento único</p>
+                    <p className="text-sm text-black/80">Pagamento único</p>
                   </div>
                   <div className="px-6 mb-4">
                     <Image
@@ -336,14 +336,14 @@ export default function Home() {
                     />
                   </div>
                   <ul className="space-y-3 text-sm">
-                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#ffd747] mr-2 mt-1 flex-shrink-0" /> <span>Tudo do Plano Básico e <span className="font-bold">MUITO</span> mais!</span></li>
-                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#ffd747] mr-2 mt-1 flex-shrink-0" /> <span><span className="font-bold">3 E-books Bônus</span> (Autismo, Relatórios e Ativ. Motoras) 🎁</span></li>
-                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#ffd747] mr-2 mt-1 flex-shrink-0" /> <span><span className="font-bold">Combo Ed. Especial</span> com materiais extras</span></li>
-                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#ffd747] mr-2 mt-1 flex-shrink-0" /> <span>Acesso a <span className="font-bold">futuras atualizações</span></span></li>
+                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#6fbf74] mr-2 mt-1 flex-shrink-0" /> <span>Tudo do Plano Básico e <span className="font-bold">MUITO</span> mais!</span></li>
+                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#6fbf74] mr-2 mt-1 flex-shrink-0" /> <span><span className="font-bold">3 E-books Bônus</span> (Autismo, Relatórios e Ativ. Motoras) 🎁</span></li>
+                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#6fbf74] mr-2 mt-1 flex-shrink-0" /> <span><span className="font-bold">Combo Ed. Especial</span> com materiais extras</span></li>
+                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#6fbf74] mr-2 mt-1 flex-shrink-0" /> <span>Acesso a <span className="font-bold">futuras atualizações</span></span></li>
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Button size="lg" className="w-full text-lg h-14 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                  <Button size="lg" className="w-full text-lg h-14 bg-primary hover:bg-primary/90 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
                     ADQUIRIR AGORA!
                   </Button>
                 </CardFooter>
