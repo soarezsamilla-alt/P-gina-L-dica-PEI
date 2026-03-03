@@ -28,6 +28,7 @@ import {
   Users,
   Youtube,
 } from "lucide-react";
+import Chatbot from "@/components/chatbot";
 
 const findImage = (id: string) => {
   const img = PlaceHolderImages.find((img) => img.id === id);
@@ -94,6 +95,16 @@ const testimonials = [
     avatar: findImage("testimonial-joao"),
     text: "Amei o material! Fácil de usar, colorido e cheio de ideias legais. Meus alunos estão adorando!",
   },
+  {
+    name: "Ana, Pedagoga",
+    avatar: findImage("testimonial-ana"),
+    text: "Um recurso fantástico que transformou minha rotina. A adaptabilidade dos modelos é um grande diferencial.",
+  },
+  {
+    name: "Carlos, Professor do Fundamental",
+    avatar: findImage("testimonial-carlos"),
+    text: "Material de alta qualidade e super prático. Recomendo a todos os colegas que querem inovar em sala de aula.",
+  },
 ];
 
 const carouselImages = ["carousel-1", "carousel-2", "carousel-3"].map(id => findImage(id));
@@ -113,7 +124,7 @@ export default function Home() {
             <p className="mt-4 text-sm text-muted-foreground max-w-2xl mx-auto">
               No arquivo contém 47 modelos, planejados por profissionais da educação. Servem para fundamental I e II. Mas como são editáveis você consegue Adaptar para OUTRAS TURMAS também.
             </p>
-            <div className="mt-8 rounded-xl shadow-2xl overflow-hidden max-w-4xl mx-auto">
+            <div className="mt-12 rounded-xl shadow-2xl overflow-hidden max-w-xl mx-auto">
               <Image
                 src={heroImage.imageUrl}
                 alt={heroImage.description}
@@ -173,31 +184,45 @@ export default function Home() {
             <h3 className="text-[23px] font-bold text-center font-headline mb-12">
               O que os <span className="text-primary">professores</span> dizem
             </h3>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 max-w-3xl mx-auto">
-              {testimonials.map((testimonial, index) => (
-                <Card key={index} className="bg-background shadow-xl border-0 p-2">
-                  <CardContent className="p-2">
-                    <div className="flex items-center mb-2">
-                      <Avatar className="h-8 w-8 mr-2">
-                        <AvatarImage src={testimonial.avatar.imageUrl} alt={testimonial.name} data-ai-hint={testimonial.avatar.imageHint} />
-                        <AvatarFallback>{testimonial.name.charAt(0)}</AvatarFallback>
-                      </Avatar>
-                      <div>
-                        <p className="font-bold text-xs">{testimonial.name}</p>
-                        <div className="flex text-primary">
-                          <Star className="h-3 w-3 fill-current" />
-                          <Star className="h-3 w-3 fill-current" />
-                          <Star className="h-3 w-3 fill-current" />
-                          <Star className="h-3 w-3 fill-current" />
-                          <Star className="h-3 w-3 fill-current" />
-                        </div>
-                      </div>
+            <Carousel
+              opts={{
+                align: "start",
+                loop: true,
+              }}
+              className="w-full max-w-xl lg:max-w-4xl mx-auto"
+            >
+              <CarouselContent>
+                {testimonials.map((testimonial, index) => (
+                  <CarouselItem key={index} className="md:basis-1/2">
+                    <div className="p-1">
+                      <Card className="bg-background shadow-xl border-0 p-4 h-full">
+                        <CardContent className="p-0 flex flex-col h-full">
+                          <div className="flex items-center mb-4">
+                            <Avatar className="h-12 w-12 mr-4">
+                              <AvatarImage src={testimonial.avatar.imageUrl} alt={testimonial.name} data-ai-hint={testimonial.avatar.imageHint} />
+                              <AvatarFallback>{testimonial.name.charAt(0)}</AvatarFallback>
+                            </Avatar>
+                            <div>
+                              <p className="font-bold text-sm">{testimonial.name}</p>
+                              <div className="flex text-primary mt-1">
+                                <Star className="h-4 w-4 fill-current" />
+                                <Star className="h-4 w-4 fill-current" />
+                                <Star className="h-4 w-4 fill-current" />
+                                <Star className="h-4 w-4 fill-current" />
+                                <Star className="h-4 w-4 fill-current" />
+                              </div>
+                            </div>
+                          </div>
+                          <p className="text-muted-foreground italic text-sm flex-grow">"{testimonial.text}"</p>
+                        </CardContent>
+                      </Card>
                     </div>
-                    <p className="text-muted-foreground italic text-xs">"{testimonial.text}"</p>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
+              <CarouselPrevious className="transform hover:scale-110 transition-transform -left-4 md:-left-12 h-10 w-10 bg-primary text-primary-foreground shadow-lg" />
+              <CarouselNext className="transform hover:scale-110 transition-transform -right-4 md:-right-12 h-10 w-10 bg-primary text-primary-foreground shadow-lg" />
+            </Carousel>
           </div>
         </section>
 
@@ -310,6 +335,7 @@ export default function Home() {
           </div>
         </div>
       </footer>
+      <Chatbot />
     </div>
   );
 }
