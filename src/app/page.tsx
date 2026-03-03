@@ -188,7 +188,7 @@ export default function Home() {
               opts={{
                 loop: true,
               }}
-              className="w-full max-w-[200px] mx-auto"
+              className="w-full max-w-xs mx-auto"
             >
               <CarouselContent>
                 {testimonials.map((testimonial, index) => (
@@ -199,8 +199,8 @@ export default function Home() {
                           src={testimonial.avatar.imageUrl}
                           alt={testimonial.name}
                           width={600}
-                          height={400}
-                          className="w-full aspect-[3/4] object-contain"
+                          height={600}
+                          className="w-full aspect-square object-cover"
                           data-ai-hint={testimonial.avatar.imageHint}
                         />
                       </CardContent>
