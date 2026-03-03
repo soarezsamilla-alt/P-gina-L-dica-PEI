@@ -100,11 +100,6 @@ const testimonials = [
     avatar: findImage("testimonial-ana"),
     text: "Um recurso fantástico que transformou minha rotina. A adaptabilidade dos modelos é um grande diferencial.",
   },
-  {
-    name: "Carlos, Professor do Fundamental",
-    avatar: findImage("testimonial-carlos"),
-    text: "Material de alta qualidade e super prático. Recomendo a todos os colegas que querem inovar em sala de aula.",
-  },
 ];
 
 const carouselImages = ["carousel-1", "carousel-2", "carousel-3"].map(id => findImage(id));
