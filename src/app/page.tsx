@@ -278,7 +278,7 @@ export default function Home() {
               <Card className="bg-white shadow-lg flex flex-col pt-6 text-black">
                 <CardHeader className="text-center">
                   <Package className="h-10 w-10 text-primary mb-2 mx-auto" />
-                  <CardTitle className="font-headline text-2xl">Plano Básico</CardTitle>
+                  <CardTitle className="font-headline text-3xl">Plano Básico</CardTitle>
                   <CardDescription className="text-black/90">O essencial para começar a planejar.</CardDescription>
                 </CardHeader>
                 <CardContent className="flex-grow">
@@ -302,7 +302,7 @@ export default function Home() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Button size="lg" className="w-full text-base h-12 bg-[#ff9900] hover:bg-[#ff9900]/90">
+                  <Button size="lg" className="w-full text-lg h-14 bg-[#ff9900] hover:bg-[#ff9900]/90">
                     ADQUIRIR AGORA!
                   </Button>
                 </CardFooter>
