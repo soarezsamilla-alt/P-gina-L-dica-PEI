@@ -269,7 +269,7 @@ export default function Home() {
             <h3 className="text-3xl md:text-4xl font-bold text-center font-headline mb-12">
               Escolha seu plano e comece a <span className="text-primary">brincar</span>!
             </h3>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-4xl mx-auto items-stretch">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-3xl mx-auto items-stretch">
               <Card className="bg-background shadow-lg flex flex-col">
                 <CardHeader>
                   <Package className="h-10 w-10 text-primary mb-2" />
