@@ -28,6 +28,7 @@ import {
   Users,
   Youtube,
 } from "lucide-react";
+import Chatbot from "@/components/chatbot";
 
 const findImage = (id: string) => {
   const img = PlaceHolderImages.find((img) => img.id === id);
@@ -212,7 +213,7 @@ export default function Home() {
             </p>
             <Carousel
               opts={{ loop: true }}
-              className="w-full max-w-3xl mx-auto"
+              className="w-full max-w-xl mx-auto"
             >
               <CarouselContent>
                 {carouselImages.map((img, index) => (
@@ -224,7 +225,7 @@ export default function Home() {
                           alt={img.description}
                           width={600}
                           height={400}
-                          className="w-full aspect-[4/3] object-cover"
+                          className="w-full aspect-[3/4] object-contain"
                           data-ai-hint={img.imageHint}
                         />
                       </CardContent>
@@ -311,7 +312,7 @@ export default function Home() {
           </div>
         </div>
       </footer>
-      
+      <Chatbot />
     </div>
   );
 }
