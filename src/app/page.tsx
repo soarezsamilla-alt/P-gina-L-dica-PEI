@@ -164,7 +164,7 @@ export default function Home() {
                 Ao adquirir qualquer plano, você recebe acesso instantâneo a estes materiais incríveis para complementar suas aulas.
               </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-3xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-lg mx-auto">
               {bonuses.map((bonus) => {
                 const bonusImage = findImage(bonus.id);
                 return (
@@ -179,9 +179,9 @@ export default function Home() {
                         data-ai-hint={bonusImage.imageHint}
                       />
                     </CardContent>
-                    <CardHeader className="flex-grow">
-                      <CardTitle className="text-lg">{bonus.title}</CardTitle>
-                      <CardDescription className="text-sm mt-2">{bonus.description}</CardDescription>
+                    <CardHeader className="flex-grow p-4">
+                      <CardTitle className="text-base">{bonus.title}</CardTitle>
+                      <CardDescription className="text-xs mt-1">{bonus.description}</CardDescription>
                     </CardHeader>
                   </Card>
                 );
