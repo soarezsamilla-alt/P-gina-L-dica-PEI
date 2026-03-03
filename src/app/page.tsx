@@ -119,7 +119,7 @@ export default function Home() {
             <p className="mt-4 text-sm text-muted-foreground max-w-2xl mx-auto">
               No arquivo contém 47 modelos, planejados por profissionais da educação. Servem para fundamental I e II. Mas como são editáveis você consegue Adaptar para OUTRAS TURMAS também.
             </p>
-            <div className="mt-12 rounded-xl shadow-2xl overflow-hidden max-w-[300px] mx-auto">
+            <div className="mt-12 rounded-xl shadow-2xl overflow-hidden max-w-[250px] mx-auto">
               <Image
                 src={heroImage.imageUrl}
                 alt={heroImage.description}
@@ -164,7 +164,7 @@ export default function Home() {
                 Ao adquirir qualquer plano, você recebe acesso instantâneo a estes materiais incríveis para complementar suas aulas.
               </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-md mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-sm mx-auto">
               {bonuses.map((bonus) => {
                 const bonusImage = findImage(bonus.id);
                 return (
