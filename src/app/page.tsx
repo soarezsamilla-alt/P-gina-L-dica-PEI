@@ -124,7 +124,7 @@ export default function Home() {
             <p className="mt-4 text-sm text-muted-foreground max-w-2xl mx-auto">
               No arquivo contém 47 modelos, planejados por profissionais da educação. Servem para fundamental I e II. Mas como são editáveis você consegue Adaptar para OUTRAS TURMAS também.
             </p>
-            <div className="mt-12 rounded-xl shadow-2xl overflow-hidden max-w-xl mx-auto">
+            <div className="mt-12 rounded-xl shadow-2xl overflow-hidden max-w-[500px] mx-auto">
               <Image
                 src={heroImage.imageUrl}
                 alt={heroImage.description}
@@ -195,27 +195,14 @@ export default function Home() {
                 {testimonials.map((testimonial, index) => (
                   <CarouselItem key={index} className="md:basis-1/2">
                     <div className="p-1">
-                      <Card className="bg-background shadow-xl border-0 p-4 h-full">
-                        <CardContent className="p-0 flex flex-col h-full">
-                          <div className="flex items-center mb-4">
-                            <Avatar className="h-12 w-12 mr-4">
-                              <AvatarImage src={testimonial.avatar.imageUrl} alt={testimonial.name} data-ai-hint={testimonial.avatar.imageHint} />
-                              <AvatarFallback>{testimonial.name.charAt(0)}</AvatarFallback>
-                            </Avatar>
-                            <div>
-                              <p className="font-bold text-sm">{testimonial.name}</p>
-                              <div className="flex text-primary mt-1">
-                                <Star className="h-4 w-4 fill-current" />
-                                <Star className="h-4 w-4 fill-current" />
-                                <Star className="h-4 w-4 fill-current" />
-                                <Star className="h-4 w-4 fill-current" />
-                                <Star className="h-4 w-4 fill-current" />
-                              </div>
-                            </div>
-                          </div>
-                          <p className="text-muted-foreground italic text-sm flex-grow">"{testimonial.text}"</p>
-                        </CardContent>
-                      </Card>
+                      <Image
+                        src={testimonial.avatar.imageUrl}
+                        alt={testimonial.name}
+                        width={400}
+                        height={400}
+                        className="w-full aspect-square object-cover rounded-2xl shadow-xl"
+                        data-ai-hint={testimonial.avatar.imageHint}
+                      />
                     </div>
                   </CarouselItem>
                 ))}
