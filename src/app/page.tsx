@@ -68,7 +68,7 @@ const benefits = [
 const bonuses = [
   {
     id: "ebook-autismo",
-    title: "Plano Educacional Individualizado PEI",
+    title: "Plano Educacional PEI",
     description: "Um guia completo com estratégias e atividades adaptadas.",
   },
   {
