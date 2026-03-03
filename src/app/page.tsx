@@ -111,12 +111,15 @@ export default function Home() {
 
   return (
     <div className="flex flex-col min-h-screen">
+      <div className="sticky top-0 z-50 w-full text-center py-2 bg-background/95 backdrop-blur-sm border-b">
+        <Countdown />
+      </div>
       <main className="flex-grow">
         {/* Hero Section */}
         <section className="py-12 md:py-24 lg:py-32">
           <div className="container mx-auto px-4 text-center">
-            <Countdown />
-            <h2 className="text-[23px] font-bold font-headline tracking-tighter max-w-3xl mx-auto">
+            
+            <h2 className="text-[23px] font-bold font-headline tracking-tighter max-w-3xl mx-auto mt-6">
               Dê adeus a dificuldade em elaborar seu PEI! Aqui temos modelos <span className="text-primary">PRONTOS E EDITÁVEIS</span>!
             </h2>
             <p className="mt-4 text-sm text-muted-foreground max-w-2xl mx-auto">
