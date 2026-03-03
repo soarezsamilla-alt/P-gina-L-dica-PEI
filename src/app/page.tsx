@@ -173,8 +173,8 @@ export default function Home() {
                         src={bonusImage.imageUrl}
                         alt={bonusImage.description}
                         width={400}
-                        height={500}
-                        className="w-full h-auto object-cover aspect-[4/5]"
+                        height={400}
+                        className="w-full h-auto object-cover aspect-square"
                         data-ai-hint={bonusImage.imageHint}
                       />
                     </CardContent>
