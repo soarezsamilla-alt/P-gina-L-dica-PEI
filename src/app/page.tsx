@@ -299,7 +299,7 @@ export default function Home() {
               </Card>
 
               {/* Plano Pro */}
-              <Card className="bg-[#60a7f7] shadow-2xl flex flex-col border-2 border-primary ring-4 ring-primary/20 relative">
+              <Card className="bg-[#60a7f7] shadow-2xl flex flex-col border-2 border-primary ring-4 ring-primary/20 relative text-white">
                 <div className="absolute top-0 -translate-y-1/2 w-full flex justify-center">
                     <div className="bg-primary text-primary-foreground px-4 py-1 rounded-full text-sm font-semibold shadow-lg">
                         MAIS VENDIDO ⭐
@@ -308,13 +308,13 @@ export default function Home() {
                 <CardHeader className="text-center pt-10">
                   <Trophy className="h-10 w-10 text-primary mb-2 mx-auto" />
                   <CardTitle className="font-headline text-3xl">Plano PRO</CardTitle>
-                  <CardDescription>A experiência completa para inovar! 🚀</CardDescription>
+                  <CardDescription className="text-white/90">A experiência completa para inovar! 🚀</CardDescription>
                 </CardHeader>
                 <CardContent className="flex-grow">
                 <div className="text-center my-6">
                     <span className="text-5xl font-bold">R$18</span>
                     <span className="text-2xl font-bold">,90</span>
-                    <p className="text-sm text-muted-foreground">Pagamento único</p>
+                    <p className="text-sm text-white/80">Pagamento único</p>
                   </div>
                   <ul className="space-y-3">
                     <li className="flex items-start"><CheckCircle className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> <span>Tudo do Plano Básico e <span className="font-bold">MUITO</span> mais!</span></li>
