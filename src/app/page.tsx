@@ -208,7 +208,7 @@ export default function Home() {
             <h3 className="text-[23px] font-bold text-center font-headline mb-4">
               Veja algumas amostras!
             </h3>
-            <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+            <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto text-sm">
               Nossos modelos de PEI são feitos para tornar o ensino mais divertido e interativo!
             </p>
             <Carousel
