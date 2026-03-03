@@ -277,6 +277,7 @@ export default function Home() {
                     <li className="flex items-center"><CheckCircle className="h-5 w-5 mr-2" /> Tudo do Plano Básico</li>
                     <li className="flex items-center"><CheckCircle className="h-5 w-5 mr-2" /> Bônus extras (PEI Autismo, Relatórios AEE)</li>
                     <li className="flex items-center"><CheckCircle className="h-5 w-5 mr-2" /> Atividades motoras e muito mais!</li>
+                    <li className="flex items-center"><CheckCircle className="h-5 w-5 mr-2" /> Combo Ed. Especial</li>
                   </ul>
                 </CardContent>
                 <CardFooter>
