@@ -35,12 +35,6 @@
       "description": "Amostra de modelo de PEI 3.",
       "imageUrl": "https://image2url.com/r2/default/images/1772501577171-a4adb8b8-14e1-42a4-bb04-30ee0405dd20.webp",
       "imageHint": "creative education"
-    },
-    {
-      "id": "carousel-4",
-      "description": "Amostra de modelo de PEI 4.",
-      "imageUrl": "https://images.unsplash.com/photo-1661442976608-423aaf1170a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmdW4lMjBhY3Rpdml0aWVzfGVufDB8fHx8MTc3MjQ5NTYzMXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "fun activities"
     }
   ]
 }

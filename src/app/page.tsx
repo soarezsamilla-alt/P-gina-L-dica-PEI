@@ -96,7 +96,7 @@ const testimonials = [
   },
 ];
 
-const carouselImages = ["carousel-1", "carousel-2", "carousel-3", "carousel-4"].map(id => findImage(id));
+const carouselImages = ["carousel-1", "carousel-2", "carousel-3"].map(id => findImage(id));
 
 export default function Home() {
   const heroImage = findImage("hero-image");
