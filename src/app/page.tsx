@@ -27,7 +27,6 @@ import {
   Users,
   Youtube,
 } from "lucide-react";
-import Chatbot from "@/components/chatbot";
 
 const findImage = (id: string) => {
   const img = PlaceHolderImages.find((img) => img.id === id);
@@ -353,7 +352,6 @@ export default function Home() {
           </div>
         </div>
       </footer>
-      <Chatbot />
     </div>
   );
 }
