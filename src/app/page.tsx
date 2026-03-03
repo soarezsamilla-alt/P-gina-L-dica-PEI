@@ -74,7 +74,7 @@ const bonuses = [
   {
     id: "ebook-relatorios",
     title: "E-book: Relatórios para AEE",
-    description: "Modelos e dicas para criar relatórios descritivos eficientes.",
+    description: "Plano de desenvolvimento individual focado na aprendizagen e inclusão de alunos PDI e PEI.",
   },
   {
     id: "ebook-motoras",
