@@ -270,7 +270,7 @@ export default function Home() {
               Escolha seu plano e comece a <span className="text-primary">brincar</span>!
             </h3>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-3xl mx-auto items-stretch">
-              <Card className="bg-background shadow-lg flex flex-col">
+              <Card className="bg-card-basico shadow-lg flex flex-col">
                 <CardHeader>
                   <Package className="h-10 w-10 text-primary mb-2" />
                   <CardTitle className="font-headline text-2xl">Plano Básico</CardTitle>
@@ -292,7 +292,7 @@ export default function Home() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Button size="lg" className="w-full text-lg h-14 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                  <Button size="lg" className="w-full text-base h-12 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
                     ADQUIRIR AGORA!
                   </Button>
                 </CardFooter>
