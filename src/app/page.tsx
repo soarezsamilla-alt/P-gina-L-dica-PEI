@@ -162,7 +162,7 @@ export default function Home() {
                 E ainda tem <span className="text-accent">3 E-books de Bônus</span>!
               </h3>
               <p className="text-muted-foreground mt-2 max-w-2xl mx-auto">
-                Ao adquirir qualquer plano, você recebe acesso instantâneo a estes materiais incríveis para complementar suas aulas.
+                Ao adquirir Plano Pro, você recebe acesso instantâneo a estes materiais incríveis para complementar suas aulas.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-sm mx-auto">
