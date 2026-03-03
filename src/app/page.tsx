@@ -293,7 +293,7 @@ export default function Home() {
                 </CardContent>
                 <CardFooter>
                   <Button size="lg" className="w-full text-lg h-14 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-                    Adquirir Agora e Começar a Brincar!
+                    ADQUIRIR AGORA!
                   </Button>
                 </CardFooter>
               </Card>
@@ -323,7 +323,7 @@ export default function Home() {
                 </CardContent>
                 <CardFooter>
                   <Button size="lg" variant="secondary" className="w-full text-lg h-14 bg-white text-accent hover:bg-white/90 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-                    Criar um Mundo Colorido de Aprendizado!
+                    ADQUIRIR AGORA!
                   </Button>
                 </CardFooter>
               </Card>
