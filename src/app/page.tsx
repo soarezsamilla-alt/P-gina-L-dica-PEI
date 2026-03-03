@@ -159,7 +159,7 @@ export default function Home() {
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h3 className="text-[23px] font-bold font-headline">
-                E ainda tem <span className="text-accent">3 E-books de Bônus</span>!
+                Tenho 3 presentes extras para Você!
               </h3>
               <p className="text-muted-foreground mt-2 max-w-2xl mx-auto">
                 Ao adquirir Plano Pro, você recebe acesso instantâneo a estes materiais incríveis para complementar suas aulas.
