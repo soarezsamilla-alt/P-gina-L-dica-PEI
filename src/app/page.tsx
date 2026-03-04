@@ -115,7 +115,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <div className="sticky top-0 z-50 w-full text-center py-1 bg-background/95 backdrop-blur-sm border-b">
+      <div className="sticky top-0 z-50 w-full text-center py-1 bg-background/95 backdrop-blur-sm border-b border-destructive">
         <Countdown />
       </div>
       <main className="flex-grow">
@@ -283,7 +283,7 @@ export default function Home() {
               Desbloqueie a <span className="text-primary">Magia do Ensino</span>!
             </h3>
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-              Escolha o plano perfeito para você e transforme a maneira de ensinar e brincar.
+              Garanta agora os melhores modelos de PEI e otimize seu tempo!
             </p>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-4xl mx-auto items-end">
               {/* Plano Básico */}
