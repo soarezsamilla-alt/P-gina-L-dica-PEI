@@ -20,7 +20,7 @@ interface UpsellModalProps {
 export function UpsellModal({ open, onOpenChange }: UpsellModalProps) {
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="sm:max-w-lg bg-card border-primary shadow-2xl rounded-2xl">
+      <DialogContent className="w-[95vw] sm:max-w-lg bg-card border-primary shadow-2xl rounded-2xl">
         <DialogHeader className="pt-6 text-center">
           <div className="flex justify-center mb-4">
             <div className="bg-primary/10 p-4 rounded-full">
