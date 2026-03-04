@@ -33,6 +33,7 @@ import Chatbot from "@/components/chatbot";
 import Countdown from "@/components/countdown";
 import { UpsellModal } from "@/components/upsell-modal";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import SocialProofPopup from "@/components/social-proof-popup";
 
 const findImage = (id: string) => {
   const img = PlaceHolderImages.find((img) => img.id === id);
@@ -451,19 +452,16 @@ export default function Home() {
 
       <footer className="bg-foreground text-background">
         <div className="container mx-auto px-4 py-8">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="mb-4 md:mb-0">
-              <p className="text-sm text-muted-foreground mt-2">© {new Date().getFullYear()} Página Lúdica PEI. Todos os direitos reservados.</p>
-            </div>
-            <div className="flex space-x-4 mb-4 md:mb-0">
-              <Link href="#" className="text-sm hover:text-primary transition-colors">Política de Privacidade</Link>
-              <Link href="#" className="text-sm hover:text-primary transition-colors">Termos de Uso</Link>
-              <Link href="#" className="text-sm hover:text-primary transition-colors">Contato</Link>
+          <div className="flex flex-col md:flex-row justify-center items-center">
+            <div className="text-center">
+              <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} Página Lúdica PEI. Todos os direitos reservados.</p>
             </div>
           </div>
         </div>
       </footer>
       <UpsellModal open={isUpsellModalOpen} onOpenChange={setIsUpsellModalOpen} />
+      <Chatbot />
+      <SocialProofPopup />
     </div>
   );
 }
