@@ -36,11 +36,11 @@ export default function Countdown() {
     }, []);
 
     return (
-        <div className="inline-flex items-center justify-center gap-1.5 rounded-full border border-destructive bg-destructive/10 px-3 py-1 text-sm font-medium">
-            <Clock className="h-4 w-4 text-[#ff9900]" />
+        <div className="inline-flex items-center justify-center gap-1.5 rounded-full border border-primary bg-primary/10 px-3 py-1 text-sm font-medium">
+            <Clock className="h-4 w-4 text-primary" />
             <span>
-                <span className="text-[#ff9900]">Essa Oferta Termina Em:{' '}</span>
-                <strong className="tabular-nums w-[70px] inline-block text-destructive">
+                <span className="text-primary">Essa Oferta Termina Em:{' '}</span>
+                <strong className="tabular-nums w-[70px] inline-block text-primary">
                     {timeLeft ?? '24:00:00'}
                 </strong>
             </span>

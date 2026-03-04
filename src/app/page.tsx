@@ -117,7 +117,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <div className="sticky top-0 z-50 w-full text-center py-1 bg-background/95 backdrop-blur-sm border-b border-destructive">
+      <div className="sticky top-0 z-50 w-full text-center py-1 bg-background/95 backdrop-blur-sm">
         <Countdown />
       </div>
       <main className="flex-grow">
