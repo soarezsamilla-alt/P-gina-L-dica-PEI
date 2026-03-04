@@ -32,6 +32,7 @@ import {
 import Chatbot from "@/components/chatbot";
 import Countdown from "@/components/countdown";
 import { UpsellModal } from "@/components/upsell-modal";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const findImage = (id: string) => {
   const img = PlaceHolderImages.find((img) => img.id === id);
@@ -395,6 +396,54 @@ export default function Home() {
                   Sua satisfação é nossa prioridade. Se por qualquer motivo você achar que nosso material não é para você, basta nos enviar um único e-mail dentro de 7 dias e devolveremos <span className="font-bold text-primary">100% do seu investimento</span>. Sem perguntas, sem burocracia. O risco é todo nosso!
                 </p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="py-12 md:py-24 bg-background">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-12 max-w-2xl mx-auto">
+              <h3 className="text-3xl md:text-4xl font-bold font-headline">
+                Ainda tem <span className="text-primary">Dúvidas?</span>
+              </h3>
+              <p className="text-muted-foreground mt-4">
+                Confira as respostas para as perguntas mais comuns sobre nossos materiais.
+              </p>
+            </div>
+            <div className="max-w-3xl mx-auto">
+              <Accordion type="single" collapsible className="w-full">
+                <AccordionItem value="item-1">
+                  <AccordionTrigger className="text-left font-bold">O que significa PEI?</AccordionTrigger>
+                  <AccordionContent>
+                    PEI é a sigla para Plano Educacional Individualizado. É um documento que detalha os objetivos, as estratégias e os recursos pedagógicos para atender às necessidades específicas de cada aluno, especialmente os da educação especial. Nossos modelos facilitam a criação desse plano de forma lúdica e eficiente.
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value="item-2">
+                  <AccordionTrigger className="text-left font-bold">Os modelos são editáveis?</AccordionTrigger>
+                  <AccordionContent>
+                    Sim! Todos os 47 modelos são 100% editáveis no Word. Você pode personalizar textos, imagens e atividades para se adequar perfeitamente ao perfil e às necessidades de cada um dos seus alunos.
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value="item-3">
+                  <AccordionTrigger className="text-left font-bold">Para qual faixa etária são os modelos?</AccordionTrigger>
+                  <AccordionContent>
+                    Nossos modelos são voltados para o Ensino Fundamental I e II. No entanto, por serem totalmente editáveis, eles podem ser facilmente adaptados para outras turmas e níveis, como a Educação Infantil.
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value="item-4">
+                  <AccordionTrigger className="text-left font-bold">Como receberei o material após a compra?</AccordionTrigger>
+                  <AccordionContent>
+                    O acesso é imediato! Assim que seu pagamento for confirmado, você receberá um e-mail com todas as instruções e o link para baixar o material completo. Compras via PIX ou Cartão de Crédito têm liberação instantânea.
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value="item-5">
+                  <AccordionTrigger className="text-left font-bold">A compra é segura?</AccordionTrigger>
+                  <AccordionContent>
+                    Com certeza! Nossa transação é processada por uma das maiores plataformas de pagamentos do Brasil, garantindo total segurança e proteção dos seus dados. Além disso, oferecemos a garantia de 7 dias para sua tranquilidade.
+                  </AccordionContent>
+                </AccordionItem>
+              </Accordion>
             </div>
           </div>
         </section>
