@@ -19,15 +19,11 @@ import {
   BookOpen,
   CheckCircle,
   Clock,
-  Facebook,
-  Instagram,
   Package,
-  PackagePlus,
   Rocket,
   Sparkles,
   Trophy,
   Users,
-  Youtube,
 } from "lucide-react";
 import Countdown from "@/components/countdown";
 import { UpsellModal } from "@/components/upsell-modal";
@@ -318,7 +314,7 @@ export default function Home() {
                 <CardFooter>
                   <Button 
                     size="lg" 
-                    className="w-full text-lg h-14 bg-[#ff9900] hover:bg-[#ff9900]/90"
+                    className="w-full text-lg h-14 bg-[#ff9900] hover:bg-[#ff9900]/90 animate-pulse-ring"
                     onClick={() => setIsUpsellModalOpen(true)}
                   >
                     ADQUIRIR AGORA!
