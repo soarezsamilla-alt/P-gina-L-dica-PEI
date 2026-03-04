@@ -46,27 +46,27 @@ const benefits = [
   {
     icon: <Rocket className="h-5 w-5 text-primary" />,
     title: "Prontidão e Diversão",
-    description: "Modelos prontos que podem ser facilmente adaptados para diferentes crianças e situações.",
+    description: "Nossos modelos de PEI estão prontos e são fáceis de adaptar para cada aluno, agilizando seu planejamento.",
   },
   {
     icon: <Sparkles className="h-5 w-5 text-primary" />,
     title: "Ensinar de forma lúdica",
-    description: "Com ilustrações coloridas e atividades divertidas, ensinar será um momento de aprendizado feliz.",
+    description: "Transforme a criação do PEI em algo lúdico. Nossas ilustrações e atividades tornam o aprendizado mais envolvente.",
   },
   {
     icon: <Clock className="h-5 w-5 text-primary" />,
-    title: "Economize tempo para brincar",
-    description: "Deixe de lado a elaboração difícil e tenha mais tempo para brincar e ensinar!",
+    title: "Economize seu tempo",
+    description: "Passe menos tempo elaborando o PEI e mais tempo ensinando. Nossos modelos prontos otimizam sua rotina.",
   },
   {
     icon: <Users className="h-5 w-5 text-primary" />,
     title: "Adaptabilidade para Todos",
-    description: "Perfeito para atividades em sala de aula ou ensino remoto, adaptável para todos os tipos de alunos.",
+    description: "Modelos de PEI flexíveis para sala de aula, ensino remoto ou atendimentos individuais. Adapte para qualquer necessidade.",
   },
   {
     icon: <BookOpen className="h-5 w-5 text-primary" />,
-    title: "Suporte Completo para Professores",
-    description: "Modelos que vêm com tudo que você precisa, desde relatórios até atividades divertidas!",
+    title: "Material Completo de PEI",
+    description: "Tenha em mãos um material de PEI completo, com relatórios, planejamentos e atividades que facilitam seu dia a dia.",
   },
 ];
 
