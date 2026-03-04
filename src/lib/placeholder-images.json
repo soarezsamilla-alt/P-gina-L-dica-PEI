@@ -71,6 +71,12 @@
       "description": "Capa do e-book bônus sobre Atividades Motoras",
       "imageUrl": "https://image2url.com/r2/default/images/1772567056682-3591b403-578b-4270-9706-ba0f6ac84fe9.png",
       "imageHint": "activity pages"
+    },
+    {
+      "id": "guarantee-seal",
+      "description": "Selo de garantia de 7 dias.",
+      "imageUrl": "https://image2url.com/r2/default/images/1772635930064-e1d1a603-4927-466d-ad02-3c727194f4c2.png",
+      "imageHint": "guarantee seal"
     }
   ]
 }
