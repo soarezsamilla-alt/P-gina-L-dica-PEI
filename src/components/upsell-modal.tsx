@@ -9,7 +9,7 @@ import {
   DialogFooter,
 } from '@/components/ui/dialog';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Star } from 'lucide-react';
+import { ArrowRight, Star, CheckCircle } from 'lucide-react';
 import Link from 'next/link';
 
 interface UpsellModalProps {
@@ -20,7 +20,7 @@ interface UpsellModalProps {
 export function UpsellModal({ open, onOpenChange }: UpsellModalProps) {
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="sm:max-w-md bg-card border-primary shadow-2xl rounded-2xl">
+      <DialogContent className="sm:max-w-lg bg-card border-primary shadow-2xl rounded-2xl">
         <DialogHeader className="pt-6 text-center">
           <div className="flex justify-center mb-4">
             <div className="bg-primary/10 p-4 rounded-full">
@@ -29,11 +29,23 @@ export function UpsellModal({ open, onOpenChange }: UpsellModalProps) {
           </div>
           <DialogTitle className="font-headline text-2xl !mt-0">Espere! Temos uma oferta melhor!</DialogTitle>
           <DialogDescription className="text-muted-foreground pt-2 text-base">
-            Por apenas um pouco a mais, você leva o <span className="font-bold text-foreground">Plano PRO</span>. É o nosso pacote mais completo e <span className="font-bold text-primary">mais vendido!</span>
+            Por apenas <span className="font-bold text-primary">R$5,00 a mais</span>, você leva o <span className="font-bold text-foreground">Plano PRO</span>. É o nosso pacote mais completo e <span className="font-bold text-primary">mais vendido!</span>
           </DialogDescription>
         </DialogHeader>
         
-        <DialogFooter className="sm:justify-center flex-col sm:flex-col sm:space-x-0 gap-2 pt-6">
+        <div className="my-6 px-6">
+            <h4 className="font-bold text-center mb-4 text-foreground">Veja tudo que você recebe no Plano PRO:</h4>
+            <ul className="space-y-2 text-sm text-left text-foreground/90">
+                <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#6fbf74] mr-2 mt-0.5 flex-shrink-0" /> <span>Tudo do Plano Básico e <span className="font-bold">MUITO</span> mais!</span></li>
+                <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#6fbf74] mr-2 mt-0.5 flex-shrink-0" /> <span><span className="font-bold">3 Bônus</span> (Autismo, Relatórios e Ativ. Motoras) 🎁</span></li>
+                <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#6fbf74] mr-2 mt-0.5 flex-shrink-0" /> <span><span className="font-bold">Combo Ed. Especial</span> com materiais extras</span></li>
+                <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#6fbf74] mr-2 mt-0.5 flex-shrink-0" /> <span><span className="font-bold">PEI Autismo Ed. Infantil</span></span></li>
+                <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#6fbf74] mr-2 mt-0.5 flex-shrink-0" /> <span>Relatórios AEE</span></li>
+                <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#6fbf74] mr-2 mt-0.5 flex-shrink-0" /> <span>Acesso a <span className="font-bold">futuras atualizações</span></span></li>
+            </ul>
+        </div>
+
+        <DialogFooter className="sm:justify-center flex-col sm:flex-col sm:space-x-0 gap-2 pt-0">
           <Link href="#" className="w-full" onClick={() => onOpenChange(false)}>
             <Button 
                 type="button" 
