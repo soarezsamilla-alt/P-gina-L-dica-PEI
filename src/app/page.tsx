@@ -326,7 +326,7 @@ export default function Home() {
                 <CardHeader className="text-center pt-10">
                   <Trophy className="h-10 w-10 text-primary mb-2 mx-auto" />
                   <CardTitle className="font-headline text-3xl">Plano PRO</CardTitle>
-                  <CardDescription className="text-black/90">A experiência completa para inovar! 🚀</CardDescription>
+                  <CardDescription className="text-black/90">Todos PEI prontos e editáveis!</CardDescription>
                 </CardHeader>
                 <CardContent className="flex-grow">
                 <div className="text-center my-6">
