@@ -392,7 +392,7 @@ export default function Home() {
                 <h3 className="text-xl md:text-2xl font-bold font-headline mb-4">
                   Garantia Incondicional de 7 Dias
                 </h3>
-                <p className="text-muted-foreground text-base">
+                <p className="text-muted-foreground text-sm">
                   Sua satisfação é nossa prioridade. Se por qualquer motivo você achar que nosso material não é para você, basta nos enviar um único e-mail dentro de 7 dias e devolveremos <span className="font-bold text-primary">100% do seu investimento</span>. Sem perguntas, sem burocracia. O risco é todo nosso!
                 </p>
               </div>
