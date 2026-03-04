@@ -1,6 +1,8 @@
+'use client';
 
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 import {
   Carousel,
   CarouselContent,
@@ -29,6 +31,7 @@ import {
 } from "lucide-react";
 import Chatbot from "@/components/chatbot";
 import Countdown from "@/components/countdown";
+import { UpsellModal } from "@/components/upsell-modal";
 
 const findImage = (id: string) => {
   const img = PlaceHolderImages.find((img) => img.id === id);
@@ -105,6 +108,7 @@ const testimonials = [
 const carouselImages = ["carousel-1", "carousel-2", "carousel-3"].map(id => findImage(id));
 
 export default function Home() {
+  const [isUpsellModalOpen, setIsUpsellModalOpen] = useState(false);
   const heroImage = findImage("hero-image");
   const planoProImage = findImage("plano-pro-image");
   const planoBasicoImage = findImage("plano-basico-image");
@@ -310,7 +314,11 @@ export default function Home() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Button size="lg" className="w-full text-lg h-14 bg-[#ff9900] hover:bg-[#ff9900]/90">
+                  <Button 
+                    size="lg" 
+                    className="w-full text-lg h-14 bg-[#ff9900] hover:bg-[#ff9900]/90"
+                    onClick={() => setIsUpsellModalOpen(true)}
+                  >
                     ADQUIRIR AGORA!
                   </Button>
                 </CardFooter>
@@ -382,6 +390,7 @@ export default function Home() {
           </div>
         </div>
       </footer>
+      <UpsellModal open={isUpsellModalOpen} onOpenChange={setIsUpsellModalOpen} />
     </div>
   );
 }
