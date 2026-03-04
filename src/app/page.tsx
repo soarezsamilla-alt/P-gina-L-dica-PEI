@@ -389,7 +389,7 @@ export default function Home() {
                 />
               </div>
               <div>
-                <h3 className="text-2xl md:text-3xl font-bold font-headline mb-4">
+                <h3 className="text-xl md:text-2xl font-bold font-headline mb-4">
                   Garantia Incondicional de 7 Dias
                 </h3>
                 <p className="text-muted-foreground text-base">
