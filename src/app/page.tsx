@@ -29,7 +29,6 @@ import {
   Users,
   Youtube,
 } from "lucide-react";
-import Chatbot from "@/components/chatbot";
 import Countdown from "@/components/countdown";
 import { UpsellModal } from "@/components/upsell-modal";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
@@ -460,7 +459,6 @@ export default function Home() {
         </div>
       </footer>
       <UpsellModal open={isUpsellModalOpen} onOpenChange={setIsUpsellModalOpen} />
-      <Chatbot />
       <SocialProofPopup />
     </div>
   );
