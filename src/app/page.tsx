@@ -460,11 +460,6 @@ export default function Home() {
               <Link href="#" className="text-sm hover:text-primary transition-colors">Termos de Uso</Link>
               <Link href="#" className="text-sm hover:text-primary transition-colors">Contato</Link>
             </div>
-            <div className="flex space-x-4">
-              <Link href="#" aria-label="Facebook"><Facebook className="h-6 w-6 hover:text-primary transition-colors" /></Link>
-              <Link href="#" aria-label="Instagram"><Instagram className="h-6 w-6 hover:text-primary transition-colors" /></Link>
-              <Link href="#" aria-label="Youtube"><Youtube className="h-6 w-6 hover:text-primary transition-colors" /></Link>
-            </div>
           </div>
         </div>
       </footer>
