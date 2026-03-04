@@ -281,7 +281,7 @@ export default function Home() {
         {/* Pricing Section */}
         <section className="py-12 md:py-24 bg-card">
           <div className="container mx-auto px-4">
-            <h3 className="text-3xl md:text-4xl font-bold text-center font-headline mb-4">
+            <h3 className="text-2xl md:text-3xl font-bold text-center font-headline mb-4">
               Desbloqueie a <span className="text-primary">Magia do Ensino</span>!
             </h3>
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
