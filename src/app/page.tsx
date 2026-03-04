@@ -361,9 +361,11 @@ export default function Home() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Button size="lg" className="w-full text-lg h-14 bg-primary hover:bg-primary/90 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-                    ADQUIRIR AGORA!
-                  </Button>
+                  <Link href="https://ggcheckout.com.br/checkout/v5/wAClZqNxlzOQ1mDxfJbY" className="w-full">
+                    <Button size="lg" className="w-full text-lg h-14 bg-primary hover:bg-primary/90 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                      ADQUIRIR AGORA!
+                    </Button>
+                  </Link>
                 </CardFooter>
               </Card>
             </div>
