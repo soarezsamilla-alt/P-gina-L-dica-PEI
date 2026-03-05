@@ -46,7 +46,7 @@ export function UpsellModal({ open, onOpenChange }: UpsellModalProps) {
         </div>
 
         <DialogFooter className="sm:justify-center flex-col sm:flex-col sm:space-x-0 gap-2 pt-0">
-          <Link href="https://ggcheckout.com.br/checkout/v5/PrJCo7NapNCBnCbdcmvG" className="w-full" onClick={() => onOpenChange(false)}>
+          <Link href="https://pay.hotmart.com/L104768807K?checkoutMode=10" className="w-full" onClick={() => onOpenChange(false)}>
             <Button 
                 type="button" 
                 className="w-full h-12 text-lg bg-primary hover:bg-primary/90 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300"

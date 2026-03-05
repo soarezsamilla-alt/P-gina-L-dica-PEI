@@ -359,7 +359,7 @@ export default function Home() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Link href="https://ggcheckout.com.br/checkout/v5/PrJCo7NapNCBnCbdcmvG" className="w-full">
+                  <Link href="https://pay.hotmart.com/L104768807K?checkoutMode=10" className="w-full">
                     <Button size="lg" className="w-full text-lg h-14 bg-primary hover:bg-primary/90 animate-pulse-ring">
                       ADQUIRIR AGORA!
                     </Button>
