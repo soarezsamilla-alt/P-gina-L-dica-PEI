@@ -28,8 +28,8 @@ export default function SocialProofPopup() {
 
     // Show first popup after 5 seconds
     const initialTimeout = setTimeout(showPopup, 5000);
-    // Show subsequent popups every 8 seconds
-    const interval = setInterval(showPopup, 8000);
+    // Show subsequent popups every 6 seconds
+    const interval = setInterval(showPopup, 6000);
 
     return () => {
       clearTimeout(initialTimeout);
@@ -43,23 +43,23 @@ export default function SocialProofPopup() {
   }
 
   return (
-    <div className="fixed bottom-4 left-4 z-[60] w-full max-w-xs sm:max-w-sm animate-in slide-in-from-bottom-10 fade-in-50">
-      <div className="relative rounded-xl border bg-card text-card-foreground shadow-lg p-4">
+    <div className="fixed bottom-4 left-4 z-[60] w-full max-w-[280px] animate-in slide-in-from-bottom-10 fade-in-50">
+      <div className="relative rounded-lg border bg-card text-card-foreground shadow-lg p-3">
         <button
           onClick={() => setIsVisible(false)}
-          className="absolute top-2 right-2 p-1 rounded-full text-muted-foreground hover:bg-muted"
+          className="absolute top-1.5 right-1.5 p-1 rounded-full text-muted-foreground hover:bg-muted"
           aria-label="Fechar notificação"
         >
-          <X className="h-4 w-4" />
+          <X className="h-3 w-3" />
           <span className="sr-only">Fechar</span>
         </button>
-        <div className="flex items-center gap-3">
-          <div className="flex-shrink-0 bg-primary/10 p-2 rounded-full">
-            <CheckCircle className="h-6 w-6 text-primary" />
+        <div className="flex items-center gap-2">
+          <div className="flex-shrink-0 bg-primary/10 p-1.5 rounded-full">
+            <CheckCircle className="h-5 w-5 text-primary" />
           </div>
           <div>
-            <p className="font-bold text-sm">{currentName}</p>
-            <p className="text-sm text-muted-foreground">acabou de comprar o Plano PRO!</p>
+            <p className="font-bold text-xs">{currentName}</p>
+            <p className="text-xs text-muted-foreground">acabou de comprar o Plano PRO!</p>
           </div>
         </div>
       </div>
