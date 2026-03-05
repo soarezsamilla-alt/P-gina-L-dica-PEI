@@ -55,7 +55,7 @@ export function UpsellModal({ open, onOpenChange }: UpsellModalProps) {
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </Link>
-          <Link href="https://ggcheckout.com.br/checkout/v5/nS0mZlwRYibwdCSDPg6A" className="w-full" onClick={() => onOpenChange(false)}>
+          <Link href="https://pay.hotmart.com/S104769144S?checkoutMode=10" className="w-full" onClick={() => onOpenChange(false)}>
             <Button 
                 type="button" 
                 variant="ghost" 
