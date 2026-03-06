@@ -217,6 +217,13 @@ export default function Home() {
               opts={{
                 loop: true,
               }}
+              plugins={[
+                Autoplay({
+                  delay: 3000,
+                  stopOnInteraction: false,
+                  stopOnMouseEnter: true,
+                }),
+              ]}
               className="w-full max-w-sm mx-auto"
             >
               <CarouselContent>
