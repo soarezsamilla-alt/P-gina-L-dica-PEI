@@ -355,6 +355,7 @@ export default function Home() {
                     <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#6fbf74] mr-2 mt-1 flex-shrink-0" /> <span><span className="font-bold">Combo Ed. Especial</span> com materiais extras</span></li>
                     <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#6fbf74] mr-2 mt-1 flex-shrink-0" /> <span><span className="font-bold">PEI Autismo Ed. Infantil</span></span></li>
                     <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#6fbf74] mr-2 mt-1 flex-shrink-0" /> <span>Relatórios AEE</span></li>
+                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#6fbf74] mr-2 mt-1 flex-shrink-0" /> <span>PEI para deficiências múltiplas</span></li>
                     <li className="flex items-start"><CheckCircle className="h-5 w-5 text-[#6fbf74] mr-2 mt-1 flex-shrink-0" /> <span>Acesso a <span className="font-bold">futuras atualizações</span></span></li>
                   </ul>
                 </CardContent>
