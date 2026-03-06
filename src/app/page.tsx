@@ -335,7 +335,7 @@ export default function Home() {
                 <CardFooter>
                   <Button 
                     size="lg" 
-                    className="w-full text-lg h-14 bg-[#ff9900] hover:bg-[#ff9900]/90 animate-pulse-ring"
+                    className="w-full text-lg h-14 bg-green-600 hover:bg-green-700 text-white font-semibold animate-pulse-ring-green"
                     onClick={() => setIsUpsellModalOpen(true)}
                   >
                     Liberar Acesso!
@@ -382,7 +382,7 @@ export default function Home() {
                 </CardContent>
                 <CardFooter>
                   <Link href="https://pay.hotmart.com/L104768807K?checkoutMode=10" className="w-full" suppressHydrationWarning>
-                    <Button size="lg" className="w-full text-lg h-14 bg-primary hover:bg-primary/90 animate-pulse-ring">
+                    <Button size="lg" className="w-full text-lg h-14 bg-green-600 hover:bg-green-700 text-white font-semibold animate-pulse-ring-green">
                       Liberar Acesso!
                     </Button>
                   </Link>
