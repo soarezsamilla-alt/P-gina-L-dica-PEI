@@ -323,7 +323,7 @@ export default function Home() {
                     className="w-full text-lg h-14 bg-[#ff9900] hover:bg-[#ff9900]/90 animate-pulse-ring"
                     onClick={() => setIsUpsellModalOpen(true)}
                   >
-                    ADQUIRIR AGORA!
+                    Liberar Acesso!
                   </Button>
                 </CardFooter>
               </Card>
