@@ -368,7 +368,7 @@ export default function Home() {
                 <CardFooter>
                   <Link href="https://pay.hotmart.com/L104768807K?checkoutMode=10" className="w-full" suppressHydrationWarning>
                     <Button size="lg" className="w-full text-lg h-14 bg-primary hover:bg-primary/90 animate-pulse-ring">
-                      ADQUIRIR AGORA!
+                      Liberar Acesso!
                     </Button>
                   </Link>
                 </CardFooter>
