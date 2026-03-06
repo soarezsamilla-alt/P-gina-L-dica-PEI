@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import Autoplay from "embla-carousel-autoplay";
 import {
   Carousel,
   CarouselContent,
@@ -253,6 +254,13 @@ export default function Home() {
             </p>
             <Carousel
               opts={{ loop: true }}
+              plugins={[
+                Autoplay({
+                  delay: 2000,
+                  stopOnInteraction: false,
+                  stopOnMouseEnter: true,
+                }),
+              ]}
               className="w-full max-w-sm mx-auto"
             >
               <CarouselContent>
