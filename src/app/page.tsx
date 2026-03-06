@@ -293,7 +293,7 @@ export default function Home() {
                 </CardHeader>
                 <CardContent className="flex-grow">
                   <div className="text-center my-6">
-                    <span className="text-5xl font-bold">R$10</span>
+                    <span className="text-5xl font-bold">R$15</span>
                     <span className="text-2xl font-bold">,90</span>
                     <p className="text-sm text-black/80">Pagamento único</p>
                   </div>
