@@ -43,6 +43,12 @@
       "imageHint": "creative education"
     },
     {
+      "id": "carousel-4",
+      "description": "Amostra de modelo de PEI 4.",
+      "imageUrl": "https://image2url.com/r2/default/images/1772831311813-d570e63b-aed8-4f5c-a068-a0e45ae78d31.png",
+      "imageHint": "educational material"
+    },
+    {
       "id": "plano-pro-image",
       "description": "Imagem para o card do Plano Pro.",
       "imageUrl": "https://image2url.com/r2/default/images/1772511686520-49fa0bb4-7d03-40f5-a745-93f110fc2026.png",
