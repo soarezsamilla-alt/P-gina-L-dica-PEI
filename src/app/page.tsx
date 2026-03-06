@@ -100,6 +100,11 @@ const testimonials = [
     avatar: findImage("testimonial-ana"),
     text: "Um recurso fantástico que transformou minha rotina. A adaptabilidade dos modelos é um grande diferencial.",
   },
+  {
+    name: "Recomendação de Cliente",
+    avatar: findImage("testimonial-4"),
+    text: "Mais um cliente satisfeito com nossos materiais!",
+  },
 ];
 
 const carouselImages = ["carousel-1", "carousel-2", "carousel-3", "carousel-4"].map(id => findImage(id));
@@ -460,3 +465,5 @@ export default function Home() {
     </div>
   );
 }
+
+    

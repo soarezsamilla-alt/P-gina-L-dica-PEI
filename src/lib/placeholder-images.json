@@ -83,6 +83,12 @@
       "description": "Selo de garantia de 7 dias.",
       "imageUrl": "https://image2url.com/r2/default/images/1772588237786-eeb778df-26e1-4264-83e8-fce7e3b854c9.png",
       "imageHint": "guarantee seal"
+    },
+    {
+      "id": "testimonial-4",
+      "description": "Depoimento de cliente em formato de imagem",
+      "imageUrl": "https://image2url.com/r2/default/images/1772831709990-db07f42f-fd65-491f-8881-55f803a49842.png",
+      "imageHint": "customer review"
     }
   ]
 }
