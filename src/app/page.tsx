@@ -1,7 +1,6 @@
 'use client';
 
 import Image from "next/image";
-import Link from "next/link";
 import { useState } from "react";
 import Autoplay from "embla-carousel-autoplay";
 import {
@@ -381,11 +380,13 @@ export default function Home() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Link href="https://pay.hotmart.com/L104768807K?checkoutMode=10" className="w-full" suppressHydrationWarning>
-                    <Button size="lg" className="w-full text-lg h-14 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold animate-pulse-ring">
-                      Liberar Acesso!
-                    </Button>
-                  </Link>
+                  <Button 
+                    size="lg" 
+                    className="w-full text-lg h-14 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold animate-pulse-ring"
+                    onClick={() => window.location.href='https://pay.hotmart.com/L104768807K?checkoutMode=10'}
+                  >
+                    Liberar Acesso!
+                  </Button>
                 </CardFooter>
               </Card>
             </div>

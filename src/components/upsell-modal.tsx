@@ -10,7 +10,6 @@ import {
 } from '@/components/ui/dialog';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Star, CheckCircle } from 'lucide-react';
-import Link from 'next/link';
 
 interface UpsellModalProps {
   open: boolean;
@@ -49,24 +48,28 @@ export function UpsellModal({ open, onOpenChange }: UpsellModalProps) {
         </div>
 
         <DialogFooter className="sm:justify-center flex-col sm:flex-col sm:space-x-0 gap-2 p-4 sm:p-6">
-          <Link href="https://pay.hotmart.com/L104768807K?checkoutMode=10" className="w-full" onClick={() => onOpenChange(false)} suppressHydrationWarning>
-            <Button 
-                type="button" 
-                className="w-full h-11 text-base bg-green-600 hover:bg-green-700 text-white font-semibold animate-pulse-ring-green"
-            >
-              Sim, quero o Plano PRO!
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-          </Link>
-          <Link href="https://pay.hotmart.com/S104769144S?checkoutMode=10" className="w-full" onClick={() => onOpenChange(false)} suppressHydrationWarning>
-            <Button 
-                type="button" 
-                variant="ghost" 
-                className="w-full text-muted-foreground hover:text-foreground text-xs"
-            >
-                Não, obrigado. Continuar com o Plano Básico.
-            </Button>
-          </Link>
+          <Button
+            type="button"
+            className="w-full h-11 text-base bg-green-600 hover:bg-green-700 text-white font-semibold animate-pulse-ring-green"
+            onClick={() => {
+              onOpenChange(false);
+              window.location.href = 'https://pay.hotmart.com/L104768807K?checkoutMode=10';
+            }}
+          >
+            Sim, quero o Plano PRO!
+            <ArrowRight className="ml-2 h-5 w-5" />
+          </Button>
+          <Button
+            type="button"
+            variant="ghost"
+            className="w-full text-muted-foreground hover:text-foreground text-xs"
+            onClick={() => {
+              onOpenChange(false);
+              window.location.href = 'https://pay.hotmart.com/S104769144S?checkoutMode=10';
+            }}
+          >
+            Não, obrigado. Continuar com o Plano Básico.
+          </Button>
         </DialogFooter>
       </DialogContent>
     </Dialog>
