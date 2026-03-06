@@ -52,7 +52,7 @@ export function UpsellModal({ open, onOpenChange }: UpsellModalProps) {
           <Link href="https://pay.hotmart.com/L104768807K?checkoutMode=10" className="w-full" onClick={() => onOpenChange(false)} suppressHydrationWarning>
             <Button 
                 type="button" 
-                className="w-full h-11 text-base bg-primary hover:bg-primary/90 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300"
+                className="w-full h-11 text-base bg-green-600 hover:bg-green-700 text-white font-semibold hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300"
             >
               Sim, quero o Plano PRO!
               <ArrowRight className="ml-2 h-5 w-5" />
