@@ -293,7 +293,7 @@ export default function Home() {
                 </CardHeader>
                 <CardContent className="flex-grow">
                   <div className="text-center my-6">
-                    <span className="text-5xl font-bold">R$18</span>
+                    <span className="text-5xl font-bold">R$15</span>
                     <span className="text-2xl font-bold">,90</span>
                     <p className="text-sm text-black/80">Pagamento único</p>
                   </div>
@@ -336,7 +336,7 @@ export default function Home() {
                 </CardHeader>
                 <CardContent className="flex-grow">
                 <div className="text-center my-6">
-                    <span className="text-5xl font-bold">R$15</span>
+                    <span className="text-5xl font-bold">R$18</span>
                     <span className="text-2xl font-bold">,90</span>
                     <p className="text-sm text-black/80">Pagamento único</p>
                   </div>
@@ -359,7 +359,7 @@ export default function Home() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Link href="https://pay.hotmart.com/L104768807K?checkoutMode=10" className="w-full">
+                  <Link href="https://pay.hotmart.com/L104768807K?checkoutMode=10" className="w-full" suppressHydrationWarning>
                     <Button size="lg" className="w-full text-lg h-14 bg-primary hover:bg-primary/90 animate-pulse-ring">
                       ADQUIRIR AGORA!
                     </Button>

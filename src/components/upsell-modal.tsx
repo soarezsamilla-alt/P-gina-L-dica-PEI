@@ -29,7 +29,7 @@ export function UpsellModal({ open, onOpenChange }: UpsellModalProps) {
           </div>
           <DialogTitle className="font-headline text-xl sm:text-2xl !mt-0">Espere! Temos uma oferta melhor!</DialogTitle>
           <DialogDescription className="text-muted-foreground pt-1 text-sm sm:text-base">
-            Por apenas <span className="font-bold text-primary">R$5,00 a mais</span>, você leva o <span className="font-bold text-foreground">Plano PRO</span>.
+            Por apenas <span className="font-bold text-primary">R$3,00 a mais</span>, você leva o <span className="font-bold text-foreground">Plano PRO</span>.
           </DialogDescription>
         </DialogHeader>
         
@@ -48,7 +48,7 @@ export function UpsellModal({ open, onOpenChange }: UpsellModalProps) {
         </div>
 
         <DialogFooter className="sm:justify-center flex-col sm:flex-col sm:space-x-0 gap-2 p-4 sm:p-6">
-          <Link href="https://pay.hotmart.com/L104768807K?checkoutMode=10" className="w-full" onClick={() => onOpenChange(false)}>
+          <Link href="https://pay.hotmart.com/L104768807K?checkoutMode=10" className="w-full" onClick={() => onOpenChange(false)} suppressHydrationWarning>
             <Button 
                 type="button" 
                 className="w-full h-11 text-base bg-primary hover:bg-primary/90 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300"
@@ -57,7 +57,7 @@ export function UpsellModal({ open, onOpenChange }: UpsellModalProps) {
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </Link>
-          <Link href="https://pay.hotmart.com/S104769144S?checkoutMode=10" className="w-full" onClick={() => onOpenChange(false)}>
+          <Link href="https://pay.hotmart.com/S104769144S?checkoutMode=10" className="w-full" onClick={() => onOpenChange(false)} suppressHydrationWarning>
             <Button 
                 type="button" 
                 variant="ghost" 
