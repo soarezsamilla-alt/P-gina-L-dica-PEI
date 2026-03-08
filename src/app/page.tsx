@@ -144,7 +144,7 @@ export default function Home() {
             <h3 className="text-[23px] font-bold text-center font-headline mb-12">
               Benefícios <span className="text-primary">Exclusivos</span>
             </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
               {benefits.map((benefit, index) => (
                 <div key={index} className="flex flex-col items-center text-center p-3 bg-background rounded-2xl shadow-lg transform hover:scale-105 transition-transform duration-300">
                   <div className="bg-primary/10 p-2 rounded-full mb-3">
@@ -173,7 +173,7 @@ export default function Home() {
               {bonuses.map((bonus, index) => {
                 const bonusImage = findImage(bonus.id);
                 return (
-                  <Card key={bonus.id} className="overflow-hidden flex flex-col text-center rounded-2xl border-2 animate-bonus-glow transform hover:scale-105 transition-transform duration-300">
+                  <Card key={bonus.id} className="overflow-hidden flex flex-col text-center rounded-2xl border-2 border-accent shadow-lg transform hover:scale-105 transition-transform duration-300">
                     <CardContent className="p-0 relative">
                       <div className="absolute top-2 left-2 bg-primary text-primary-foreground text-xs font-bold px-3 py-1.5 rounded-full shadow-lg z-10 transform transition-transform duration-300 hover:scale-110">
                         {`Bônus ${index + 1}º`}
@@ -210,12 +210,13 @@ export default function Home() {
               }}
               plugins={[
                 Autoplay({
-                  delay: 5000,
+                  delay: 8000,
                   stopOnInteraction: false,
                   stopOnMouseEnter: true,
                 }),
               ]}
               className="w-full max-w-sm mx-auto"
+              showArrows={false}
             >
               <CarouselContent>
                 {testimonials.map((testimonial, index) => (
@@ -252,12 +253,13 @@ export default function Home() {
               opts={{ loop: true }}
               plugins={[
                 Autoplay({
-                  delay: 4000,
+                  delay: 8000,
                   stopOnInteraction: false,
                   stopOnMouseEnter: true,
                 }),
               ]}
               className="w-full max-w-sm mx-auto"
+              showArrows={false}
             >
               <CarouselContent>
                 {carouselImages.map((img, index) => (
@@ -292,7 +294,7 @@ export default function Home() {
             </p>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-4xl mx-auto items-end">
               {/* Plano Básico */}
-              <Card className="shadow-lg flex flex-col pt-6 bg-card-basico">
+              <Card className="shadow-lg flex flex-col pt-6 bg-background">
                 <CardHeader className="text-center">
                   <Package className="h-10 w-10 text-primary mb-2 mx-auto" />
                   <CardTitle className="font-headline text-3xl">Plano Básico</CardTitle>
@@ -323,7 +325,7 @@ export default function Home() {
                   <Button 
                     size="lg" 
                     className="w-full text-lg h-14 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold animate-pulse-ring"
-                    onClick={() => setIsUpsellModalOpen(true)}
+                    onClick={() => window.location.href = 'https://pay.hotmart.com/S104769144S?checkoutMode=10'}
                   >
                     Liberar Acesso!
                   </Button>
@@ -331,7 +333,7 @@ export default function Home() {
               </Card>
 
               {/* Plano Pro */}
-              <Card className="shadow-2xl flex flex-col border-2 border-primary ring-4 ring-primary/20 relative">
+              <Card className="shadow-2xl flex flex-col border-2 border-primary ring-4 ring-primary/20 relative bg-background">
                 <div className="absolute top-0 -translate-y-1/2 w-full flex justify-center">
                     <div className="bg-primary text-primary-foreground px-4 py-1 rounded-full text-sm font-semibold shadow-lg">
                         MAIS VENDIDO ⭐

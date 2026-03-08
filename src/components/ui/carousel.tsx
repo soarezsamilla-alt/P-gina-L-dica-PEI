@@ -19,6 +19,7 @@ type CarouselProps = {
   plugins?: CarouselPlugin
   orientation?: "horizontal" | "vertical"
   setApi?: (api: CarouselApi) => void
+  showArrows?: boolean
 }
 
 type CarouselContextProps = {
@@ -54,6 +55,7 @@ const Carousel = React.forwardRef<
       plugins,
       className,
       children,
+      showArrows = true,
       ...props
     },
     ref
@@ -143,6 +145,12 @@ const Carousel = React.forwardRef<
           {...props}
         >
           {children}
+           {showArrows && (
+            <>
+              <CarouselPrevious />
+              <CarouselNext />
+            </>
+          )}
         </div>
       </CarouselContext.Provider>
     )
