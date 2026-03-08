@@ -39,7 +39,7 @@ const findImage = (id: string) => {
 const benefits = [
   {
     icon: <BookOpen className="h-5 w-5 text-primary" />,
-    title: "47 Modelos Prontos e Editáveis",
+    title: "+ 47 Modelos Prontos e Editáveis",
     description: "Receba 47 modelos de PEI prontos, personalizáveis e adaptáveis às suas necessidades, economizando tempo na criação de documentos.",
   },
   {
