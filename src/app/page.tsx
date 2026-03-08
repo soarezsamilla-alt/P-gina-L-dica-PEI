@@ -167,7 +167,7 @@ export default function Home() {
                 Você Merece mais <span className="text-accent">3 Presentes Exclusivos</span>!
               </h3>
               <p className="text-muted-foreground mt-2 max-w-2xl mx-auto">
-                Ao adquirir Plano Pro, você recebe acesso instantâneo a estes materiais incríveis para complementar suas aulas.
+                Ao adquirir o Plano Pro, você recebe acesso imediato a 3 bônus incríveis que transformarão sua forma de trabalhar, garantindo mais tempo para ensinar e mais respeito da coordenação.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-sm mx-auto md:max-w-5xl">
