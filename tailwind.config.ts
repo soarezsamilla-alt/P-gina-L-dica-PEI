@@ -121,6 +121,10 @@ export default {
             boxShadow: '0 0 30px -2px hsl(var(--accent) / 0.6)',
           },
         },
+        'vibrant-pulse': {
+          '0%, 100%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.15)' },
+        },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
@@ -128,6 +132,7 @@ export default {
         'pulse-ring': 'pulse-ring 2s infinite',
         'pulse-ring-accent': 'pulse-ring-accent 2s infinite',
         'bonus-glow': 'bonus-glow 3s ease-in-out infinite',
+        'vibrant-pulse': 'vibrant-pulse 2.5s ease-in-out infinite',
       },
     },
   },
