@@ -100,15 +100,15 @@ export default {
             boxShadow: '0 0 0 0 hsl(var(--primary) / 0)',
           },
         },
-        'pulse-ring-green': {
+        'pulse-ring-accent': {
           '0%': {
-            boxShadow: '0 0 0 0 hsl(145 63% 36% / 0.7)',
+            boxShadow: '0 0 0 0 hsl(var(--accent) / 0.7)',
           },
           '70%': {
-            boxShadow: '0 0 0 10px hsl(145 63% 36% / 0)',
+            boxShadow: '0 0 0 10px hsl(var(--accent) / 0)',
           },
           '100%': {
-            boxShadow: '0 0 0 0 hsl(145 63% 36% / 0)',
+            boxShadow: '0 0 0 0 hsl(var(--accent) / 0)',
           },
         },
       },
@@ -116,7 +116,7 @@ export default {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
         'pulse-ring': 'pulse-ring 2s infinite',
-        'pulse-ring-green': 'pulse-ring-green 2s infinite',
+        'pulse-ring-accent': 'pulse-ring-accent 2s infinite',
       },
     },
   },
