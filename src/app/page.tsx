@@ -23,7 +23,6 @@ import {
   Rocket,
   Sparkles,
   Trophy,
-  Users,
 } from "lucide-react";
 import Countdown from "@/components/countdown";
 import { UpsellModal } from "@/components/upsell-modal";
@@ -53,11 +52,6 @@ const benefits = [
     icon: <Clock className="h-5 w-5 text-primary" />,
     title: "Economize seu tempo",
     description: "Passe menos tempo elaborando o PEI e mais tempo ensinando. Nossos modelos prontos otimizam sua rotina.",
-  },
-  {
-    icon: <Users className="h-5 w-5 text-primary" />,
-    title: "Adaptabilidade para Todos",
-    description: "Modelos de PEI flexíveis para sala de aula, ensino remoto ou atendimentos individuais. Adapte para qualquer necessidade.",
   },
   {
     icon: <BookOpen className="h-5 w-5 text-primary" />,
@@ -152,7 +146,7 @@ export default function Home() {
             <h3 className="text-[23px] font-bold text-center font-headline mb-12">
               Benefícios <span className="text-primary">Exclusivos</span>
             </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
               {benefits.map((benefit, index) => (
                 <div key={index} className="flex flex-col items-center text-center p-3 bg-background rounded-2xl shadow-lg transform hover:scale-105 transition-transform duration-300">
                   <div className="bg-primary/10 p-2 rounded-full mb-3">
@@ -482,5 +476,3 @@ export default function Home() {
     </div>
   );
 }
-
-    
