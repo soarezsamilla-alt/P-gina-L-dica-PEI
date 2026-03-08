@@ -120,7 +120,7 @@ export default function Home() {
           <div className="container mx-auto px-4 text-center">
             
             <h2 className="text-[23px] font-bold font-headline tracking-tighter max-w-3xl mx-auto mt-6">
-              <span className="uppercase text-primary">PEI prontos, sem complicação!</span> Receba + 47 modelos 100% editáveis e adapte para suas turmas em segundos.
+              <span className="uppercase text-[#705cd6]">PEI PRONTOS, SEM COMPLICAÇÃO!</span> Receba + 47 modelos 100% editáveis e adapte para suas turmas em segundos.
             </h2>
             <p className="mt-4 text-sm text-muted-foreground max-w-2xl mx-auto">
               Acabe com a sobrecarga e entregue PEIs que impressionam coordenadores e pais, sem estresse ou retrabalho.
@@ -164,7 +164,7 @@ export default function Home() {
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h3 className="text-[21px] font-bold font-headline">
-                Você Merece mais <span className="text-accent">3 Presentes Exclusivos</span> para Aumentar a Qualidade das Suas Aulas!
+                Você Merece mais <span className="text-accent">3 Presentes Exclusivos</span>!
               </h3>
               <p className="text-muted-foreground mt-2 max-w-2xl mx-auto">
                 Ao adquirir Plano Pro, você recebe acesso instantâneo a estes materiais incríveis para complementar suas aulas.
