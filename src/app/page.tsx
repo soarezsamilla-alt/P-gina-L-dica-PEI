@@ -50,7 +50,7 @@ const benefits = [
   {
     icon: <BadgeCheck className="h-5 w-5 text-primary" />,
     title: "Aprovado pela Coordenação",
-    description: "Cada modelo é criado por especialistas, garantindo que eles atendem aos critérios exigidos pelas autoridades educacionais, para que você tenha mais segurança ao entregar seu trabalho.",
+    description: "Cada modelo é criado por especialistas, garantindo conformidade com os critérios educacionais para mais segurança no seu trabalho.",
   },
   {
     icon: <Rocket className="h-5 w-5 text-primary" />,
