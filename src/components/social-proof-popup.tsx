@@ -23,13 +23,13 @@ export default function SocialProofPopup() {
 
       hideTimeout = setTimeout(() => {
         setIsVisible(false);
-      }, 4000); // Popup is visible for 4 seconds
+      }, 3000); // Popup is visible for 3 seconds
     };
 
-    // Show first popup after 5 seconds
-    const initialTimeout = setTimeout(showPopup, 5000);
-    // Show subsequent popups every 6 seconds
-    const interval = setInterval(showPopup, 6000);
+    // Show first popup after 3 seconds
+    const initialTimeout = setTimeout(showPopup, 3000);
+    // Show subsequent popups every 5 seconds
+    const interval = setInterval(showPopup, 5000);
 
     return () => {
       clearTimeout(initialTimeout);
