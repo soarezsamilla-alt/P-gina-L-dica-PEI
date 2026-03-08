@@ -37,24 +37,24 @@ const findImage = (id: string) => {
 
 const benefits = [
   {
-    icon: <Rocket className="h-5 w-5 text-primary" />,
-    title: "Prontidão e Diversão",
-    description: "Nossos modelos de PEI estão prontos e são fáceis de adaptar para cada aluno, agilizando seu planejamento.",
-  },
-  {
-    icon: <Sparkles className="h-5 w-5 text-primary" />,
-    title: "Ensinar de forma lúdica",
-    description: "Transforme a criação do PEI em algo lúdico. Nossas ilustrações e atividades tornam o aprendizado mais envolvente.",
+    icon: <BookOpen className="h-5 w-5 text-primary" />,
+    title: "47 Modelos Prontos e Editáveis",
+    description: "Receba + 47 modelos de PEI prontos para usar, totalmente personalizáveis e adaptáveis às suas turmas e necessidades específicas. Nunca mais se preocupe em criar documentos do zero.",
   },
   {
     icon: <Clock className="h-5 w-5 text-primary" />,
-    title: "Economize seu tempo",
-    description: "Passe menos tempo elaborando o PEI e mais tempo ensinando. Nossos modelos prontos otimizam sua rotina.",
+    title: "Economize Horas de Trabalho",
+    description: "Com os modelos prontos, você elimina a burocracia e ganha horas preciosas para dedicar ao que realmente importa: ensinar. Menos tempo com papéis, mais tempo com seus alunos.",
   },
   {
-    icon: <BookOpen className="h-5 w-5 text-primary" />,
-    title: "Material Completo de PEI",
-    description: "Tenha em mãos um material de PEI completo, com relatórios, planejamentos e atividades que facilitam seu dia a dia.",
+    icon: <Trophy className="h-5 w-5 text-primary" />,
+    title: "Aprovado pela Coordenação",
+    description: "Cada modelo é criado por especialistas, garantindo que eles atendem aos critérios exigidos pelas autoridades educacionais, para que você tenha mais segurança ao entregar seu trabalho.",
+  },
+  {
+    icon: <Rocket className="h-5 w-5 text-primary" />,
+    title: "Atualizações e Adaptações Simples",
+    description: "Os modelos são editáveis, permitindo que você ajuste rapidamente qualquer informação sem perder a qualidade ou formato profissional, tornando o processo ainda mais ágil.",
   },
 ];
 
