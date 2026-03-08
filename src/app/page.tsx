@@ -14,6 +14,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Logo } from "@/components/logo";
 import {
+  BadgeCheck,
   BookOpen,
   CheckCircle,
   Clock,
@@ -47,7 +48,7 @@ const benefits = [
     description: "Com os modelos prontos, você elimina a burocracia e ganha horas preciosas para dedicar ao que realmente importa: ensinar. Menos tempo com papéis, mais tempo com seus alunos.",
   },
   {
-    icon: <Trophy className="h-5 w-5 text-primary" />,
+    icon: <BadgeCheck className="h-5 w-5 text-primary" />,
     title: "Aprovado pela Coordenação",
     description: "Cada modelo é criado por especialistas, garantindo que eles atendem aos critérios exigidos pelas autoridades educacionais, para que você tenha mais segurança ao entregar seu trabalho.",
   },
