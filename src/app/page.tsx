@@ -123,7 +123,7 @@ export default function Home() {
               <span className="text-primary uppercase">sem perder tempo ou energia!</span>
             </h2>
             <p className="mt-4 text-sm text-muted-foreground max-w-2xl mx-auto">
-              No arquivo contém 47 modelos, planejados por profissionais da educação. Servem para fundamental I e II. Mas como são editáveis você consegue Adaptar para OUTRAS TURMAS também.
+              + 47 modelos de PEI prontos e editáveis para você se concentrar no que realmente importa: ensinar. Sem mais noites em claro, sem mais retrabalho só soluções práticas e eficazes.
             </p>
             <div className="mt-12 rounded-xl shadow-2xl overflow-hidden max-w-4xl mx-auto">
               <Image
