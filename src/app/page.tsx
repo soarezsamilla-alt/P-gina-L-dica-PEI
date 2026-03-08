@@ -483,10 +483,11 @@ export default function Home() {
 
       <footer className="bg-foreground text-background">
         <div className="container mx-auto px-4 py-8">
-          <div className="flex flex-col md:flex-row justify-center items-center">
-            <div className="text-center">
-              <p className="text-sm text-muted-foreground">Copyright & Direitos Autorais</p>
-            </div>
+          <div className="text-center max-w-3xl mx-auto">
+            <p className="text-sm font-semibold text-background/90">Copyright & Direitos Autorais</p>
+            <p className="text-xs text-background/60 mt-2">
+              © 2026 ESCOLA AUTOAJUDA. Todos os direitos reservados. Este produto, incluindo todos os seus conteúdos, modelos, materiais e recursos, é protegido pelas leis de direitos autorais e outras leis de propriedade intelectual. Nenhuma parte deste produto pode ser copiada, distribuída, alterada, modificada, vendida, licenciada ou reproduzida de qualquer forma, sem a permissão expressa por escrito de ESCOLA AUTOAJUDA.
+            </p>
           </div>
         </div>
       </footer>
