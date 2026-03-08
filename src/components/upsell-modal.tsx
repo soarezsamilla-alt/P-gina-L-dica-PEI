@@ -60,9 +60,7 @@ export function UpsellModal({ open, onOpenChange }: UpsellModalProps) {
             type="button"
             variant="ghost"
             className="w-full text-muted-foreground hover:text-foreground text-xs"
-            onClick={() => {
-              onOpenChange(false);
-            }}
+            onClick={() => window.location.href = 'https://pay.wiapy.com/qCy3ZzlkT1'}
           >
             Não, obrigado. Continuar com o Plano Básico.
           </Button>
