@@ -374,6 +374,7 @@ export default function Home() {
                   <Button 
                     size="lg" 
                     className="w-full text-lg h-14 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold animate-pulse-ring"
+                    onClick={() => window.location.href = 'https://pay.wiapy.com/VBXdX_ymda'}
                   >
                     Liberar Acesso!
                   </Button>
