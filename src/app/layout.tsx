@@ -19,25 +19,6 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://pay.hotmart.com" />
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.pixelId = "69a7971fd1e92e19b65bf740";
-              var a = document.createElement("script");
-              a.setAttribute("async", "");
-              a.setAttribute("defer", "");
-              a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
-              document.head.appendChild(a);
-            `,
-          }}
-        />
-        <script
-          src="https://cdn.utmify.com.br/scripts/utms/latest.js"
-          data-utmify-prevent-xcod-sck
-          data-utmify-prevent-subids
-          async
-          defer
-        ></script>
       </head>
       <body className="font-body antialiased">
         {children}
