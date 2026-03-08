@@ -274,7 +274,7 @@ export default function Home() {
               Desbloqueie Soluções Prontas<span className="text-primary"> para Seu Ensino!</span>
             </h3>
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-              Garanta agora os melhores modelos de PEI e otimize seu tempo!
+              Aproveite agora os planos exclusivos e tenha PEIs prontos para otimizar seu tempo, melhorar sua performance e impressionar sua coordenação.
             </p>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-4xl mx-auto items-end">
               {/* Plano Básico */}
