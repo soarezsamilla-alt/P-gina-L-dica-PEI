@@ -203,7 +203,7 @@ export default function Home() {
         <section className="py-12 md:py-24 bg-card">
           <div className="container mx-auto px-4">
             <h3 className="text-[23px] font-bold text-center font-headline mb-12">
-              Quem adquire nossos materiais, <span className="text-primary">RECOMENDA!</span>
+              Quem adquire nossos materiais, Aprova: Veja o Que Nossos Clientes Estão Dizendo!
             </h3>
             <Carousel
               opts={{
