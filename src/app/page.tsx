@@ -457,6 +457,21 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* Checkout Info Section */}
+        <section className="py-12 md:py-16 bg-card">
+          <div className="container mx-auto px-4">
+            <div className="max-w-5xl mx-auto">
+              <Image
+                src="https://i.ibb.co/HD6qqYhj/CHECKOUT-INFO-V2.png"
+                alt="Informações de checkout seguro com formas de pagamento"
+                width={1440}
+                height={353}
+                className="w-full rounded-lg shadow-lg"
+              />
+            </div>
+          </div>
+        </section>
       </main>
 
       <footer className="bg-foreground text-background">
