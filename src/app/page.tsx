@@ -461,7 +461,7 @@ export default function Home() {
         {/* Checkout Info Section */}
         <section className="py-12 md:py-16 bg-card">
           <div className="container mx-auto px-4">
-            <div className="max-w-5xl mx-auto">
+            <div className="max-w-4xl mx-auto">
               <Image
                 src="https://i.ibb.co/HD6qqYhj/CHECKOUT-INFO-V2.png"
                 alt="Informações de checkout seguro com formas de pagamento"
