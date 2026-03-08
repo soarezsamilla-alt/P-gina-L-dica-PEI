@@ -326,7 +326,7 @@ export default function Home() {
                   <Button 
                     size="lg" 
                     className="w-full text-lg h-14 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold animate-pulse-ring"
-                    onClick={() => window.location.href = 'https://pay.hotmart.com/S104769144S?checkoutMode=10'}
+                    onClick={() => setIsUpsellModalOpen(true)}
                   >
                     Liberar Acesso!
                   </Button>
@@ -374,7 +374,6 @@ export default function Home() {
                   <Button 
                     size="lg" 
                     className="w-full text-lg h-14 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold animate-pulse-ring"
-                    onClick={() => window.location.href='https://pay.hotmart.com/L104768807K?checkoutMode=10'}
                   >
                     Liberar Acesso!
                   </Button>
