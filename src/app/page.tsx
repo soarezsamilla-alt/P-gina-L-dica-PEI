@@ -119,7 +119,7 @@ export default function Home() {
           <div className="container mx-auto px-4 text-center">
             
             <h2 className="text-[23px] font-bold font-headline tracking-tighter max-w-3xl mx-auto mt-6">
-              PEI prontos, sem complicação! Receba + 47 modelos 100% editáveis e adapte para suas turmas em segundos.
+              <span className="uppercase text-primary">PEI prontos, sem complicação!</span> Receba + 47 modelos 100% editáveis e adapte para suas turmas em segundos.
             </h2>
             <p className="mt-4 text-sm text-muted-foreground max-w-2xl mx-auto">
               Acabe com a sobrecarga e entregue PEIs que impressionam coordenadores e pais, sem estresse ou retrabalho.
