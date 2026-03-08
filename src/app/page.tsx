@@ -119,7 +119,7 @@ export default function Home() {
           <div className="container mx-auto px-4 text-center">
             
             <h2 className="text-[23px] font-bold font-headline tracking-tighter max-w-3xl mx-auto mt-6">
-              Dê adeus a dificuldade em elaborar seu PEI! Aqui temos modelos <span className="text-primary">PRONTOS E EDITÁVEIS</span>!
+              Crie PEIs completos em minutos e impressione sua coordenação, sem perder tempo ou energia!
             </h2>
             <p className="mt-4 text-sm text-muted-foreground max-w-2xl mx-auto">
               No arquivo contém 47 modelos, planejados por profissionais da educação. Servem para fundamental I e II. Mas como são editáveis você consegue Adaptar para OUTRAS TURMAS também.
