@@ -163,7 +163,7 @@ export default function Home() {
         <section className="py-12 md:py-24">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
-              <h3 className="text-[23px] font-bold font-headline">
+              <h3 className="text-[25px] font-bold font-headline">
                 Você Merece mais <span className="text-accent">3 Presentes Exclusivos</span>!
               </h3>
               <p className="text-muted-foreground mt-2 max-w-2xl mx-auto">
