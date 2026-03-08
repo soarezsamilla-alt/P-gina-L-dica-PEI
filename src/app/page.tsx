@@ -55,7 +55,7 @@ const benefits = [
   {
     icon: <Rocket className="h-5 w-5 text-primary" />,
     title: "Atualizações e Adaptações Simples",
-    description: "Os modelos são editáveis, permitindo que você ajuste rapidamente qualquer informação sem perder a qualidade ou formato profissional, tornando o processo ainda mais ágil.",
+    description: "Os modelos são editáveis, permitindo ajustes rápidos sem perder a qualidade ou o formato profissional.",
   },
 ];
 
@@ -473,3 +473,5 @@ export default function Home() {
     </div>
   );
 }
+
+    
