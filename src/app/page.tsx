@@ -45,7 +45,7 @@ const benefits = [
   {
     icon: <Clock className="h-5 w-5 text-primary" />,
     title: "Economize Horas de Trabalho",
-    description: "Com os modelos prontos, você elimina a burocracia e ganha horas preciosas para dedicar ao que realmente importa: ensinar. Menos tempo com papéis, mais tempo com seus alunos.",
+    description: "Com os modelos prontos, você elimina a burocracia e ganha mais tempo para ensinar e se dedicar aos alunos.",
   },
   {
     icon: <BadgeCheck className="h-5 w-5 text-primary" />,
