@@ -166,7 +166,7 @@ export default function Home() {
               <h3 className="text-[25px] font-bold font-headline">
                 Você Merece mais <span className="text-accent">3 Presentes Exclusivos</span>!
               </h3>
-              <p className="text-muted-foreground mt-2 max-w-2xl mx-auto">
+              <p className="text-[13px] text-muted-foreground mt-2 max-w-2xl mx-auto">
                 Ao adquirir o Plano Pro, você recebe acesso imediato a 3 bônus incríveis que transformarão sua forma de trabalhar, garantindo mais tempo para ensinar e mais respeito da coordenação.
               </p>
             </div>
