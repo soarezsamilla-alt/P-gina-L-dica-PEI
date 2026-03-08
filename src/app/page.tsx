@@ -7,8 +7,6 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from "@/components/ui/carousel";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -212,7 +210,7 @@ export default function Home() {
               }}
               plugins={[
                 Autoplay({
-                  delay: 3000,
+                  delay: 5000,
                   stopOnInteraction: false,
                   stopOnMouseEnter: true,
                 }),
@@ -237,8 +235,6 @@ export default function Home() {
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <CarouselPrevious className="transform hover:scale-110 transition-transform -left-4 md:-left-12 h-10 w-10 bg-primary text-primary-foreground shadow-lg" />
-              <CarouselNext className="transform hover:scale-110 transition-transform -right-4 md:-right-12 h-10 w-10 bg-primary text-primary-foreground shadow-lg" />
             </Carousel>
           </div>
         </section>
@@ -256,7 +252,7 @@ export default function Home() {
               opts={{ loop: true }}
               plugins={[
                 Autoplay({
-                  delay: 2000,
+                  delay: 4000,
                   stopOnInteraction: false,
                   stopOnMouseEnter: true,
                 }),
@@ -281,8 +277,6 @@ export default function Home() {
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <CarouselPrevious className="transform hover:scale-110 transition-transform -left-4 md:-left-12 h-10 w-10 bg-primary text-primary-foreground shadow-lg" />
-              <CarouselNext className="transform hover:scale-110 transition-transform -right-4 md:-right-12 h-10 w-10 bg-primary text-primary-foreground shadow-lg" />
             </Carousel>
           </div>
         </section>
