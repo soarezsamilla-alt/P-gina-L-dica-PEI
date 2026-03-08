@@ -485,7 +485,7 @@ export default function Home() {
         <div className="container mx-auto px-4 py-8">
           <div className="flex flex-col md:flex-row justify-center items-center">
             <div className="text-center">
-              <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} Página Lúdica PEI. Todos os direitos reservados.</p>
+              <p className="text-sm text-muted-foreground">Copyright & Direitos Autorais</p>
             </div>
           </div>
         </div>
