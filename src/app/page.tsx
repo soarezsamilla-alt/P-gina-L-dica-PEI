@@ -469,6 +469,13 @@ export default function Home() {
                 height={353}
                 className="w-full rounded-lg shadow-lg"
               />
+              <Image
+                src="https://i.ibb.co/jZHyvMWB/BANDEIRAS-CHECKOUT-V2.png"
+                alt="Bandeiras dos cartões de crédito aceitos"
+                width={1440}
+                height={150}
+                className="w-full rounded-lg shadow-lg mt-4"
+              />
             </div>
           </div>
         </section>
