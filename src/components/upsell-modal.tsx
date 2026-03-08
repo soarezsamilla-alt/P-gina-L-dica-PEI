@@ -51,9 +51,6 @@ export function UpsellModal({ open, onOpenChange }: UpsellModalProps) {
           <Button
             type="button"
             className="w-full h-11 text-base bg-accent hover:bg-accent/90 text-accent-foreground font-semibold animate-pulse-ring-accent"
-            onClick={() => {
-              window.location.href = 'https://pay.hotmart.com/L104768807K?checkoutMode=10';
-            }}
           >
             Sim, quero o Plano PRO!
             <ArrowRight className="ml-2 h-5 w-5" />
@@ -64,7 +61,6 @@ export function UpsellModal({ open, onOpenChange }: UpsellModalProps) {
             className="w-full text-muted-foreground hover:text-foreground text-xs"
             onClick={() => {
               onOpenChange(false);
-              window.location.href = 'https://pay.hotmart.com/S104769144S?checkoutMode=10';
             }}
           >
             Não, obrigado. Continuar com o Plano Básico.
