@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import Autoplay from "embla-carousel-autoplay";
 import {
   Carousel,
   CarouselContent,
@@ -209,15 +208,7 @@ export default function Home() {
               opts={{
                 loop: true,
               }}
-              plugins={[
-                Autoplay({
-                  delay: 8000,
-                  stopOnInteraction: false,
-                  stopOnMouseEnter: true,
-                }),
-              ]}
               className="w-full max-w-sm mx-auto"
-              showArrows={false}
             >
               <CarouselContent>
                 {testimonials.map((testimonial, index) => (
@@ -252,15 +243,7 @@ export default function Home() {
             </p>
             <Carousel
               opts={{ loop: true }}
-              plugins={[
-                Autoplay({
-                  delay: 8000,
-                  stopOnInteraction: false,
-                  stopOnMouseEnter: true,
-                }),
-              ]}
               className="w-full max-w-sm mx-auto"
-              showArrows={false}
             >
               <CarouselContent>
                 {carouselImages.map((img, index) => (
