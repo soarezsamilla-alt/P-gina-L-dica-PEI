@@ -347,7 +347,7 @@ export default function Home() {
                 </CardHeader>
                 <CardContent className="flex-grow">
                 <div className="text-center my-6">
-                    <span className="text-5xl font-bold">R$18</span>
+                    <span className="text-5xl font-bold">R$19</span>
                     <span className="text-2xl font-bold">,90</span>
                     <p className="text-sm text-muted-foreground">Pagamento único</p>
                   </div>
@@ -461,7 +461,7 @@ export default function Home() {
         {/* Checkout Info Section */}
         <section className="py-12 md:py-16 bg-card">
           <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
+            <div className="max-w-xl mx-auto">
               <Image
                 src="https://i.ibb.co/HD6qqYhj/CHECKOUT-INFO-V2.png"
                 alt="Informações de checkout seguro com formas de pagamento"
