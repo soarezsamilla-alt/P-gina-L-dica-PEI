@@ -122,7 +122,7 @@ export default function Home() {
               PEI prontos, sem complicação! Receba + 47 modelos 100% editáveis e adapte para suas turmas em segundos.
             </h2>
             <p className="mt-4 text-sm text-muted-foreground max-w-2xl mx-auto">
-              + 47 modelos de PEI prontos e editáveis para você se concentrar no que realmente importa: ensinar. Sem mais noites em claro, sem mais retrabalho só soluções práticas e eficazes.
+              Acabe com a sobrecarga e entregue PEIs que impressionam coordenadores e pais, sem estresse ou retrabalho.
             </p>
             <div className="mt-12 rounded-xl shadow-2xl overflow-hidden max-w-4xl mx-auto">
               <Image
