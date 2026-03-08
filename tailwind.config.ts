@@ -111,12 +111,23 @@ export default {
             boxShadow: '0 0 0 0 hsl(var(--accent) / 0)',
           },
         },
+        'bonus-glow': {
+          '0%, 100%': {
+            borderColor: 'hsl(var(--accent) / 0.4)',
+            boxShadow: '0 0 15px -2px hsl(var(--accent) / 0.3)',
+          },
+          '50%': {
+            borderColor: 'hsl(var(--accent) / 1)',
+            boxShadow: '0 0 30px -2px hsl(var(--accent) / 0.6)',
+          },
+        },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
         'pulse-ring': 'pulse-ring 2s infinite',
         'pulse-ring-accent': 'pulse-ring-accent 2s infinite',
+        'bonus-glow': 'bonus-glow 3s ease-in-out infinite',
       },
     },
   },
