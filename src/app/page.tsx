@@ -271,7 +271,7 @@ export default function Home() {
         <section className="py-12 md:py-24 bg-card">
           <div className="container mx-auto px-4">
             <h3 className="text-[23px] font-bold text-center font-headline mb-4">
-              Transforme Sua Rotina Educacional: Desbloqueie <span className="text-primary">Soluções Prontas</span> para Seu Ensino!
+              Desbloqueie <span className="text-primary">Soluções Prontas</span> para Seu Ensino!
             </h3>
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
               Garanta agora os melhores modelos de PEI e otimize seu tempo!
