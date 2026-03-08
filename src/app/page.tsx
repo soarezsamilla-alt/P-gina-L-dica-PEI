@@ -164,7 +164,7 @@ export default function Home() {
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h3 className="text-[23px] font-bold font-headline">
-                Tenho 3 presentes <span className="text-accent">extras para Você!</span>
+                Você Merece mais <span className="text-accent">3 Presentes Exclusivos</span> para Aumentar a Qualidade das Suas Aulas!
               </h3>
               <p className="text-muted-foreground mt-2 max-w-2xl mx-auto">
                 Ao adquirir Plano Pro, você recebe acesso instantâneo a estes materiais incríveis para complementar suas aulas.
@@ -473,5 +473,3 @@ export default function Home() {
     </div>
   );
 }
-
-    
