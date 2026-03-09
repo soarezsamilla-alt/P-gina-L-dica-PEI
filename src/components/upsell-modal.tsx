@@ -51,7 +51,7 @@ export function UpsellModal({ open, onOpenChange }: UpsellModalProps) {
           <Button
             type="button"
             className="w-full h-11 text-base bg-accent hover:bg-accent/90 text-accent-foreground font-semibold animate-pulse-ring-accent"
-            onClick={() => window.location.href = 'https://pay.wiapy.com/VBXdX_ymda'}
+            onMouseDown={() => window.location.href = 'https://pay.wiapy.com/VBXdX_ymda'}
           >
             Sim, quero o Plano PRO!
             <ArrowRight className="ml-2 h-5 w-5" />
@@ -60,7 +60,7 @@ export function UpsellModal({ open, onOpenChange }: UpsellModalProps) {
             type="button"
             variant="ghost"
             className="w-full text-muted-foreground hover:text-foreground text-xs"
-            onClick={() => window.location.href = 'https://pay.wiapy.com/qCy3ZzlkT1'}
+            onMouseDown={() => window.location.href = 'https://pay.wiapy.com/qCy3ZzlkT1'}
           >
             Não, obrigado. Continuar com o Plano Básico.
           </Button>
