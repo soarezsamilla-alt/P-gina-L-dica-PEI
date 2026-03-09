@@ -1,4 +1,3 @@
-
 'use client';
 
 import Image from "next/image";
@@ -391,7 +390,7 @@ export default function Home() {
                 <h3 className="text-xl md:text-2xl font-bold font-headline mb-3 text-primary">
                   Uma Professora que te Entende
                 </h3>
-                <p className="text-foreground/90 text-base md:text-lg italic mb-4">
+                <p className="text-foreground/90 text-sm italic mb-4">
                   "Eu sei como é virar noites planejando. Criei estes modelos para que você tenha mais tempo para o que realmente importa: seus alunos."
                 </p>
                 <p className="text-muted-foreground text-sm">
@@ -534,5 +533,7 @@ export default function Home() {
     
 
 
+
+    
 
     
