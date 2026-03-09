@@ -27,6 +27,7 @@ import Countdown from "@/components/countdown";
 import { UpsellModal } from "@/components/upsell-modal";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import SocialProofPopup from "@/components/social-proof-popup";
+import Chatbot from "@/components/chatbot";
 
 const findImage = (id: string) => {
   const img = PlaceHolderImages.find((img) => img.id === id);
@@ -108,6 +109,7 @@ export default function Home() {
   const planoProImage = findImage("plano-pro-image");
   const planoBasicoImage = findImage("plano-basico-image");
   const guaranteeImage = findImage("guarantee-seal");
+  const creatorImage = findImage("creator-persona");
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -371,6 +373,35 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Creator Section */}
+        <section className="py-12 md:py-24">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center text-center md:text-left gap-8 p-8 bg-card rounded-2xl shadow-lg border-t-4 border-accent">
+              <div className="flex-shrink-0">
+                <Image
+                  src={creatorImage.imageUrl}
+                  alt={creatorImage.description}
+                  width={250}
+                  height={250}
+                  className="rounded-full object-cover w-40 h-40 md:w-52 md:h-52 shadow-lg border-4 border-background"
+                  data-ai-hint={creatorImage.imageHint}
+                />
+              </div>
+              <div>
+                <h3 className="text-2xl md:text-3xl font-bold font-headline mb-3 text-primary">
+                  Uma Professora que te Entende
+                </h3>
+                <p className="text-foreground/90 text-base md:text-lg italic mb-4">
+                  "Eu sei como é virar noites planejando. Criei estes modelos para que você tenha mais tempo para o que realmente importa: seus alunos."
+                </p>
+                <p className="text-muted-foreground text-sm">
+                  Com mais de 10 anos de experiência em educação inclusiva, a <span className="font-bold text-foreground">Professora Lúdica</span> sentiu na pele a dificuldade de criar planos individualizados eficientes sem sacrificar seu tempo pessoal. Foi por isso que ela desenvolveu este material: um atalho prático, aprovado e, acima de tudo, lúdico para transformar suas aulas.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="py-12 md:py-16">
           <div className="container mx-auto px-4">
             <h3 className="text-xl font-bold text-center font-headline">
@@ -493,6 +524,7 @@ export default function Home() {
       </footer>
       <UpsellModal open={isUpsellModalOpen} onOpenChange={setIsUpsellModalOpen} />
       <SocialProofPopup />
+      <Chatbot />
     </div>
   );
 }

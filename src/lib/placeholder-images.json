@@ -89,6 +89,12 @@
       "description": "Depoimento de cliente em formato de imagem",
       "imageUrl": "https://image2url.com/r2/default/images/1772831709990-db07f42f-fd65-491f-8881-55f803a49842.png",
       "imageHint": "customer review"
+    },
+    {
+      "id": "creator-persona",
+      "description": "Foto da Professora Lúdica, criadora dos materiais PEI.",
+      "imageUrl": "https://picsum.photos/seed/creator/400/400",
+      "imageHint": "educator portrait"
     }
   ]
 }
