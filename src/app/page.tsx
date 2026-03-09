@@ -271,7 +271,7 @@ export default function Home() {
         <section className="py-12 md:py-24 bg-card">
           <div className="container mx-auto px-4">
             <h3 className="text-[23px] font-bold text-center font-headline mb-4">
-              Desbloqueie Soluções Prontas<span className="text-primary"> para Seu Ensino!</span>
+              Desbloqueie Soluções Prontas<span className="text-[#705cd6]"> para Seu Ensino!</span>
             </h3>
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto text-[14px]">
               Aproveite agora os planos exclusivos e tenha PEIs prontos para otimizar seu tempo, melhorar sua performance e impressionar sua coordenação.
@@ -375,6 +375,9 @@ export default function Home() {
             <h3 className="text-[23px] font-bold text-center font-headline">
               Não leu tudo? <span className="text-primary">Vamos resumir para você...</span>
             </h3>
+            <p className="text-center text-muted-foreground mt-4 max-w-3xl mx-auto text-sm">
+              Você terá acesso imediato a um conjunto de materiais e bônus imersivos e práticos, pensado por professores para professores e educadores! São + 47 modelos de PEI prontos e editáveis, planejados para inclusão, relatórios e adaptações, para que você domine sua rotina pedagógica sem esforço.
+            </p>
           </div>
         </section>
 
