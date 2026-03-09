@@ -412,32 +412,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
-        {/* Guarantee Section */}
-        <section className="py-12 md:py-24">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center text-center md:text-left gap-8 p-8 bg-card rounded-2xl shadow-lg border">
-              <div className="flex-shrink-0">
-                <Image
-                  src={guaranteeImage.imageUrl}
-                  alt={guaranteeImage.description}
-                  width={200}
-                  height={200}
-                  className="w-36 h-36 md:w-44 md:h-44"
-                  data-ai-hint={guaranteeImage.imageHint}
-                />
-              </div>
-              <div>
-                <h3 className="text-xl md:text-2xl font-bold font-headline mb-4">
-                  Garantia Incondicional de 7 Dias
-                </h3>
-                <p className="text-muted-foreground text-sm">
-                  Sua satisfação é nossa prioridade. Se por qualquer motivo você achar que nosso material não é para você, basta nos enviar um único e-mail dentro de 7 dias e devolveremos <span className="font-bold text-primary">100% do seu investimento</span>. Sem perguntas, sem burocracia. O risco é todo nosso!
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
         
         {/* FAQ Section */}
         <section className="py-12 md:py-24 bg-background">
@@ -483,6 +457,32 @@ export default function Home() {
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
+            </div>
+          </div>
+        </section>
+
+        {/* Guarantee Section */}
+        <section className="py-12 md:py-24">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center text-center md:text-left gap-8 p-8 bg-card rounded-2xl shadow-lg border">
+              <div className="flex-shrink-0">
+                <Image
+                  src={guaranteeImage.imageUrl}
+                  alt={guaranteeImage.description}
+                  width={200}
+                  height={200}
+                  className="w-36 h-36 md:w-44 md:h-44"
+                  data-ai-hint={guaranteeImage.imageHint}
+                />
+              </div>
+              <div>
+                <h3 className="text-xl md:text-2xl font-bold font-headline mb-4">
+                  Garantia Incondicional de 7 Dias
+                </h3>
+                <p className="text-muted-foreground text-sm">
+                  Sua satisfação é nossa prioridade. Se por qualquer motivo você achar que nosso material não é para você, basta nos enviar um único e-mail dentro de 7 dias e devolveremos <span className="font-bold text-primary">100% do seu investimento</span>. Sem perguntas, sem burocracia. O risco é todo nosso!
+                </p>
+              </div>
             </div>
           </div>
         </section>
