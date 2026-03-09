@@ -388,7 +388,7 @@ export default function Home() {
                 />
               </div>
               <div>
-                <h3 className="text-2xl md:text-3xl font-bold font-headline mb-3 text-primary">
+                <h3 className="text-xl md:text-2xl font-bold font-headline mb-3 text-primary">
                   Uma Professora que te Entende
                 </h3>
                 <p className="text-foreground/90 text-base md:text-lg italic mb-4">
@@ -533,3 +533,6 @@ export default function Home() {
 
     
 
+
+
+    
