@@ -26,7 +26,6 @@ import Countdown from "@/components/countdown";
 import { UpsellModal } from "@/components/upsell-modal";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import SocialProofPopup from "@/components/social-proof-popup";
-import Chatbot from "@/components/chatbot";
 
 const findImage = (id: string) => {
   const img = PlaceHolderImages.find((img) => img.id === id);
@@ -523,7 +522,6 @@ export default function Home() {
       </footer>
       <UpsellModal open={isUpsellModalOpen} onOpenChange={setIsUpsellModalOpen} />
       <SocialProofPopup />
-      <Chatbot />
     </div>
   );
 }
