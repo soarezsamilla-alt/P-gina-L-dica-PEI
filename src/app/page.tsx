@@ -382,7 +382,7 @@ export default function Home() {
                   alt={creatorImage.description}
                   width={250}
                   height={250}
-                  className="rounded-full object-cover w-40 h-40 md:w-52 md:h-52 shadow-lg border-4 border-background"
+                  className="rounded-full object-cover w-40 h-40 md:w-52 md:h-52 shadow-lg border-4 border-accent"
                   data-ai-hint={creatorImage.imageHint}
                 />
               </div>
@@ -527,13 +527,3 @@ export default function Home() {
     </div>
   );
 }
-
-    
-
-    
-
-
-
-    
-
-    
