@@ -39,8 +39,8 @@ const findImage = (id: string) => {
 const benefits = [
   {
     icon: <BookOpen className="h-5 w-5 text-primary" />,
-    title: "+ 47 Modelos Prontos e Editáveis",
-    description: "Receba + 47 modelos de PEI prontos, personalizáveis e adaptáveis às suas necessidades, economizando tempo na criação de documentos.",
+    title: "+ de 47 Modelos Prontos e Editáveis",
+    description: "Receba + de 47 modelos de PEI prontos, personalizáveis e adaptáveis às suas necessidades, economizando tempo na criação de documentos.",
   },
   {
     icon: <Clock className="h-5 w-5 text-primary" />,
@@ -378,7 +378,7 @@ export default function Home() {
             </h3>
             <div className="mt-6 bg-primary/5 border-2 border-primary/20 rounded-2xl p-6 max-w-3xl mx-auto">
               <p className="text-center text-foreground text-sm">
-                Você terá acesso imediato a um conjunto de materiais e bônus imersivos e práticos, pensado por professores para professores e educadores! São + 47 modelos de PEI prontos e editáveis, planejados para inclusão, relatórios e adaptações, para que você domine sua rotina pedagógica sem esforço.
+                Você terá acesso imediato a um conjunto de materiais e bônus imersivos e práticos, pensado por professores para professores e educadores! São + de 47 modelos de PEI prontos e editáveis, planejados para inclusão, relatórios e adaptações, para que você domine sua rotina pedagógica sem esforço.
               </p>
             </div>
           </div>
@@ -496,3 +496,5 @@ export default function Home() {
     </div>
   );
 }
+
+    
