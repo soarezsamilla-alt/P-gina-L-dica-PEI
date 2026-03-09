@@ -353,7 +353,7 @@ export default function Home() {
                     <li className="flex items-start"><CheckCircle className="h-5 w-5 text-accent mr-2 mt-1 flex-shrink-0" /> <span>Acesso a <span className="font-bold">futuras atualizações</span></span></li>
                   </ul>
                 </CardContent>
-                <CardFooter>
+                <CardFooter className="flex-col">
                   <Button 
                     size="lg" 
                     className="w-full text-lg h-14 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold animate-pulse-ring"
@@ -361,6 +361,9 @@ export default function Home() {
                   >
                     Liberar Acesso!
                   </Button>
+                  <p className="mt-2 text-center text-xs font-semibold text-muted-foreground">
+                    APROVEITE AGORA: Você <span className="font-bold text-primary underline">NÃO</span> vai encontrar esse preço depois.
+                  </p>
                 </CardFooter>
               </Card>
             </div>
