@@ -28,7 +28,7 @@ export function UpsellModal({ open, onOpenChange }: UpsellModalProps) {
           </div>
           <DialogTitle className="font-headline text-xl sm:text-2xl !mt-0">Espere! Temos uma oferta melhor!</DialogTitle>
           <DialogDescription className="text-muted-foreground pt-1 text-xs sm:text-sm">
-            Por apenas <span className="font-bold text-primary">R$4,00 a mais</span>, você leva o <span className="font-bold text-foreground">Plano PRO</span>.
+            Por apenas <span className="font-bold text-primary">R$5,90 a mais</span>, você leva o <span className="font-bold text-foreground">Plano PRO</span>.
           </DialogDescription>
         </DialogHeader>
         
