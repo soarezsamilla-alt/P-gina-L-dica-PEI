@@ -361,7 +361,7 @@ export default function Home() {
                   >
                     Liberar Acesso!
                   </Button>
-                  <p className="mt-2 text-center text-xs font-semibold text-muted-foreground">
+                  <p className="mt-4 text-center text-xs font-semibold text-muted-foreground">
                     APROVEITE AGORA: Você <span className="font-bold text-primary underline">NÃO</span> vai encontrar esse preço depois.
                   </p>
                 </CardFooter>
