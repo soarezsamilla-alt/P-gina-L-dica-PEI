@@ -1,3 +1,4 @@
+
 'use client';
 
 import Image from "next/image";
@@ -141,7 +142,7 @@ export default function Home() {
         {/* Benefits Section */}
         <section className="py-12 md:py-24 bg-card">
           <div className="container mx-auto px-4">
-            <h3 className="text-[23px] font-bold text-center font-headline mb-12">
+            <h3 className="text-[25px] font-bold text-center font-headline mb-12">
               Benefícios <span className="text-primary">Exclusivos</span>
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
