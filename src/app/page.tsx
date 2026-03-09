@@ -372,7 +372,7 @@ export default function Home() {
 
         <section className="py-12 md:py-16">
           <div className="container mx-auto px-4">
-            <h3 className="text-[23px] font-bold text-center font-headline">
+            <h3 className="text-xl font-bold text-center font-headline">
               Não leu tudo? <span className="text-primary">Vamos resumir para você...</span>
             </h3>
             <p className="text-center text-muted-foreground mt-4 max-w-3xl mx-auto text-sm">
