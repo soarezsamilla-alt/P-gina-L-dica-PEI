@@ -394,7 +394,7 @@ export default function Home() {
                   "Eu sei como é virar noites planejando. Criei estes modelos para que você tenha mais tempo para o que realmente importa: seus alunos."
                 </p>
                 <p className="text-muted-foreground text-sm">
-                  Com mais de 10 anos de experiência em educação inclusiva, a <span className="font-bold text-foreground">Professora Lúdica</span> sentiu na pele a dificuldade de criar planos individualizados eficientes sem sacrificar seu tempo pessoal. Foi por isso que ela desenvolveu este material: um atalho prático, aprovado e, acima de tudo, lúdico para transformar suas aulas.
+                  Com mais de 10 anos de experiência em educação inclusiva, a <span className="font-bold text-foreground">Professora Luciana</span> sentiu na pele a dificuldade de criar planos individualizados eficientes sem sacrificar seu tempo pessoal. Foi por isso que ela desenvolveu este material: um atalho prático, aprovado e, acima de tudo, lúdico para transformar suas aulas.
                 </p>
               </div>
             </div>
