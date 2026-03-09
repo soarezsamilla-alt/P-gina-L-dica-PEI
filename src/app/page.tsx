@@ -370,6 +370,14 @@ export default function Home() {
           </div>
         </section>
 
+        <section className="py-12 md:py-16">
+          <div className="container mx-auto px-4">
+            <h3 className="text-[23px] font-bold text-center font-headline">
+              Não leu tudo? <span className="text-primary">Vamos resumir para você...</span>
+            </h3>
+          </div>
+        </section>
+
         {/* Guarantee Section */}
         <section className="py-12 md:py-24">
           <div className="container mx-auto px-4">
