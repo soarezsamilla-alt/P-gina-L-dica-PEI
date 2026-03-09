@@ -123,7 +123,7 @@ export default function Home() {
               <span className="uppercase text-[#705cd6]">PEI PRONTOS, SEM COMPLICAÇÃO!</span> Receba + de 47 modelos 100% editáveis e adapte para suas turmas em segundos.
             </h2>
             <p className="mt-4 text-sm text-muted-foreground max-w-2xl mx-auto">
-              Acabe com a sobrecarga e entregue PEIs que impressionam coordenadores e pais, sem estresse ou retrabalho.
+              Deixe para trás a dor de criar PEI do zero. Com nossos modelos prontos, você impressiona a coordenação, economiza horas de trabalho e finalmente consegue terminar o expediente com orgulho e sem culpa.
             </p>
             <div className="mt-12 rounded-xl shadow-2xl overflow-hidden max-w-4xl mx-auto">
               <Image
@@ -496,5 +496,7 @@ export default function Home() {
     </div>
   );
 }
+
+    
 
     
