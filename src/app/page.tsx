@@ -120,7 +120,7 @@ export default function Home() {
           <div className="container mx-auto px-4 text-center">
             
             <h2 className="text-[23px] font-bold font-headline tracking-tighter max-w-3xl mx-auto mt-6">
-              Dê adeus a dificuldade em elaborar seu PEI! Aqui temos modelos <span className="text-primary">PRONTOS E EDITÁVEIS!</span> Com nossos mais de 47 modelos, planejados por profissionais da educação. você entrega resultados perfeitos, ganha tempo e impressiona coordenadores e pais.
+              Dê adeus a dificuldade em elaborar seu PEI! Aqui temos modelos <span className="text-primary">PRONTOS E EDITÁVEIS!</span>
             </h2>
             <p className="mt-4 text-sm text-muted-foreground max-w-2xl mx-auto">
               Deixe para trás a dor de criar PEI do zero. Com nossos modelos prontos, você impressiona a coordenação, economiza horas de trabalho e finalmente consegue terminar o expediente com orgulho e sem culpa.
@@ -381,7 +381,7 @@ export default function Home() {
                   alt={creatorImage.description}
                   width={250}
                   height={250}
-                  className="rounded-full object-cover w-40 h-40 md:w-52 md:h-52 shadow-lg border-4 border-accent"
+                  className="rounded-full object-cover w-40 h-40 md:w-52 md:h-52 shadow-lg border-4 border-primary"
                   data-ai-hint={creatorImage.imageHint}
                 />
               </div>
