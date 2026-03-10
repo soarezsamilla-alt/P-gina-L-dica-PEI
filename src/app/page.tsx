@@ -120,7 +120,7 @@ export default function Home() {
           <div className="container mx-auto px-4 text-center">
             
             <h2 className="text-[23px] font-bold font-headline tracking-tighter max-w-3xl mx-auto mt-6">
-              <span className="uppercase text-[#705cd6]">PEI PRONTOS, SEM COMPLICAÇÃO!</span> Receba + de 47 modelos 100% editáveis e adapte para suas turmas em segundos.
+              Está cansada de gastar horas criando PEIs do zero e ainda não ter certeza se vão ser aprovados? Com nossos 47 modelos prontos e editáveis, você entrega resultados perfeitos em minutos, ganha tempo para ensinar e finalmente impressiona coordenadores e pais!
             </h2>
             <p className="mt-4 text-sm text-muted-foreground max-w-2xl mx-auto">
               Deixe para trás a dor de criar PEI do zero. Com nossos modelos prontos, você impressiona a coordenação, economiza horas de trabalho e finalmente consegue terminar o expediente com orgulho e sem culpa.
@@ -462,9 +462,9 @@ export default function Home() {
         </section>
 
         {/* Guarantee Section */}
-        <section className="py-12 md:py-24">
+        <section className="py-12 md:py-24 bg-card">
           <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center text-center md:text-left gap-8 p-8 bg-card rounded-2xl shadow-lg border">
+            <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center text-center md:text-left gap-8 p-8 bg-background rounded-2xl shadow-lg border">
               <div className="flex-shrink-0">
                 <Image
                   src={guaranteeImage.imageUrl}
