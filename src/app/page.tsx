@@ -123,7 +123,7 @@ export default function Home() {
               Dê adeus a dificuldade em elaborar seu PEI! Aqui temos modelos <span className="text-primary">PRONTOS E EDITÁVEIS!</span>
             </h2>
             <p className="mt-4 text-sm text-muted-foreground max-w-2xl mx-auto">
-              Deixe para trás a dor de criar PEI do zero. Com nossos modelos prontos, você impressiona a coordenação, economiza horas de trabalho e finalmente consegue terminar o expediente com orgulho e sem culpa.
+              Com nossos mais de 47 modelos 100% editáveis, planejados por profissionais da educação. você entrega resultados perfeitos, ganha tempo e impressiona coordenadores e pais.  Servem para fundamental I e II.
             </p>
             <div className="mt-12 rounded-xl shadow-2xl overflow-hidden max-w-4xl mx-auto">
               <Image
@@ -370,48 +370,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
-        {/* Creator Section */}
-        <section className="py-12 md:py-24">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center text-center md:text-left gap-8 p-8 bg-card rounded-2xl shadow-lg border-t-4 border-accent">
-              <div className="flex-shrink-0">
-                <Image
-                  src={creatorImage.imageUrl}
-                  alt={creatorImage.description}
-                  width={250}
-                  height={250}
-                  className="rounded-full object-cover w-40 h-40 md:w-52 md:h-52 shadow-lg border-4 border-primary"
-                  data-ai-hint={creatorImage.imageHint}
-                />
-              </div>
-              <div>
-                <h3 className="text-xl md:text-2xl font-bold font-headline mb-3 text-primary">
-                  Uma Professora que te Entende
-                </h3>
-                <p className="text-foreground/90 text-sm italic mb-4">
-                  "Eu sei como é virar noites planejando. Criei estes modelos para que você tenha mais tempo para o que realmente importa: seus alunos."
-                </p>
-                <p className="text-muted-foreground text-sm">
-                  Com mais de 10 anos de experiência em educação inclusiva, a <span className="font-bold text-foreground">Professora Luciana</span> sentiu na pele a dificuldade de criar planos individualizados eficientes sem sacrificar seu tempo pessoal. Foi por isso que ela desenvolveu este material: um atalho prático, aprovado e, acima de tudo, lúdico para transformar suas aulas.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="py-12 md:py-16">
-          <div className="container mx-auto px-4">
-            <h3 className="text-xl font-bold text-center font-headline">
-              Não leu tudo? <span className="text-primary">Vamos resumir para você...</span>
-            </h3>
-            <div className="mt-6 bg-primary/5 border-2 border-primary/20 rounded-2xl p-6 max-w-3xl mx-auto">
-              <p className="text-center text-foreground text-sm">
-                Você terá acesso imediato a um conjunto de materiais e bônus imersivos e práticos, pensado por professores para professores e educadores! São + de 47 modelos de PEI prontos e editáveis, planejados para inclusão, relatórios e adaptações, para que você domine sua rotina pedagógica sem esforço.
-              </p>
-            </div>
-          </div>
-        </section>
         
         {/* FAQ Section */}
         <section className="py-12 md:py-24 bg-background">
@@ -483,6 +441,48 @@ export default function Home() {
                   Sua satisfação é nossa prioridade. Se por qualquer motivo você achar que nosso material não é para você, basta nos enviar um único e-mail dentro de 7 dias e devolveremos <span className="font-bold text-primary">100% do seu investimento</span>. Sem perguntas, sem burocracia. O risco é todo nosso!
                 </p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Creator Section */}
+        <section className="py-12 md:py-24">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center text-center md:text-left gap-8 p-8 bg-card rounded-2xl shadow-lg border-t-4 border-accent">
+              <div className="flex-shrink-0">
+                <Image
+                  src={creatorImage.imageUrl}
+                  alt={creatorImage.description}
+                  width={250}
+                  height={250}
+                  className="rounded-full object-cover w-40 h-40 md:w-52 md:h-52 shadow-lg border-4 border-pink-400"
+                  data-ai-hint={creatorImage.imageHint}
+                />
+              </div>
+              <div>
+                <h3 className="text-xl md:text-2xl font-bold font-headline mb-3 text-primary">
+                  Uma Professora que te Entende
+                </h3>
+                <p className="text-foreground/90 text-sm italic mb-4">
+                  "Eu sei como é virar noites planejando. Criei estes modelos para que você tenha mais tempo para o que realmente importa: seus alunos."
+                </p>
+                <p className="text-muted-foreground text-sm">
+                  Com mais de 10 anos de experiência em educação inclusiva, a <span className="font-bold text-foreground">Professora Luciana</span> sentiu na pele a dificuldade de criar planos individualizados eficientes sem sacrificar seu tempo pessoal. Foi por isso que ela desenvolveu este material: um atalho prático, aprovado e, acima de tudo, lúdico para transformar suas aulas.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-12 md:py-16">
+          <div className="container mx-auto px-4">
+            <h3 className="text-xl font-bold text-center font-headline">
+              Não leu tudo? <span className="text-primary">Vamos resumir para você...</span>
+            </h3>
+            <div className="mt-6 bg-primary/5 border-2 border-primary/20 rounded-2xl p-6 max-w-3xl mx-auto">
+              <p className="text-center text-foreground text-sm">
+                Você terá acesso imediato a um conjunto de materiais e bônus imersivos e práticos, pensado por professores para professores e educadores! São + de 47 modelos de PEI prontos e editáveis, planejados para inclusão, relatórios e adaptações, para que você domine sua rotina pedagógica sem esforço.
+              </p>
             </div>
           </div>
         </section>
