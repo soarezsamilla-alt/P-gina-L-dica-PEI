@@ -256,7 +256,7 @@ export default function Home() {
                           alt={img.description}
                           width={600}
                           height={600}
-                          className="w-full aspect-square object-cover"
+                          className="w-full aspect-square object-contain"
                           data-ai-hint={img.imageHint}
                         />
                       </CardContent>
