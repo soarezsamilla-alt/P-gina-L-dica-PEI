@@ -293,11 +293,12 @@ export default function Home() {
                   </div>
                   <div className="px-6 mb-4">
                     <Image
-                      src="https://image2url.com/r2/default/images/1772577587419-9b514119-5771-40ab-88e5-952205b5e3e8.png"
-                      alt="Formas de pagamento"
-                      width={500}
-                      height={95}
-                      className="mx-auto"
+                      src={planoBasicoImage.imageUrl}
+                      alt={planoBasicoImage.description}
+                      width={400}
+                      height={400}
+                      className="mx-auto w-full max-w-[300px] h-auto rounded-lg shadow-md"
+                      data-ai-hint={planoBasicoImage.imageHint}
                     />
                   </div>
                   <ul className="space-y-3 text-sm">
@@ -337,11 +338,12 @@ export default function Home() {
                   </div>
                   <div className="px-6 mb-4">
                     <Image
-                      src="https://image2url.com/r2/default/images/1772578007538-e541252d-0988-4cf6-b537-fc15dc1b6eb0.png"
-                      alt="Formas de pagamento"
-                      width={500}
-                      height={95}
-                      className="mx-auto"
+                      src={planoProImage.imageUrl}
+                      alt={planoProImage.description}
+                      width={400}
+                      height={400}
+                      className="mx-auto w-full max-w-[300px] h-auto rounded-lg shadow-md"
+                      data-ai-hint={planoProImage.imageHint}
                     />
                   </div>
                   <ul className="space-y-3 text-sm">
