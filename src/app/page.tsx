@@ -120,7 +120,7 @@ export default function Home() {
           <div className="container mx-auto px-4 text-center">
             
             <h2 className="text-[23px] font-bold font-headline tracking-tighter max-w-3xl mx-auto mt-6">
-              Cansada de perder horas criando PEIs do zero e ainda não ter certeza se serão aprovados? Com nossos <span className="text-primary">47 modelos prontos e editáveis</span>, você entrega resultados perfeitos, ganha tempo e impressiona coordenadores e pais.
+              Dê adeus a dificuldade em elaborar seu PEI! Aqui temos modelos <span className="text-primary">PRONTOS E EDITÁVEIS!</span> Com nossos mais de 47 modelos, planejados por profissionais da educação. você entrega resultados perfeitos, ganha tempo e impressiona coordenadores e pais.
             </h2>
             <p className="mt-4 text-sm text-muted-foreground max-w-2xl mx-auto">
               Deixe para trás a dor de criar PEI do zero. Com nossos modelos prontos, você impressiona a coordenação, economiza horas de trabalho e finalmente consegue terminar o expediente com orgulho e sem culpa.
