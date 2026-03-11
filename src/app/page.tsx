@@ -87,7 +87,7 @@ const bonuses = [
   },
   {
     id: "bonus-planners",
-    title: "Ficha Individual de Acompanhamento Do Aluno",
+    title: "Ficha Individual de Acompanhamento Do Aluno PEI",
     description: "Ficha de acompanhamento para alunos com necessidades educacionais especiais. A ficha coleta dados sobre o aluno e avalia suas habilidades em áreas como psicomotricidade, cognição e memória para identificar desafios e orientar intervenções educacionais.",
   },
 ];
