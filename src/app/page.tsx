@@ -189,7 +189,7 @@ export default function Home() {
               {bonuses.map((bonus, index) => {
                 const bonusImage = findImage(bonus.id);
                 return (
-                  <Card key={bonus.id} className="overflow-hidden flex flex-col text-center rounded-2xl border-2 border-accent shadow-lg transform hover:scale-105 transition-transform duration-300">
+                  <Card key={bonus.id} className="h-full overflow-hidden flex flex-col text-center rounded-2xl border-2 border-accent shadow-lg transform hover:scale-105 transition-transform duration-300">
                     <CardContent className="p-0 relative">
                       <div className="absolute top-2 left-2 bg-primary text-primary-foreground text-xs font-bold px-3 py-1.5 rounded-full shadow-lg z-10 transform transition-transform duration-300 hover:scale-110">
                         {`Bônus ${index + 1}º`}
