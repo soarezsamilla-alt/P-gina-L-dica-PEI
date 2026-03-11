@@ -310,7 +310,7 @@ export default function Home() {
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto text-[14px]">
               Aproveite agora os planos exclusivos e tenha PEIs prontos para otimizar seu tempo, melhorar sua performance e impressionar sua coordenação.
             </p>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-md mx-auto items-end">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-4xl mx-auto items-end">
               {/* Plano Básico */}
               <Card className="shadow-2xl flex flex-col border-4 border-primary ring-8 ring-primary/25 relative bg-background">
                 <CardHeader className="text-center pt-2 pb-2">
@@ -342,7 +342,7 @@ export default function Home() {
                 </CardContent>
                 <CardFooter className="p-4">
                   <Button 
-                    size="sm" 
+                    size="lg" 
                     className="w-full font-semibold animate-pulse-ring"
                     onMouseDown={() => setIsUpsellModalOpen(true)}
                   >
@@ -391,7 +391,7 @@ export default function Home() {
                 </CardContent>
                 <CardFooter className="flex-col p-4">
                   <Button 
-                    size="sm" 
+                    size="lg" 
                     className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-semibold animate-pulse-ring-accent"
                     onMouseDown={() => window.location.href = 'https://pay.wiapy.com/VBXdX_ymda'}
                   >
@@ -564,4 +564,5 @@ export default function Home() {
     
 
     
+
 
