@@ -279,7 +279,7 @@ export default function Home() {
             </p>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-2xl mx-auto items-end">
               {/* Plano Básico */}
-              <Card className="shadow-2xl flex flex-col border-4 border-accent ring-8 ring-accent/25 relative bg-background">
+              <Card className="shadow-2xl flex flex-col border-4 border-primary ring-8 ring-primary/25 relative bg-background">
                 <CardHeader className="text-center pt-4">
                   <Package className="h-8 w-8 text-primary mb-2 mx-auto" />
                   <CardTitle className="font-headline text-xl">Plano Básico</CardTitle>
@@ -302,15 +302,15 @@ export default function Home() {
                     />
                   </div>
                   <ul className="space-y-2 text-sm">
-                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-accent mr-2 mt-1 flex-shrink-0" /> <span><span className="font-bold">47 Modelos</span> de PEI prontos e editáveis</span></li>
-                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-accent mr-2 mt-1 flex-shrink-0" /> <span>Acesso aos modelos fundamentais</span></li>
-                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-accent mr-2 mt-1 flex-shrink-0" /> <span>Relatórios AEE</span></li>
+                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> <span><span className="font-bold">47 Modelos</span> de PEI prontos e editáveis</span></li>
+                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> <span>Acesso aos modelos fundamentais</span></li>
+                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> <span>Relatórios AEE</span></li>
                   </ul>
                 </CardContent>
                 <CardFooter>
                   <Button 
                     size="default" 
-                    className="w-full font-semibold animate-pulse-ring-accent"
+                    className="w-full font-semibold animate-pulse-ring"
                     onMouseDown={() => setIsUpsellModalOpen(true)}
                   >
                     Liberar Acesso!
