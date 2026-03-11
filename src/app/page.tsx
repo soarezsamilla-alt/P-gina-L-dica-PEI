@@ -87,7 +87,7 @@ const bonuses = [
   {
     id: "bonus-planners",
     title: "Ficha Individual de Acompanhamento Do Aluno",
-    description: "ficha de acompanhamento para alunos com necessidades educacionais especiais. A ficha coleta dados sobre o aluno e avalia suas habilidades em áreas como psicomotricidade, cognição e memória para identificar desafios e orientar intervenções educacionais.",
+    description: "Ficha de acompanhamento para alunos com necessidades educacionais especiais. A ficha coleta dados sobre o aluno e avalia suas habilidades em áreas como psicomotricidade, cognição e memória para identificar desafios e orientar intervenções educacionais.",
   },
 ];
 
