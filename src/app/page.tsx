@@ -82,7 +82,7 @@ const bonuses = [
   {
     id: "bonus-relatorios-descritivos",
     title: "Planejamento AEE 2026: Sala Multifuncional",
-    description: "Modelos prontos de relatórios descritivos para facilitar a avaliação e acompanhamento dos alunos.",
+    description: "Um guia planejado para o Atendimento Educacional Especializado (AEE) na Sala de Recurso Multifuncional para o ano de 2026, destacando a importância da inclusão e a individualização do atendimento a alunos com necessidades especiais.",
   },
   {
     id: "bonus-planners",
