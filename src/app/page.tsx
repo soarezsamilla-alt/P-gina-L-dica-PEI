@@ -217,7 +217,7 @@ export default function Home() {
                       />
                     </CardContent>
                     <CardHeader className="flex-grow p-4">
-                      <CardTitle className="text-base">{bonus.title}</CardTitle>
+                      <CardTitle className="text-sm">{bonus.title}</CardTitle>
                       <CardDescription className="text-xs mt-1">{bonus.description}</CardDescription>
                     </CardHeader>
                     <CardFooter className="flex-col justify-center p-4 pt-0">
