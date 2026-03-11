@@ -218,7 +218,7 @@ export default function Home() {
                       />
                     </CardContent>
                     <CardHeader className="flex-grow p-4">
-                      <CardTitle className="text-[15px]">{bonus.title}</CardTitle>
+                      <CardTitle className="text-[16px]">{bonus.title}</CardTitle>
                       <CardDescription className="text-xs mt-1">{bonus.description}</CardDescription>
                     </CardHeader>
                     <CardFooter className="flex-col justify-center p-4 pt-0">
@@ -561,4 +561,6 @@ export default function Home() {
   );
 }
     
+    
+
     
