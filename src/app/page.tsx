@@ -208,8 +208,8 @@ export default function Home() {
                       <CardDescription className="text-xs mt-1">{bonus.description}</CardDescription>
                     </CardHeader>
                     <CardFooter className="flex-col justify-center p-4 pt-0">
-                      <p className="text-sm line-through text-muted-foreground">De R$47,00</p>
-                      <p className="text-2xl font-bold text-primary">GRÁTIS</p>
+                      <p className="text-base font-semibold line-through text-muted-foreground">R$47,00</p>
+                      <p className="text-xl font-bold text-chart-2 [text-shadow:0_0_8px_hsl(var(--chart-2)/0.5)]">GRÁTIS</p>
                     </CardFooter>
                   </Card>
                 );
