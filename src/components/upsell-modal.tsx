@@ -37,7 +37,7 @@ export function UpsellModal({ open, onOpenChange }: UpsellModalProps) {
               <h4 className="font-bold text-center mb-3 text-sm sm:text-base text-foreground">O Plano PRO inclui:</h4>
               <ul className="space-y-2 text-xs text-left text-foreground/90">
                   <li className="flex items-start"><CheckCircle className="h-4 w-4 text-accent mr-2 mt-0.5 flex-shrink-0" /> <span>Tudo do Plano Básico e <span className="font-bold">MUITO</span> mais!</span></li>
-                  <li className="flex items-start"><CheckCircle className="h-4 w-4 text-accent mr-2 mt-0.5 flex-shrink-0" /> <span><span className="font-bold">3 Bônus</span> (Autismo, Relatórios e Ativ. Motoras) 🎁</span></li>
+                  <li className="flex items-start"><CheckCircle className="h-4 w-4 text-accent mr-2 mt-0.5 flex-shrink-0" /> <span><span className="font-bold">6 Bônus</span> (Autismo, Relatórios e Ativ. Motoras) 🎁</span></li>
                   <li className="flex items-start"><CheckCircle className="h-4 w-4 text-accent mr-2 mt-0.5 flex-shrink-0" /> <span><span className="font-bold">Combo Ed. Especial</span> com materiais extras</span></li>
                   <li className="flex items-start"><CheckCircle className="h-4 w-4 text-accent mr-2 mt-0.5 flex-shrink-0" /> <span><span className="font-bold">PEI Autismo Ed. Infantil</span></span></li>
                   <li className="flex items-start"><CheckCircle className="h-4 w-4 text-accent mr-2 mt-0.5 flex-shrink-0" /> <span>Relatórios AEE</span></li>
