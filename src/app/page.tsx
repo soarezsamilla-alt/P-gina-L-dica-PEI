@@ -279,8 +279,8 @@ export default function Home() {
             </p>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-2xl mx-auto items-end">
               {/* Plano Básico */}
-              <Card className="shadow-lg flex flex-col pt-4 bg-background">
-                <CardHeader className="text-center">
+              <Card className="shadow-2xl flex flex-col border-4 border-accent ring-8 ring-accent/25 relative bg-background">
+                <CardHeader className="text-center pt-4">
                   <Package className="h-8 w-8 text-primary mb-2 mx-auto" />
                   <CardTitle className="font-headline text-xl">Plano Básico</CardTitle>
                   <CardDescription>O essencial para começar a planejar.</CardDescription>
@@ -310,7 +310,7 @@ export default function Home() {
                 <CardFooter>
                   <Button 
                     size="default" 
-                    className="w-full font-semibold animate-pulse-ring"
+                    className="w-full font-semibold animate-pulse-ring-accent"
                     onMouseDown={() => setIsUpsellModalOpen(true)}
                   >
                     Liberar Acesso!
