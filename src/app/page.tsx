@@ -76,8 +76,8 @@ const bonuses = [
   },
   {
     id: "bonus-bncc",
-    title: "PEIs alinhados à BNCC",
-    description: "Modelos de PEI 100% alinhados com a Base Nacional Comum Curricular para garantir a conformidade.",
+    title: "Plano de Desenvolvimento Psicoeducacional (PDPI)",
+    description: "Material completo para elaboração do Plano de Desenvolvimento Psicoeducacional.",
   },
   {
     id: "bonus-relatorios-descritivos",
