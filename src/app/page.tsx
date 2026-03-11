@@ -86,7 +86,7 @@ const bonuses = [
   },
   {
     id: "bonus-planners",
-    title: "Planners para Professores",
+    title: "Ficha Individual de Acompanhamento Do Aluno",
     description: "Planners e organizadores para otimizar o dia a dia do professor e o planejamento das aulas.",
   },
 ];
