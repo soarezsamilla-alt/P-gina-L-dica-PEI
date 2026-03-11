@@ -74,6 +74,21 @@ const bonuses = [
     title: "PEI Para Educação Infantil",
     description: "Plano Educacional para alunos de 4 e 5 anos na Educação Infantil, histórico escolar, saúde e desenvolvimento do aluno.",
   },
+  {
+    id: "bonus-bncc",
+    title: "PEIs alinhados à BNCC",
+    description: "Modelos de PEI 100% alinhados com a Base Nacional Comum Curricular para garantir a conformidade.",
+  },
+  {
+    id: "bonus-relatorios-descritivos",
+    title: "Relatórios Descritivos",
+    description: "Modelos prontos de relatórios descritivos para facilitar a avaliação e acompanhamento dos alunos.",
+  },
+  {
+    id: "bonus-planners",
+    title: "Planners para Professores",
+    description: "Planners e organizadores para otimizar o dia a dia do professor e o planejamento das aulas.",
+  },
 ];
 
 const testimonials = [
@@ -164,10 +179,10 @@ export default function Home() {
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h3 className="text-[25px] font-bold font-headline">
-                Você Merece mais <span className="text-accent">3 Presentes Exclusivos</span>!
+                Você Merece mais <span className="text-accent">Bônus Exclusivos</span>!
               </h3>
               <p className="text-[13px] text-muted-foreground mt-2 max-w-2xl mx-auto">
-                Ao adquirir o Plano Pro, você recebe acesso imediato a 3 bônus incríveis que transformarão sua forma de trabalhar, garantindo mais tempo para ensinar e mais respeito da coordenação.
+                Ao adquirir o Plano Pro, você recebe acesso imediato a bônus incríveis que transformarão sua forma de trabalhar, garantindo mais tempo para ensinar e mais respeito da coordenação.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-sm mx-auto md:max-w-5xl">

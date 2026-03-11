@@ -101,6 +101,24 @@
       "description": "Foto da Professora Luciana, criadora dos materiais PEI.",
       "imageUrl": "https://image2url.com/r2/default/images/1773090652117-98704960-ec9f-4b7f-80c0-f073cfc6bdb6.png",
       "imageHint": "educator portrait"
+    },
+    {
+      "id": "bonus-bncc",
+      "description": "Capa do bônus sobre PEIs alinhados à BNCC",
+      "imageUrl": "https://picsum.photos/seed/bncc/400/600",
+      "imageHint": "document education"
+    },
+    {
+      "id": "bonus-relatorios-descritivos",
+      "description": "Capa do bônus sobre Relatórios Descritivos",
+      "imageUrl": "https://picsum.photos/seed/relatorios/400/600",
+      "imageHint": "report sheet"
+    },
+    {
+      "id": "bonus-planners",
+      "description": "Capa do bônus sobre Planners para Professores",
+      "imageUrl": "https://picsum.photos/seed/planners/400/600",
+      "imageHint": "planner organizer"
     }
   ]
 }
