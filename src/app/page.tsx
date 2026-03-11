@@ -123,7 +123,7 @@ export default function Home() {
               Dê adeus a dificuldade em elaborar seu PEI! Aqui temos modelos <span className="text-primary">PRONTOS E EDITÁVEIS!</span>
             </h2>
             <p className="mt-4 text-sm text-muted-foreground max-w-2xl mx-auto">
-              Com nossos mais de 47 modelos 100% editáveis, planejados por profissionais da educação. Você entrega resultados perfeitos, ganha tempo e impressiona coordenadores e pais. Servem para fundamental I e II.
+              Com nossos mais de 47 modelos 100% editáveis, planejados por profissionais da educação. Você entrega resultados perfeitos, ganha tempo e impressiona coordenadores e pais. Servem para fundamental I e II. Alem de serem 100% editáveis você consegue Adaptar para OUTRAS TURMAS também.
             </p>
             <div className="mt-12 rounded-xl shadow-2xl overflow-hidden max-w-4xl mx-auto">
               <Image
@@ -287,8 +287,8 @@ export default function Home() {
                 </CardHeader>
                 <CardContent className="flex-grow">
                   <div className="text-center my-4">
-                    <span className="text-4xl font-bold">R$10</span>
-                    <span className="text-xl font-bold">,00</span>
+                    <span className="text-5xl font-bold">R$10</span>
+                    <span className="text-2xl font-bold">,00</span>
                     <p className="text-sm text-muted-foreground">Pagamento único</p>
                   </div>
                   <div className="px-6 mb-4">
@@ -297,7 +297,7 @@ export default function Home() {
                       alt={planoBasicoImage.description}
                       width={400}
                       height={400}
-                      className="mx-auto w-full max-w-[280px] h-auto rounded-lg shadow-md"
+                      className="mx-auto w-full max-w-[320px] h-auto rounded-lg shadow-md"
                       data-ai-hint={planoBasicoImage.imageHint}
                     />
                   </div>
@@ -332,8 +332,8 @@ export default function Home() {
                 </CardHeader>
                 <CardContent className="flex-grow">
                 <div className="text-center my-4">
-                    <span className="text-4xl font-bold">R$15</span>
-                    <span className="text-xl font-bold">,90</span>
+                    <span className="text-5xl font-bold">R$15</span>
+                    <span className="text-2xl font-bold">,90</span>
                     <p className="text-sm text-muted-foreground">Pagamento único</p>
                   </div>
                   <div className="px-6 mb-4">
@@ -342,7 +342,7 @@ export default function Home() {
                       alt={planoProImage.description}
                       width={400}
                       height={400}
-                      className="mx-auto w-full max-w-[280px] h-auto rounded-lg shadow-md"
+                      className="mx-auto w-full max-w-[320px] h-auto rounded-lg shadow-md"
                       data-ai-hint={planoProImage.imageHint}
                     />
                   </div>
