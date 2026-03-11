@@ -77,7 +77,7 @@ const bonuses = [
   {
     id: "bonus-bncc",
     title: "Plano de Desenvolvimento Psicoeducacional (PDPI)",
-    description: "Plano de Desenvolvimento Psicoeducacional (PDPI). Foi desenvolvido com estratégias, acompanhamento e planejamento psicoeducacional, com o objetivo de apoiar o desenvolvimento e a aprendizagem de alunos com deficiência intelectual.",
+    description: "Um guia desenvolvido com estratégias, acompanhamento e planejamento psicoeducacional, com o objetivo de apoiar o desenvolvimento e a aprendizagem de alunos com deficiência intelectual.",
   },
   {
     id: "bonus-relatorios-descritivos",
