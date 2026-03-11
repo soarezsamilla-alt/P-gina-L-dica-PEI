@@ -334,7 +334,7 @@ export default function Home() {
                       data-ai-hint={planoBasicoImage.imageHint}
                     />
                   </div>
-                  <ul className="space-y-1 text-xs">
+                  <ul className="space-y-1 text-sm">
                     <li className="flex items-start"><CheckCircle className="h-4 w-4 text-primary mr-2 mt-0.5 flex-shrink-0" /> <span><span className="font-bold">200 Modelos</span> de PEI prontos e editáveis</span></li>
                     <li className="flex items-start"><CheckCircle className="h-4 w-4 text-primary mr-2 mt-0.5 flex-shrink-0" /> <span>Acesso aos modelos fundamentais</span></li>
                     <li className="flex items-start"><CheckCircle className="h-4 w-4 text-primary mr-2 mt-0.5 flex-shrink-0" /> <span>Relatórios AEE</span></li>
@@ -379,7 +379,7 @@ export default function Home() {
                       data-ai-hint={planoProImage.imageHint}
                     />
                   </div>
-                  <ul className="space-y-1 text-xs">
+                  <ul className="space-y-1 text-sm">
                     <li className="flex items-start"><CheckCircle className="h-4 w-4 text-accent mr-2 mt-0.5 flex-shrink-0" /> <span>Tudo do Plano Básico e <span className="font-bold">MUITO</span> mais!</span></li>
                     <li className="flex items-start"><CheckCircle className="h-4 w-4 text-accent mr-2 mt-0.5 flex-shrink-0" /> <span><span className="font-bold">6 Bônus</span> (Autismo, Relatórios e Ativ. Motoras) 🎁</span></li>
                     <li className="flex items-start"><CheckCircle className="h-4 w-4 text-accent mr-2 mt-0.5 flex-shrink-0" /> <span><span className="font-bold">Combo Ed. Especial</span> com materiais extras</span></li>
