@@ -123,7 +123,7 @@ export default function Home() {
               Dê adeus a dificuldade em elaborar seu PEI! Aqui temos modelos <span className="text-primary">PRONTOS E EDITÁVEIS!</span>
             </h2>
             <p className="mt-4 text-sm text-muted-foreground max-w-2xl mx-auto">
-              Com nossos mais de 47 modelos 100% editáveis, planejados por profissionais da educação. Você entrega resultados perfeitos, ganha tempo e impressiona coordenadores e pais. Alem de serem 100% editáveis você consegue Adaptar para QUALQUER TURMA.
+              Com nossos mais de 47 modelos 100% editáveis, planejados por profissionais da educação. Você entrega resultados perfeitos, ganha tempo e impressiona coordenadores e pais. Além de serem 100% editáveis você consegue Adaptar para QUALQUER TURMA.
             </p>
             <div className="mt-12 rounded-xl shadow-2xl overflow-hidden max-w-4xl mx-auto">
               <Image
