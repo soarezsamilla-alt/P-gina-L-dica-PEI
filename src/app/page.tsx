@@ -26,6 +26,7 @@ import Countdown from "@/components/countdown";
 import { UpsellModal } from "@/components/upsell-modal";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import SocialProofPopup from "@/components/social-proof-popup";
+import { cn } from "@/lib/utils";
 
 const findImage = (id: string) => {
   const img = PlaceHolderImages.find((img) => img.id === id);
@@ -124,6 +125,15 @@ export default function Home() {
   const guaranteeImage = findImage("guarantee-seal");
   const creatorImage = findImage("creator-persona");
 
+  const bonusCardColors = [
+    "bg-chart-1/20",
+    "bg-chart-2/20",
+    "bg-chart-4/20",
+    "bg-accent/10",
+    "bg-primary/10",
+    "bg-chart-5/20",
+  ];
+
   return (
     <div className="flex flex-col min-h-screen">
       <div className="sticky top-0 z-50 w-full text-center py-1 bg-background/95 backdrop-blur-sm">
@@ -185,11 +195,14 @@ export default function Home() {
                 Ao adquirir o Plano Pro, você recebe acesso imediato a bônus incríveis que transformarão sua forma de trabalhar, garantindo mais tempo para ensinar e mais respeito da coordenação.
               </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-sm mx-auto md:max-w-5xl">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-sm mx-auto md:max-w-4xl">
               {bonuses.map((bonus, index) => {
                 const bonusImage = findImage(bonus.id);
                 return (
-                  <Card key={bonus.id} className="h-full overflow-hidden flex flex-col text-center rounded-2xl border-2 border-accent shadow-lg transform hover:scale-105 transition-transform duration-300">
+                  <Card key={bonus.id} className={cn(
+                    "h-full overflow-hidden flex flex-col text-center rounded-2xl shadow-lg transform hover:scale-105 transition-transform duration-300",
+                    bonusCardColors[index]
+                  )}>
                     <CardContent className="p-0 relative">
                       <div className="absolute top-2 left-2 bg-primary text-primary-foreground text-xs font-bold px-3 py-1.5 rounded-full shadow-lg z-10 transform transition-transform duration-300 hover:scale-110">
                         {`Bônus ${index + 1}º`}
