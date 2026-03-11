@@ -287,8 +287,8 @@ export default function Home() {
                 </CardHeader>
                 <CardContent className="flex-grow">
                   <div className="text-center my-4">
-                    <span className="text-3xl font-bold">R$10</span>
-                    <span className="text-lg font-bold">,00</span>
+                    <span className="text-4xl font-bold">R$10</span>
+                    <span className="text-xl font-bold">,00</span>
                     <p className="text-sm text-muted-foreground">Pagamento único</p>
                   </div>
                   <div className="px-6 mb-4">
@@ -297,7 +297,7 @@ export default function Home() {
                       alt={planoBasicoImage.description}
                       width={400}
                       height={400}
-                      className="mx-auto w-full max-w-[250px] h-auto rounded-lg shadow-md"
+                      className="mx-auto w-full max-w-[280px] h-auto rounded-lg shadow-md"
                       data-ai-hint={planoBasicoImage.imageHint}
                     />
                   </div>
@@ -332,8 +332,8 @@ export default function Home() {
                 </CardHeader>
                 <CardContent className="flex-grow">
                 <div className="text-center my-4">
-                    <span className="text-3xl font-bold">R$15</span>
-                    <span className="text-lg font-bold">,90</span>
+                    <span className="text-4xl font-bold">R$15</span>
+                    <span className="text-xl font-bold">,90</span>
                     <p className="text-sm text-muted-foreground">Pagamento único</p>
                   </div>
                   <div className="px-6 mb-4">
@@ -342,7 +342,7 @@ export default function Home() {
                       alt={planoProImage.description}
                       width={400}
                       height={400}
-                      className="mx-auto w-full max-w-[250px] h-auto rounded-lg shadow-md"
+                      className="mx-auto w-full max-w-[280px] h-auto rounded-lg shadow-md"
                       data-ai-hint={planoProImage.imageHint}
                     />
                   </div>
