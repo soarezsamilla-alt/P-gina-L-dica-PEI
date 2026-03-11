@@ -277,18 +277,18 @@ export default function Home() {
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto text-[14px]">
               Aproveite agora os planos exclusivos e tenha PEIs prontos para otimizar seu tempo, melhorar sua performance e impressionar sua coordenação.
             </p>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-3xl mx-auto items-end">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-2xl mx-auto items-end">
               {/* Plano Básico */}
-              <Card className="shadow-lg flex flex-col pt-6 bg-background">
+              <Card className="shadow-lg flex flex-col pt-4 bg-background">
                 <CardHeader className="text-center">
-                  <Package className="h-10 w-10 text-primary mb-2 mx-auto" />
-                  <CardTitle className="font-headline text-2xl">Plano Básico</CardTitle>
+                  <Package className="h-8 w-8 text-primary mb-2 mx-auto" />
+                  <CardTitle className="font-headline text-xl">Plano Básico</CardTitle>
                   <CardDescription>O essencial para começar a planejar.</CardDescription>
                 </CardHeader>
                 <CardContent className="flex-grow">
-                  <div className="text-center my-6">
-                    <span className="text-4xl font-bold">R$10</span>
-                    <span className="text-xl font-bold">,00</span>
+                  <div className="text-center my-4">
+                    <span className="text-3xl font-bold">R$10</span>
+                    <span className="text-lg font-bold">,00</span>
                     <p className="text-sm text-muted-foreground">Pagamento único</p>
                   </div>
                   <div className="px-6 mb-4">
@@ -297,11 +297,11 @@ export default function Home() {
                       alt={planoBasicoImage.description}
                       width={400}
                       height={400}
-                      className="mx-auto w-full max-w-[300px] h-auto rounded-lg shadow-md"
+                      className="mx-auto w-full max-w-[250px] h-auto rounded-lg shadow-md"
                       data-ai-hint={planoBasicoImage.imageHint}
                     />
                   </div>
-                  <ul className="space-y-3 text-sm">
+                  <ul className="space-y-2 text-sm">
                     <li className="flex items-start"><CheckCircle className="h-5 w-5 text-accent mr-2 mt-1 flex-shrink-0" /> <span><span className="font-bold">47 Modelos</span> de PEI prontos e editáveis</span></li>
                     <li className="flex items-start"><CheckCircle className="h-5 w-5 text-accent mr-2 mt-1 flex-shrink-0" /> <span>Acesso aos modelos fundamentais</span></li>
                     <li className="flex items-start"><CheckCircle className="h-5 w-5 text-accent mr-2 mt-1 flex-shrink-0" /> <span>Relatórios AEE</span></li>
@@ -325,15 +325,15 @@ export default function Home() {
                         ESCOLHA DOS PROFISSIONAIS ⭐
                     </div>
                 </div>
-                <CardHeader className="text-center pt-10">
-                  <Trophy className="h-10 w-10 text-primary mb-2 mx-auto" />
-                  <CardTitle className="font-headline text-2xl">Plano PRO</CardTitle>
+                <CardHeader className="text-center pt-8">
+                  <Trophy className="h-8 w-8 text-primary mb-2 mx-auto" />
+                  <CardTitle className="font-headline text-xl">Plano PRO</CardTitle>
                   <CardDescription>Todos PEI prontos e editáveis!</CardDescription>
                 </CardHeader>
                 <CardContent className="flex-grow">
-                <div className="text-center my-6">
-                    <span className="text-4xl font-bold">R$15</span>
-                    <span className="text-xl font-bold">,90</span>
+                <div className="text-center my-4">
+                    <span className="text-3xl font-bold">R$15</span>
+                    <span className="text-lg font-bold">,90</span>
                     <p className="text-sm text-muted-foreground">Pagamento único</p>
                   </div>
                   <div className="px-6 mb-4">
@@ -342,11 +342,11 @@ export default function Home() {
                       alt={planoProImage.description}
                       width={400}
                       height={400}
-                      className="mx-auto w-full max-w-[300px] h-auto rounded-lg shadow-md"
+                      className="mx-auto w-full max-w-[250px] h-auto rounded-lg shadow-md"
                       data-ai-hint={planoProImage.imageHint}
                     />
                   </div>
-                  <ul className="space-y-3 text-sm">
+                  <ul className="space-y-2 text-sm">
                     <li className="flex items-start"><CheckCircle className="h-5 w-5 text-accent mr-2 mt-1 flex-shrink-0" /> <span>Tudo do Plano Básico e <span className="font-bold">MUITO</span> mais!</span></li>
                     <li className="flex items-start"><CheckCircle className="h-5 w-5 text-accent mr-2 mt-1 flex-shrink-0" /> <span><span className="font-bold">3 Bônus</span> (Autismo, Relatórios e Ativ. Motoras) 🎁</span></li>
                     <li className="flex items-start"><CheckCircle className="h-5 w-5 text-accent mr-2 mt-1 flex-shrink-0" /> <span><span className="font-bold">Combo Ed. Especial</span> com materiais extras</span></li>
