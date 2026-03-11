@@ -99,7 +99,7 @@ const testimonials = [
   },
 ];
 
-const carouselImages = ["carousel-1", "carousel-2", "carousel-3", "carousel-4"].map(id => findImage(id));
+const carouselImages = ["carousel-1", "carousel-2", "carousel-3", "carousel-4", "carousel-5"].map(id => findImage(id));
 
 export default function Home() {
   const [isUpsellModalOpen, setIsUpsellModalOpen] = useState(false);

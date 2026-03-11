@@ -49,6 +49,12 @@
       "imageHint": "educational material"
     },
     {
+      "id": "carousel-5",
+      "description": "Amostra de modelo de PEI 5.",
+      "imageUrl": "https://image2url.com/r2/default/images/1773188383759-e8dc1f7c-5b8b-4c79-8896-2df811f93ec4.png",
+      "imageHint": "educational game"
+    },
+    {
       "id": "plano-pro-image",
       "description": "Imagem da caixa do Plano PRO.",
       "imageUrl": "https://image2url.com/r2/default/images/1773170707969-dc1972ea-bc45-4f04-b144-f85f1d9cd5ca.png",
