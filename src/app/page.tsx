@@ -71,7 +71,7 @@ const bonuses = [
   },
   {
     id: "ebook-motoras",
-    title: "PEI Para Educação Infantil",
+    title: "Plano Educacional PEI 4 e 5 Anos",
     description: "Plano Educacional para alunos de 4 e 5 anos na Educação Infantil, histórico escolar, saúde e desenvolvimento do aluno.",
   },
   {
