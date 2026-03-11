@@ -5,7 +5,7 @@ import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
   title: 'Página Lúdica PEI',
-  description: '47 Modelos de PEI prontos para brincar de ensinar! Editáveis e super fáceis de usar!',
+  description: '200 Modelos de PEI prontos para brincar de ensinar! Editáveis e super fáceis de usar!',
 };
 
 export default function RootLayout({

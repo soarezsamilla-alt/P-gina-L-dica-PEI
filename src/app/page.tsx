@@ -39,8 +39,8 @@ const findImage = (id: string) => {
 const benefits = [
   {
     icon: <BookOpen className="h-5 w-5 text-primary" />,
-    title: "+ de 47 Modelos Prontos e Editáveis",
-    description: "Receba + de 47 modelos de PEI prontos, personalizáveis e adaptáveis às suas necessidades, economizando tempo na criação de documentos.",
+    title: "+ de 200 Modelos Prontos e Editáveis",
+    description: "Receba + de 200 modelos de PEI prontos, personalizáveis e adaptáveis às suas necessidades, economizando tempo na criação de documentos.",
   },
   {
     icon: <Clock className="h-5 w-5 text-primary" />,
@@ -148,7 +148,7 @@ export default function Home() {
               Dê adeus a dificuldade em elaborar seu PEI! Aqui temos modelos <span className="text-primary">PRONTOS E EDITÁVEIS!</span>
             </h2>
             <p className="mt-4 text-sm text-muted-foreground max-w-2xl mx-auto">
-              Com nossos mais de 47 modelos 100% editáveis, planejados por profissionais da educação. Você entrega resultados perfeitos, ganha tempo e impressiona coordenadores e pais. Além de serem 100% editáveis você consegue Adaptar para QUALQUER TURMA.
+              Com nossos mais de 200 modelos 100% editáveis, planejados por profissionais da educação. Você entrega resultados perfeitos, ganha tempo e impressiona coordenadores e pais. Além de serem 100% editáveis você consegue Adaptar para QUALQUER TURMA.
             </p>
             <div className="mt-12 rounded-xl shadow-2xl overflow-hidden max-w-4xl mx-auto">
               <Image
@@ -334,7 +334,7 @@ export default function Home() {
                     />
                   </div>
                   <ul className="space-y-1 text-xs">
-                    <li className="flex items-start"><CheckCircle className="h-4 w-4 text-primary mr-2 mt-0.5 flex-shrink-0" /> <span><span className="font-bold">47 Modelos</span> de PEI prontos e editáveis</span></li>
+                    <li className="flex items-start"><CheckCircle className="h-4 w-4 text-primary mr-2 mt-0.5 flex-shrink-0" /> <span><span className="font-bold">200 Modelos</span> de PEI prontos e editáveis</span></li>
                     <li className="flex items-start"><CheckCircle className="h-4 w-4 text-primary mr-2 mt-0.5 flex-shrink-0" /> <span>Acesso aos modelos fundamentais</span></li>
                     <li className="flex items-start"><CheckCircle className="h-4 w-4 text-primary mr-2 mt-0.5 flex-shrink-0" /> <span>Relatórios AEE</span></li>
                   </ul>
@@ -441,7 +441,7 @@ export default function Home() {
             </h3>
             <div className="mt-6 bg-primary/5 border-2 border-primary/20 rounded-2xl p-6 max-w-3xl mx-auto">
               <p className="text-center text-foreground text-sm">
-                Você terá acesso imediato a um conjunto de materiais e bônus imersivos e práticos, pensado por professores para professores e educadores! São + de 47 modelos de PEI prontos e editáveis, planejados para inclusão, relatórios e adaptações, para que você domine sua rotina pedagógica sem esforço.
+                Você terá acesso imediato a um conjunto de materiais e bônus imersivos e práticos, pensado por professores para professores e educadores! São + de 200 modelos de PEI prontos e editáveis, planejados para inclusão, relatórios e adaptações, para que você domine sua rotina pedagógica sem esforço.
               </p>
             </div>
           </div>
@@ -469,7 +469,7 @@ export default function Home() {
                 <AccordionItem value="item-2">
                   <AccordionTrigger className="text-left font-bold">Os modelos são editáveis?</AccordionTrigger>
                   <AccordionContent>
-                    Sim! Todos os 47 modelos são 100% editáveis no Word. Você pode personalizar textos, imagens e atividades para se adequar perfeitamente ao perfil e às necessidades de cada um dos seus alunos.
+                    Sim! Todos os 200 modelos são 100% editáveis no Word. Você pode personalizar textos, imagens e atividades para se adequar perfeitamente ao perfil e às necessidades de cada um dos seus alunos.
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-3">
