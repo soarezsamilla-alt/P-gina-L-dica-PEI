@@ -123,7 +123,7 @@ export default function Home() {
               Dê adeus a dificuldade em elaborar seu PEI! Aqui temos modelos <span className="text-primary">PRONTOS E EDITÁVEIS!</span>
             </h2>
             <p className="mt-4 text-sm text-muted-foreground max-w-2xl mx-auto">
-              Com nossos mais de 47 modelos 100% editáveis, planejados por profissionais da educação. Você entrega resultados perfeitos, ganha tempo e impressiona coordenadores e pais. Servem para fundamental I e II. Alem de serem 100% editáveis você consegue Adaptar para OUTRAS TURMAS também.
+              Com nossos mais de 47 modelos 100% editáveis, planejados por profissionais da educação. Você entrega resultados perfeitos, ganha tempo e impressiona coordenadores e pais. Alem de serem 100% editáveis você consegue Adaptar para QUALQUER TURMA.
             </p>
             <div className="mt-12 rounded-xl shadow-2xl overflow-hidden max-w-4xl mx-auto">
               <Image
@@ -277,21 +277,21 @@ export default function Home() {
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto text-[14px]">
               Aproveite agora os planos exclusivos e tenha PEIs prontos para otimizar seu tempo, melhorar sua performance e impressionar sua coordenação.
             </p>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-2xl mx-auto items-end">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-md mx-auto items-end">
               {/* Plano Básico */}
               <Card className="shadow-2xl flex flex-col border-4 border-primary ring-8 ring-primary/25 relative bg-background">
-                <CardHeader className="text-center pt-4">
-                  <Package className="h-8 w-8 text-primary mb-2 mx-auto" />
-                  <CardTitle className="font-headline text-xl">Plano Básico</CardTitle>
-                  <CardDescription>O essencial para começar a planejar.</CardDescription>
+                <CardHeader className="text-center pt-2 pb-2">
+                  <Package className="h-6 w-6 text-primary mb-1 mx-auto" />
+                  <CardTitle className="font-headline text-lg">Plano Básico</CardTitle>
+                  <CardDescription className="text-xs">O essencial para começar a planejar.</CardDescription>
                 </CardHeader>
-                <CardContent className="flex-grow">
-                  <div className="text-center my-4">
-                    <span className="text-5xl font-bold">R$10</span>
-                    <span className="text-2xl font-bold">,00</span>
-                    <p className="text-sm text-muted-foreground">Pagamento único</p>
+                <CardContent className="flex-grow p-4">
+                  <div className="text-center my-2">
+                    <span className="text-6xl font-bold">R$10</span>
+                    <span className="text-3xl font-bold">,00</span>
+                    <p className="text-xs text-muted-foreground">Pagamento único</p>
                   </div>
-                  <div className="px-6 mb-4">
+                  <div className="px-4 mb-3">
                     <Image
                       src={planoBasicoImage.imageUrl}
                       alt={planoBasicoImage.description}
@@ -301,15 +301,15 @@ export default function Home() {
                       data-ai-hint={planoBasicoImage.imageHint}
                     />
                   </div>
-                  <ul className="space-y-2 text-sm">
-                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> <span><span className="font-bold">47 Modelos</span> de PEI prontos e editáveis</span></li>
-                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> <span>Acesso aos modelos fundamentais</span></li>
-                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> <span>Relatórios AEE</span></li>
+                  <ul className="space-y-1 text-xs">
+                    <li className="flex items-start"><CheckCircle className="h-4 w-4 text-primary mr-2 mt-0.5 flex-shrink-0" /> <span><span className="font-bold">47 Modelos</span> de PEI prontos e editáveis</span></li>
+                    <li className="flex items-start"><CheckCircle className="h-4 w-4 text-primary mr-2 mt-0.5 flex-shrink-0" /> <span>Acesso aos modelos fundamentais</span></li>
+                    <li className="flex items-start"><CheckCircle className="h-4 w-4 text-primary mr-2 mt-0.5 flex-shrink-0" /> <span>Relatórios AEE</span></li>
                   </ul>
                 </CardContent>
-                <CardFooter>
+                <CardFooter className="p-4">
                   <Button 
-                    size="default" 
+                    size="sm" 
                     className="w-full font-semibold animate-pulse-ring"
                     onMouseDown={() => setIsUpsellModalOpen(true)}
                   >
@@ -325,18 +325,18 @@ export default function Home() {
                         ESCOLHA DOS PROFISSIONAIS ⭐
                     </div>
                 </div>
-                <CardHeader className="text-center pt-8">
-                  <Trophy className="h-8 w-8 text-primary mb-2 mx-auto" />
-                  <CardTitle className="font-headline text-xl">Plano PRO</CardTitle>
-                  <CardDescription>Todos PEI prontos e editáveis!</CardDescription>
+                <CardHeader className="text-center pt-6 pb-2">
+                  <Trophy className="h-6 w-6 text-primary mb-1 mx-auto" />
+                  <CardTitle className="font-headline text-lg">Plano PRO</CardTitle>
+                  <CardDescription className="text-xs">Todos PEI prontos e editáveis!</CardDescription>
                 </CardHeader>
-                <CardContent className="flex-grow">
-                <div className="text-center my-4">
-                    <span className="text-5xl font-bold">R$15</span>
-                    <span className="text-2xl font-bold">,90</span>
-                    <p className="text-sm text-muted-foreground">Pagamento único</p>
+                <CardContent className="flex-grow p-4">
+                <div className="text-center my-2">
+                    <span className="text-6xl font-bold">R$15</span>
+                    <span className="text-3xl font-bold">,90</span>
+                    <p className="text-xs text-muted-foreground">Pagamento único</p>
                   </div>
-                  <div className="px-6 mb-4">
+                  <div className="px-4 mb-3">
                     <Image
                       src={planoProImage.imageUrl}
                       alt={planoProImage.description}
@@ -346,25 +346,25 @@ export default function Home() {
                       data-ai-hint={planoProImage.imageHint}
                     />
                   </div>
-                  <ul className="space-y-2 text-sm">
-                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-accent mr-2 mt-1 flex-shrink-0" /> <span>Tudo do Plano Básico e <span className="font-bold">MUITO</span> mais!</span></li>
-                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-accent mr-2 mt-1 flex-shrink-0" /> <span><span className="font-bold">3 Bônus</span> (Autismo, Relatórios e Ativ. Motoras) 🎁</span></li>
-                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-accent mr-2 mt-1 flex-shrink-0" /> <span><span className="font-bold">Combo Ed. Especial</span> com materiais extras</span></li>
-                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-accent mr-2 mt-1 flex-shrink-0" /> <span><span className="font-bold">PEI Autismo Ed. Infantil</span></span></li>
-                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-accent mr-2 mt-1 flex-shrink-0" /> <span>Relatórios AEE</span></li>
-                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-accent mr-2 mt-1 flex-shrink-0" /> <span>PEI para deficiências múltiplas</span></li>
-                    <li className="flex items-start"><CheckCircle className="h-5 w-5 text-accent mr-2 mt-1 flex-shrink-0" /> <span>Acesso a <span className="font-bold">futuras atualizações</span></span></li>
+                  <ul className="space-y-1 text-xs">
+                    <li className="flex items-start"><CheckCircle className="h-4 w-4 text-accent mr-2 mt-0.5 flex-shrink-0" /> <span>Tudo do Plano Básico e <span className="font-bold">MUITO</span> mais!</span></li>
+                    <li className="flex items-start"><CheckCircle className="h-4 w-4 text-accent mr-2 mt-0.5 flex-shrink-0" /> <span><span className="font-bold">3 Bônus</span> (Autismo, Relatórios e Ativ. Motoras) 🎁</span></li>
+                    <li className="flex items-start"><CheckCircle className="h-4 w-4 text-accent mr-2 mt-0.5 flex-shrink-0" /> <span><span className="font-bold">Combo Ed. Especial</span> com materiais extras</span></li>
+                    <li className="flex items-start"><CheckCircle className="h-4 w-4 text-accent mr-2 mt-0.5 flex-shrink-0" /> <span><span className="font-bold">PEI Autismo Ed. Infantil</span></span></li>
+                    <li className="flex items-start"><CheckCircle className="h-4 w-4 text-accent mr-2 mt-0.5 flex-shrink-0" /> <span>Relatórios AEE</span></li>
+                    <li className="flex items-start"><CheckCircle className="h-4 w-4 text-accent mr-2 mt-0.5 flex-shrink-0" /> <span>PEI para deficiências múltiplas</span></li>
+                    <li className="flex items-start"><CheckCircle className="h-4 w-4 text-accent mr-2 mt-0.5 flex-shrink-0" /> <span>Acesso a <span className="font-bold">futuras atualizações</span></span></li>
                   </ul>
                 </CardContent>
-                <CardFooter className="flex-col">
+                <CardFooter className="flex-col p-4">
                   <Button 
-                    size="default" 
+                    size="sm" 
                     className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-semibold animate-pulse-ring-accent"
                     onMouseDown={() => window.location.href = 'https://pay.wiapy.com/VBXdX_ymda'}
                   >
                     Liberar Acesso!
                   </Button>
-                  <p className="mt-4 text-center text-xs font-semibold text-muted-foreground">
+                  <p className="mt-2 text-center text-xs font-semibold text-muted-foreground">
                     APROVEITE AGORA: Você <span className="font-bold text-accent underline">NÃO</span> vai encontrar esse preço depois.
                   </p>
                 </CardFooter>
