@@ -221,7 +221,7 @@ export default function Home() {
                           alt={testimonial.name}
                           width={600}
                           height={600}
-                          className="w-full aspect-square object-contain"
+                          className="w-full aspect-square object-cover"
                           data-ai-hint={testimonial.avatar.imageHint}
                         />
                       </CardContent>
