@@ -207,6 +207,10 @@ export default function Home() {
                       <CardTitle className="text-base">{bonus.title}</CardTitle>
                       <CardDescription className="text-xs mt-1">{bonus.description}</CardDescription>
                     </CardHeader>
+                    <CardFooter className="flex-col justify-center p-4 pt-0">
+                      <p className="text-sm line-through text-muted-foreground">De R$47,00</p>
+                      <p className="text-2xl font-bold text-primary">GRÁTIS</p>
+                    </CardFooter>
                   </Card>
                 );
               })}
