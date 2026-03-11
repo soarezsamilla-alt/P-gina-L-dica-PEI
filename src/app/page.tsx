@@ -81,7 +81,7 @@ const bonuses = [
   },
   {
     id: "bonus-relatorios-descritivos",
-    title: "Relatórios Descritivos",
+    title: "Planejamento AEE 2026: Sala Multifuncional",
     description: "Modelos prontos de relatórios descritivos para facilitar a avaliação e acompanhamento dos alunos.",
   },
   {
