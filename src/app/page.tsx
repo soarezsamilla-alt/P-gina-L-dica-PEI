@@ -77,7 +77,7 @@ const bonuses = [
   {
     id: "bonus-bncc",
     title: "Plano de Desenvolvimento Psicoeducacional (PDPI)",
-    description: "Material completo para elaboração do Plano de Desenvolvimento Psicoeducacional.",
+    description: "Plano de Desenvolvimento Psicoeducacional (PDPI). Foi desenvolvido com estratégias, acompanhamento e planejamento psicoeducacional, com o objetivo de apoiar o desenvolvimento e a aprendizagem de alunos com deficiência intelectual.",
   },
   {
     id: "bonus-relatorios-descritivos",
@@ -209,7 +209,7 @@ export default function Home() {
                     </CardHeader>
                     <CardFooter className="flex-col justify-center p-4 pt-0">
                       <p className="text-base font-semibold line-through text-muted-foreground">R$47,00</p>
-                      <p className="text-xl font-bold text-chart-2 [text-shadow:0_0_8px_hsl(var(--chart-2)/0.5)]">GRÁTIS</p>
+                      <p className="text-lg font-bold text-chart-2 [text-shadow:0_0_8px_hsl(var(--chart-2)/0.5)]">GRÁTIS</p>
                     </CardFooter>
                   </Card>
                 );
