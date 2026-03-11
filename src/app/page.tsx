@@ -319,10 +319,10 @@ export default function Home() {
               </Card>
 
               {/* Plano Pro */}
-              <Card className="shadow-2xl flex flex-col border-2 border-primary ring-4 ring-primary/20 relative bg-background">
+              <Card className="shadow-2xl flex flex-col border-4 border-accent ring-8 ring-accent/25 relative bg-background">
                 <div className="absolute top-0 -translate-y-1/2 w-full flex justify-center">
-                    <div className="bg-primary text-primary-foreground px-4 py-1 rounded-full text-sm font-semibold shadow-lg">
-                        MAIS VENDIDO ⭐
+                    <div className="bg-accent text-accent-foreground px-4 py-1 rounded-full text-sm font-semibold shadow-lg">
+                        ESCOLHA DOS PROFISSIONAIS ⭐
                     </div>
                 </div>
                 <CardHeader className="text-center pt-10">
@@ -359,13 +359,13 @@ export default function Home() {
                 <CardFooter className="flex-col">
                   <Button 
                     size="lg" 
-                    className="w-full text-lg h-14 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold animate-pulse-ring"
+                    className="w-full text-lg h-14 bg-accent hover:bg-accent/90 text-accent-foreground font-semibold animate-pulse-ring-accent"
                     onMouseDown={() => window.location.href = 'https://pay.wiapy.com/VBXdX_ymda'}
                   >
                     Liberar Acesso!
                   </Button>
                   <p className="mt-4 text-center text-xs font-semibold text-muted-foreground">
-                    APROVEITE AGORA: Você <span className="font-bold text-primary underline">NÃO</span> vai encontrar esse preço depois.
+                    APROVEITE AGORA: Você <span className="font-bold text-accent underline">NÃO</span> vai encontrar esse preço depois.
                   </p>
                 </CardFooter>
               </Card>
